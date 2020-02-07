@@ -1,0 +1,26 @@
+﻿[
+	{
+		"id": 0,
+		"title": "技能1",
+		"value": 10,
+		"range": 5,
+		"describe": "这是第一个技能",
+		"icon": "Icon/Skill/Skill0"
+	},
+	{
+		"id": 1,
+		"title": "技能2",
+		"value": 100,
+		"range": 5,
+		"describe": "这是第二个技能",
+		"icon": "Icon/Skill/Skill1"
+	},
+	{
+		"id": 2,
+		"title": "技能3",
+		"value": 100,
+		"range": 5,
+		"describe": "这是第三个技能",
+		"icon": "Icon/Skill/Skill2"
+	}
+]
