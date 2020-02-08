@@ -6,5 +6,6 @@ public static class Util
 {
     public static string playerTag = "Player";
     public static string Ground = "Ground";
+    public static string Enemy = "Enemy";
 
 }

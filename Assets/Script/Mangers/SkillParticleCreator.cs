@@ -10,7 +10,7 @@ public class SkillParticleCreator : MonoBehaviour
     public void CreateFireball(Vector2 vector2_pos,Vector2 vector2_dir)
     {        
         GameObject fireball = Instantiate<GameObject>(fireBallPerfab, vector2_pos, transform.rotation);
-        fireball.GetComponent<Rigidbody2D>().AddForce(vector2_dir*2000);
+        fireball.GetComponent<Rigidbody2D>().AddForce(vector2_dir*fireball.GetComponent<Fireball>().speed);
         
     }
 }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8043D690-2EA0-DF83-191D-CFAE4C7C6747}</ProjectGuid>
+    <ProjectGuid>{C4A8BB0D-2001-3AE9-DDD8-C15485D77912}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FungusExamples</AssemblyName>
@@ -63,28 +63,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\FungusExamples\FirstPerson\Scripts\FPDemoPriorityRouter.cs" />
-    <Compile Include="Assets\Plugins\FungusExamples\FirstPerson\Scripts\ForceCursorVisible.cs" />
-    <Compile Include="Assets\Plugins\FungusExamples\FirstPerson\Scripts\LookingAtDoor.cs" />
-    <Compile Include="Assets\Plugins\FungusExamples\FirstPerson\Scripts\SimpleForceMovement.cs" />
-    <Compile Include="Assets\Plugins\FungusExamples\FirstPerson\Scripts\SimpleMouseLook.cs" />
-    <Compile Include="Assets\Plugins\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
-    <Compile Include="Assets\Plugins\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
-    <None Include="Assets\Plugins\FungusExamples\TheFacility\Fonts\aleo\SIL Open Font License.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Lock\CC-BY.txt" />
-    <None Include="Assets\Plugins\FungusExamples\Attribution.txt" />
-    <None Include="Assets\Plugins\FungusExamples\Sherlock\Readme.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Door\CC-BY.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FungusTown\Readme.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Button\CC-BY.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Key\CC-BY.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FungusLua\Localization\stringtable.txt" />
-    <None Include="Assets\Plugins\FungusExamples\FungusLua\Narrative\Resources\Lua\junglestory.txt" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Scripts\FPDemoPriorityRouter.cs" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Scripts\ForceCursorVisible.cs" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Scripts\LookingAtDoor.cs" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Scripts\SimpleForceMovement.cs" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Scripts\SimpleMouseLook.cs" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
+    <Compile Include="Assets\Plus\Plugins\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\TheFacility\Fonts\aleo\SIL Open Font License.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Lock\CC-BY.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\Attribution.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\Sherlock\Readme.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Door\CC-BY.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FungusTown\Readme.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Button\CC-BY.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FirstPerson\Visuals\Google Poly\Key\CC-BY.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FungusLua\Localization\stringtable.txt" />
+    <None Include="Assets\Plus\Plugins\FungusExamples\FungusLua\Narrative\Resources\Lua\junglestory.txt" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -275,17 +275,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>G:/Unity File/Project/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>G:/Unity File/Project/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Unity File/Project/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>G:/Unity File/Project/Assets/Plus-ins/LitJson.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -635,7 +635,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Fungus.csproj">
-      <Project>{3CF97D59-D358-9EC0-448F-5BCB0562F855}</Project>
+      <Project>{7357377E-05C0-E9DA-BC32-3A9904749562}</Project>
       <Name>Fungus</Name>
     </ProjectReference>
   </ItemGroup>

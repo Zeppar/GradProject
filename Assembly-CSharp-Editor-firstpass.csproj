@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5F6DA31A-4FA9-99B4-FEB5-BA957025CC7D}</ProjectGuid>
+    <ProjectGuid>{E4A22169-B0BF-4763-6015-9000E602E73A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -69,43 +69,43 @@
     <Compile Include="Assets\Plugins\Tests\Editor\GenerateEverythingMenuItem.cs" />
     <Compile Include="Assets\Plugins\Tests\Editor\TextTagParserTests.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Unity File/Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -297,19 +297,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>G:/Unity File/Project/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>G:/Unity File/Project/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Unity File/Project/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>G:/Unity File/Project/Assets/Plus-ins/LitJson.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>G:/Unity File/Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>G:/Unity File/GradProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -668,43 +668,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{EB8AA23C-2655-E22B-2EBB-05697394EDB3}</Project>
+      <Project>{1EC54F6C-3067-CB6B-EDAF-EC094E3A3AAD}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{F5DB9A9B-BC83-BD9C-0689-AFF3CBF99082}</Project>
+      <Project>{98D24C0B-1632-0E3A-2222-4815435760D8}</Project>
       <Name>Fungus.FungusLuaEditor</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{76BAA9E7-333E-E5CC-1DA3-5EAE79A1F10B}</Project>
+      <Project>{C13C223B-D4CF-03D2-8072-1FB724B7282F}</Project>
       <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="FungusEditor.csproj">
-      <Project>{518CB034-4EF8-31EF-DDC2-D8015AFFD63C}</Project>
+      <Project>{6E1F693F-B16F-5CBF-615C-38F7A426570F}</Project>
       <Name>FungusEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{8F15585D-14EE-05CE-701B-B4C77F5D6E74}</Project>
+      <Project>{16B86B6C-2547-116A-8E05-A1EE34E0EA76}</Project>
       <Name>Fungus.LineEndingsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{488569BD-9BC0-8A95-C9A5-DC31AEDA821A}</Project>
+      <Project>{EE9444D6-186A-00FD-98AF-372E223B1B44}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="FungusExamples.csproj">
-      <Project>{8043D690-2EA0-DF83-191D-CFAE4C7C6747}</Project>
+      <Project>{C4A8BB0D-2001-3AE9-DDD8-C15485D77912}</Project>
       <Name>FungusExamples</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.csproj">
-      <Project>{3CF97D59-D358-9EC0-448F-5BCB0562F855}</Project>
+      <Project>{7357377E-05C0-E9DA-BC32-3A9904749562}</Project>
       <Name>Fungus</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{791E55EC-8AFF-784E-2603-216F6332CFAE}</Project>
+      <Project>{D4E0B130-403A-B29D-9F34-CAD07720BA7C}</Project>
       <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{CE41A2F0-8609-6215-BEB3-5A9C492D6099}</Project>
+      <Project>{D51F15FF-FC0A-0841-44B5-6315A6675476}</Project>
       <Name>Fungus.UsfxrEditor</Name>
     </ProjectReference>
   </ItemGroup>
