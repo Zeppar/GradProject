@@ -16,8 +16,12 @@ namespace Fungus.EditorUtils
             
             foreach (string path in paths)
             {
-                if (path.Contains(".unity"))
+                if (path == null)
                 {
+                    return null;
+                }
+                if (path.Contains(".unity"))
+                {                    
                     sceneName = Path.GetFileNameWithoutExtension(path);
                 }
             }

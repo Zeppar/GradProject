@@ -337,17 +337,32 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
       <HintPath>G:/Unity File/GradProject/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
-    <Reference Include="LitJson">
-      <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
+    <Reference Include="LitJson">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>G:/Unity File/GradProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -712,21 +727,17 @@
       <Project>{03B6F756-F249-77D9-B001-13225DA64767}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{C13C223B-D4CF-03D2-8072-1FB724B7282F}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{EE9444D6-186A-00FD-98AF-372E223B1B44}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{D4E0B130-403A-B29D-9F34-CAD07720BA7C}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{E4A22169-B0BF-4763-6015-9000E602E73A}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
       <Project>{98D24C0B-1632-0E3A-2222-4815435760D8}</Project>
       <Name>Fungus.FungusLuaEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{C13C223B-D4CF-03D2-8072-1FB724B7282F}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="FungusEditor.csproj">
       <Project>{6E1F693F-B16F-5CBF-615C-38F7A426570F}</Project>
@@ -736,6 +747,10 @@
       <Project>{16B86B6C-2547-116A-8E05-A1EE34E0EA76}</Project>
       <Name>Fungus.LineEndingsEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{EE9444D6-186A-00FD-98AF-372E223B1B44}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="FungusExamples.csproj">
       <Project>{C4A8BB0D-2001-3AE9-DDD8-C15485D77912}</Project>
       <Name>FungusExamples</Name>
@@ -743,6 +758,10 @@
     <ProjectReference Include="Fungus.csproj">
       <Project>{7357377E-05C0-E9DA-BC32-3A9904749562}</Project>
       <Name>Fungus</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{D4E0B130-403A-B29D-9F34-CAD07720BA7C}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.UsfxrEditor.csproj">
       <Project>{D51F15FF-FC0A-0841-44B5-6315A6675476}</Project>

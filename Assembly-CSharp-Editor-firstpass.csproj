@@ -63,11 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Tests\Editor\FungusConversationParseTests.cs" />
-    <Compile Include="Assets\Plugins\Tests\Editor\FungusPrioritySignalsTest.cs" />
-    <Compile Include="Assets\Plugins\Tests\Editor\FungusTextVariationSelectionTests.cs" />
-    <Compile Include="Assets\Plugins\Tests\Editor\GenerateEverythingMenuItem.cs" />
-    <Compile Include="Assets\Plugins\Tests\Editor\TextTagParserTests.cs" />
+    <Compile Include="Assets\Plugins\GitHub\Editor\ExtensionLoader.cs" />
+    <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
+    <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
+    <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>G:/Unity File/GradProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -296,14 +295,29 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>G:/Unity File/GradProject/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>G:/Unity File/GradProject/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    <Reference Include="GitHub.Logging">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>G:/Unity File/GradProject/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
       <HintPath>G:/Unity File/GradProject/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
       <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
@@ -667,10 +681,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{1EC54F6C-3067-CB6B-EDAF-EC094E3A3AAD}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
       <Project>{98D24C0B-1632-0E3A-2222-4815435760D8}</Project>
       <Name>Fungus.FungusLuaEditor</Name>

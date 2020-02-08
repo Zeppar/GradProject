@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
         }
         set
         {
-            _hp = Mathf.Clamp(0, maxHP, value);
+            _hp = Mathf.Clamp(value, 0, maxHP);
             if (_hp <= 0)
             {
                 Die();
@@ -48,6 +48,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Attack();
+       
     }
     
     void Attack()
@@ -88,7 +89,14 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void Hit(int _attack)
+    {
+        HP -= _attack;
+        print("玩家受伤，目前血量:" + HP+",敌人伤害："+_attack);
+    }
    
+
+
 
 
 

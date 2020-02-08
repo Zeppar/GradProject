@@ -376,11 +376,11 @@
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
       <HintPath>G:/Unity File/GradProject/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
-    <Reference Include="LitJson">
-      <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>G:/Unity File/GradProject/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>G:/Unity File/GradProject/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -738,21 +738,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{C13C223B-D4CF-03D2-8072-1FB724B7282F}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{EE9444D6-186A-00FD-98AF-372E223B1B44}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{D4E0B130-403A-B29D-9F34-CAD07720BA7C}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
       <Project>{98D24C0B-1632-0E3A-2222-4815435760D8}</Project>
       <Name>Fungus.FungusLuaEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{C13C223B-D4CF-03D2-8072-1FB724B7282F}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="FungusEditor.csproj">
       <Project>{6E1F693F-B16F-5CBF-615C-38F7A426570F}</Project>
@@ -762,6 +754,10 @@
       <Project>{16B86B6C-2547-116A-8E05-A1EE34E0EA76}</Project>
       <Name>Fungus.LineEndingsEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{EE9444D6-186A-00FD-98AF-372E223B1B44}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="FungusExamples.csproj">
       <Project>{C4A8BB0D-2001-3AE9-DDD8-C15485D77912}</Project>
       <Name>FungusExamples</Name>
@@ -769,6 +765,10 @@
     <ProjectReference Include="Fungus.csproj">
       <Project>{7357377E-05C0-E9DA-BC32-3A9904749562}</Project>
       <Name>Fungus</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{D4E0B130-403A-B29D-9F34-CAD07720BA7C}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.UsfxrEditor.csproj">
       <Project>{D51F15FF-FC0A-0841-44B5-6315A6675476}</Project>
