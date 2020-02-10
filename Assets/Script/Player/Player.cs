@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
                 AttackCount--;
             }
                   
-            if (coll != null && coll.CompareTag("Enemy"))
+            if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
             {
                 coll.GetComponent<Enemy>().Attacked(attack);
             }

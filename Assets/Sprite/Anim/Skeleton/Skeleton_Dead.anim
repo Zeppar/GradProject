@@ -124,7 +124,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 1.1666666
-    functionName: Destoryme
+    functionName: DestorySelf
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 01f14ed8da376b541ba887629a6c3709,
       type: 3}

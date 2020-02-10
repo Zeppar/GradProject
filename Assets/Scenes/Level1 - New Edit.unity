@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52829102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.943335, y: 5.7, z: -10}
+  m_LocalPosition: {x: 11.945681, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -542,11 +542,12 @@ MonoBehaviour:
   _HP: 0
   speed: 6
   AttDis: 5
+  dead: 0
   Player: {fileID: 0}
   anim: {fileID: 0}
   rd: {fileID: 0}
   chaseDis: 10
-  stopDis: 5
+  attackRange: 1
   SkillID: 2
   dir: -1
   attackInterval: 1.05
@@ -6467,7 +6468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865699600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.943335, y: 5.7, z: -10}
+  m_LocalPosition: {x: 11.945681, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 234895314}
@@ -21517,7 +21518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000022888, y: 29.400024}
+  m_AnchoredPosition: {x: -0.000022888, y: 29.399902}
   m_SizeDelta: {x: 800, y: 58.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450652592

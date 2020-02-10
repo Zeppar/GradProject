@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public int _HP;
     public int speed;
     public int AttDis = 5;
+    public bool dead = false;
+    
     public int HP
     {
         get { return _HP; }
@@ -29,8 +31,7 @@ public class Enemy : MonoBehaviour
 
     //巡逻属性
     public float chaseDis = 2;
-    public float stopDis = 2;
-
+    public int attackRange = 1;
 
     public int SkillID;
 
@@ -53,11 +54,12 @@ public class Enemy : MonoBehaviour
     }
     private void Update()
     {
-       
+        if (dead)
+            return;
         DataUp();
         if (Vector2.Distance(Player.transform.position, transform.position) < chaseDis)
         {
-            if (Vector2.Distance(Player.transform.position, transform.position) > stopDis)
+            if (Vector2.Distance(Player.transform.position, transform.position) > attackRange)
             {
                 Chase();
                 anim.SetBool("Walk", true);
@@ -94,8 +96,8 @@ public class Enemy : MonoBehaviour
 
     public virtual void Die()
     {
+        dead = true;
         GameManger.instance.skillStoneCreator.CreateSkillStone(SkillID,transform.position);
-        Destroy(gameObject);
     }
     private void OnCollisionEnter2D(UnityEngine.Collision2D coll)
     {

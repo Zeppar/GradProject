@@ -21,16 +21,12 @@ public class UIManger : MonoBehaviour
 
     public void UpdataSkillIcon(List<SkillInfo> currentSkillList)
     {
-        print("现在技能数量:" + currentSkillList.Count);
         for (int i = 0; i < currentSkillList.Count; i++)
         {
             if(i == 0)
             {
-                
+
                 SkillIcon1.sprite = Resources.Load<Sprite>(currentSkillList[i].Icon);
-                print("0");
-
-
             }
             else if(i == 1)
             {              
