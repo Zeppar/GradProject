@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour
 
         if(isJump == true)
         {
-            anim.Play("Player_Jump");
+            anim.SetTrigger("Jump");
             if ( Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
                 if (jumpTimeCounter > 0)
                 {

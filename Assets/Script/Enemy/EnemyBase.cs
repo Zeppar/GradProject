@@ -72,9 +72,9 @@ public class EnemyBase : Enemy {
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
     }
-    public override void Attacked(int IntCount)
+    public override void BeAttacked(int IntCount)
     {
-        base.Attacked(IntCount);
+        base.BeAttacked(IntCount);
     }
     public override void Die()
     {

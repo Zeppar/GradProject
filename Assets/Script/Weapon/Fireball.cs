@@ -13,7 +13,7 @@ public class Fireball : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(Util.Enemy))
         {
-            collision.gameObject.GetComponent<Enemy>().Attacked(35);
+            collision.gameObject.GetComponent<Enemy>().BeAttacked(35);
         }
         Instantiate(Boom, transform.position,transform.rotation);
         Destroy(gameObject);

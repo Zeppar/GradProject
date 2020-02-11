@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52829102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.945681, y: 5.7, z: -10}
+  m_LocalPosition: {x: 13.238632, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -543,13 +543,13 @@ MonoBehaviour:
   speed: 6
   AttDis: 5
   dead: 0
+  isAttacking: 0
   Player: {fileID: 0}
   anim: {fileID: 0}
   rd: {fileID: 0}
   chaseDis: 10
   attackRange: 1
   SkillID: 2
-  dir: -1
   attackInterval: 1.05
   AttackPoint: {fileID: 1930051180}
   range: 0
@@ -613,7 +613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426199419}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.475266, y: 4.0449553, z: 73.7301}
+  m_LocalPosition: {x: -21.5, y: 4.0449553, z: 73.7301}
   m_LocalScale: {x: -10, y: 10, z: 1}
   m_Children:
   - {fileID: 1930051180}
@@ -648,7 +648,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -6304,24 +6304,6 @@ MonoBehaviour:
   Jump: {fileID: 0}
   GameStart: {fileID: 0}
   source: {fileID: 0}
---- !u!114 &727888028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727888026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f44eeb50cf0d447a9ed80a1bfccfab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHP: 100
-  attack: 30
-  range: 1
-  attackInterval: 0.7
-  Target: {fileID: 0}
-  AttackPoint: {fileID: 723810321}
 --- !u!4 &727888029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 150631123205175260, guid: 1eae113071172f14f96eb6b38d2325e2,
@@ -6344,6 +6326,12 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0050828457, y: -0.03897908}
   m_Size: {x: 0.12900554, y: 0.26137358}
   m_Direction: 0
+--- !u!95 &727888035 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 150631123205175258, guid: 1eae113071172f14f96eb6b38d2325e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 150631123588843329}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &774168897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6468,7 +6456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865699600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.945681, y: 5.7, z: -10}
+  m_LocalPosition: {x: 13.238632, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 234895314}
@@ -101835,6 +101823,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 727888027, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 727888035}
+    - target: {fileID: 727888028, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: attackInterval
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 150631123205175258, guid: 1eae113071172f14f96eb6b38d2325e2,
         type: 3}
       propertyPath: m_Controller
@@ -101929,7 +101925,7 @@ PrefabInstance:
     - target: {fileID: 150631123205175263, guid: 1eae113071172f14f96eb6b38d2325e2,
         type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 150631123205175265, guid: 1eae113071172f14f96eb6b38d2325e2,
         type: 3}
