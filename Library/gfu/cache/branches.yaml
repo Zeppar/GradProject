@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-02-08T20:29:28.769+08:00
-  initializedAtString: 2020-02-08T20:29:28.586+08:00
+  lastUpdatedAtString: 2020-02-11T23:00:35.576+08:00
+  initializedAtString: 2020-02-11T23:00:35.544+08:00
   localBranches:
   - name: master
     tracking: origin/master
+  - name: version1.0
+    tracking: 
   remoteBranches:
-  - name: origin/HEAD
-    tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/version1.0
     tracking: '[None]'
   remotes:
   - name: origin
@@ -34,27 +36,33 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - version1.0
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/Zeppar/GradProject.git
       trackingBranch: master
+    - name: version1.0
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - HEAD
       - master
+      - version1.0
     subKeyValues:
     - Values:
-      - name: HEAD
+      - name: master
         remote:
           name: origin
           url: https://github.com/Zeppar/GradProject.git
         trackingBranch: 
-      - name: master
+      - name: version1.0
         remote:
           name: origin
           url: https://github.com/Zeppar/GradProject.git

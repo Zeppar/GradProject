@@ -13,30 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-11T22:58:09.966+08:00
+  lastUpdatedAtString: 2020-02-11T23:18:47.829+08:00
   initializedAtString: 2020-02-11T21:52:56.658+08:00
   entries:
-  - path: .vs/GradProject/xs/sqlite3/storage.ide
-    fullPath: /Users/magene/Desktop/GradProject/.vs/GradProject/xs/sqlite3/storage.ide
-    projectPath: .vs/GradProject/xs/sqlite3/storage.ide
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs/GradProject/xs/sqlite3/storage.ide-shm
-    fullPath: /Users/magene/Desktop/GradProject/.vs/GradProject/xs/sqlite3/storage.ide-shm
-    projectPath: .vs/GradProject/xs/sqlite3/storage.ide-shm
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: .vs/GradProject/xs/sqlite3/storage.ide-wal
     fullPath: /Users/magene/Desktop/GradProject/.vs/GradProject/xs/sqlite3/storage.ide-wal
     projectPath: .vs/GradProject/xs/sqlite3/storage.ide-wal
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs/GradProject/xs/UserPrefs.xml
-    fullPath: /Users/magene/Desktop/GradProject/.vs/GradProject/xs/UserPrefs.xml
-    projectPath: .vs/GradProject/xs/UserPrefs.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,93 +28,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Script/Enemy/Enemy.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Enemy/Enemy.cs
-    projectPath: Assets/Script/Enemy/Enemy.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets/Script/Enemy/Enemy2.cs
     fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Enemy/Enemy2.cs
     projectPath: Assets/Script/Enemy/Enemy2.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Script/Enemy/EnemyBase.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Enemy/EnemyBase.cs
-    projectPath: Assets/Script/Enemy/EnemyBase.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Script/Player/Player.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Player/Player.cs
-    projectPath: Assets/Script/Player/Player.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Script/Player/PlayerBase.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Player/PlayerBase.cs
-    projectPath: Assets/Script/Player/PlayerBase.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Script/Player/PlayerController.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Player/PlayerController.cs
-    projectPath: Assets/Script/Player/PlayerController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Script/Util.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Util.cs
-    projectPath: Assets/Script/Util.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Script/Weapon/Fireball.cs
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Script/Weapon/Fireball.cs
-    projectPath: Assets/Script/Weapon/Fireball.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Sprite/Adventurer/Anim/Adventurer.controller
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Adventurer/Anim/Adventurer.controller
-    projectPath: Assets/Sprite/Adventurer/Anim/Adventurer.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Sprite/Adventurer/Anim/Player_Attack1.anim
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Adventurer/Anim/Player_Attack1.anim
-    projectPath: Assets/Sprite/Adventurer/Anim/Player_Attack1.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Sprite/Adventurer/Anim/Player_Dead.anim
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Adventurer/Anim/Player_Dead.anim
-    projectPath: Assets/Sprite/Adventurer/Anim/Player_Dead.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprite/Adventurer/Anim/Player_Dead.anim.meta
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Adventurer/Anim/Player_Dead.anim.meta
-    projectPath: Assets/Sprite/Adventurer/Anim/Player_Dead.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprite/Adventurer/Anim/Player_Hurt.anim
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Adventurer/Anim/Player_Hurt.anim
-    projectPath: Assets/Sprite/Adventurer/Anim/Player_Hurt.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprite/Adventurer/Anim/Player_Hurt.anim.meta
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Adventurer/Anim/Player_Hurt.anim.meta
-    projectPath: Assets/Sprite/Adventurer/Anim/Player_Hurt.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprite/Anim/Skeleton/Skeleton_Attack.anim
-    fullPath: /Users/magene/Desktop/GradProject/Assets/Sprite/Anim/Skeleton/Skeleton_Attack.anim
-    projectPath: Assets/Sprite/Anim/Skeleton/Skeleton_Attack.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -142,309 +40,75 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/Artifacts/00/00f35772c4d26ef1f067c25c2de841ce
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/00/00f35772c4d26ef1f067c25c2de841ce
-    projectPath: Library/Artifacts/00/00f35772c4d26ef1f067c25c2de841ce
+  - path: Library/Artifacts/18/1822ae889783cb0aff306865ff6ec03f
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/18/1822ae889783cb0aff306865ff6ec03f
+    projectPath: Library/Artifacts/18/1822ae889783cb0aff306865ff6ec03f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/01/01000064f826f50586fb196f164e6357
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/01/01000064f826f50586fb196f164e6357
-    projectPath: Library/Artifacts/01/01000064f826f50586fb196f164e6357
+  - path: Library/Artifacts/21/21a045c996db033f2570f201c3453342
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/21/21a045c996db033f2570f201c3453342
+    projectPath: Library/Artifacts/21/21a045c996db033f2570f201c3453342
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/0c/0c783856c8d235e0a9c93661f3d2deb1
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/0c/0c783856c8d235e0a9c93661f3d2deb1
-    projectPath: Library/Artifacts/0c/0c783856c8d235e0a9c93661f3d2deb1
+  - path: Library/Artifacts/30/30dd85767fee9112845473a989b4e8c1
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/30/30dd85767fee9112845473a989b4e8c1
+    projectPath: Library/Artifacts/30/30dd85767fee9112845473a989b4e8c1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/0e/0ec0d671f5a45f02f8c412529b50490c
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/0e/0ec0d671f5a45f02f8c412529b50490c
-    projectPath: Library/Artifacts/0e/0ec0d671f5a45f02f8c412529b50490c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/10/10cf73e269225bb7c601d7801cd801c8
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/10/10cf73e269225bb7c601d7801cd801c8
-    projectPath: Library/Artifacts/10/10cf73e269225bb7c601d7801cd801c8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/18/1890fc7c5a2de65e1fecdc5e61011f9e
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/18/1890fc7c5a2de65e1fecdc5e61011f9e
-    projectPath: Library/Artifacts/18/1890fc7c5a2de65e1fecdc5e61011f9e
+  - path: Library/Artifacts/5d/5db50a4e9595d055d88d15a662023c0e
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/5d/5db50a4e9595d055d88d15a662023c0e
+    projectPath: Library/Artifacts/5d/5db50a4e9595d055d88d15a662023c0e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/19/1944f9f4619014d1fe297b47d7f21c12
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/19/1944f9f4619014d1fe297b47d7f21c12
-    projectPath: Library/Artifacts/19/1944f9f4619014d1fe297b47d7f21c12
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/1a/1a09659737f899cad26038250e268caf
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/1a/1a09659737f899cad26038250e268caf
-    projectPath: Library/Artifacts/1a/1a09659737f899cad26038250e268caf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/1b/1bc79f4328e9dc64842bac47136cf068
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/1b/1bc79f4328e9dc64842bac47136cf068
-    projectPath: Library/Artifacts/1b/1bc79f4328e9dc64842bac47136cf068
+  - path: Library/Artifacts/64/642cd2a243d779dbe2ea5289f24b509d
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/64/642cd2a243d779dbe2ea5289f24b509d
+    projectPath: Library/Artifacts/64/642cd2a243d779dbe2ea5289f24b509d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1d/1d60bb2f6a578d303ede5c611aa8acc9
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/1d/1d60bb2f6a578d303ede5c611aa8acc9
-    projectPath: Library/Artifacts/1d/1d60bb2f6a578d303ede5c611aa8acc9
+  - path: Library/Artifacts/aa/aabf01633997d069ce7c12b8290eae7a
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/aa/aabf01633997d069ce7c12b8290eae7a
+    projectPath: Library/Artifacts/aa/aabf01633997d069ce7c12b8290eae7a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1d/1da891a7fe3a02015f1c8c2ebe694936
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/1d/1da891a7fe3a02015f1c8c2ebe694936
-    projectPath: Library/Artifacts/1d/1da891a7fe3a02015f1c8c2ebe694936
+  - path: Library/Artifacts/e6/e635358dfd0432851197697033b7d72e
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/e6/e635358dfd0432851197697033b7d72e
+    projectPath: Library/Artifacts/e6/e635358dfd0432851197697033b7d72e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1e/1ef94b0905b74961e80c5d0084873d34
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/1e/1ef94b0905b74961e80c5d0084873d34
-    projectPath: Library/Artifacts/1e/1ef94b0905b74961e80c5d0084873d34
+  - path: Library/Artifacts/f1/f1d3116774792d7d1d9a0f061b815a07
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/f1/f1d3116774792d7d1d9a0f061b815a07
+    projectPath: Library/Artifacts/f1/f1d3116774792d7d1d9a0f061b815a07
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1f/1f9f7aef05a31503a274ade1e8e2ce2e
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/1f/1f9f7aef05a31503a274ade1e8e2ce2e
-    projectPath: Library/Artifacts/1f/1f9f7aef05a31503a274ade1e8e2ce2e
+  - path: Library/Artifacts/f3/f3c59259cfd82c1f8e11ec0243b2e3aa
+    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/f3/f3c59259cfd82c1f8e11ec0243b2e3aa
+    projectPath: Library/Artifacts/f3/f3c59259cfd82c1f8e11ec0243b2e3aa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/27/2755fe4dcc3f44e6aa40634ee2346984
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/27/2755fe4dcc3f44e6aa40634ee2346984
-    projectPath: Library/Artifacts/27/2755fe4dcc3f44e6aa40634ee2346984
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/28/287f316280dc54583066484ffc626b71
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/28/287f316280dc54583066484ffc626b71
-    projectPath: Library/Artifacts/28/287f316280dc54583066484ffc626b71
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/2a/2aabaed952a5b4a865ac80a9f1fb1bee
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/2a/2aabaed952a5b4a865ac80a9f1fb1bee
-    projectPath: Library/Artifacts/2a/2aabaed952a5b4a865ac80a9f1fb1bee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/2b/2bf5098a4c61ecbc843d2e62a71eedbd
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/2b/2bf5098a4c61ecbc843d2e62a71eedbd
-    projectPath: Library/Artifacts/2b/2bf5098a4c61ecbc843d2e62a71eedbd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/2c/2c42312ab7add30292dfe58eb0f21024
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/2c/2c42312ab7add30292dfe58eb0f21024
-    projectPath: Library/Artifacts/2c/2c42312ab7add30292dfe58eb0f21024
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/49/4933277e232763bdfb2c3eae2f6cd5eb
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/49/4933277e232763bdfb2c3eae2f6cd5eb
-    projectPath: Library/Artifacts/49/4933277e232763bdfb2c3eae2f6cd5eb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/4c/4cb23fa89afaac79b41ac1419e4ed411
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/4c/4cb23fa89afaac79b41ac1419e4ed411
-    projectPath: Library/Artifacts/4c/4cb23fa89afaac79b41ac1419e4ed411
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/52/52816132d7e3a83b9b34a0d303b21f09
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/52/52816132d7e3a83b9b34a0d303b21f09
-    projectPath: Library/Artifacts/52/52816132d7e3a83b9b34a0d303b21f09
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/55/552b7bbba939e5ca7411454b905fa9c1
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/55/552b7bbba939e5ca7411454b905fa9c1
-    projectPath: Library/Artifacts/55/552b7bbba939e5ca7411454b905fa9c1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/55/5598863f7cdd7e220ecc24837194c26c
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/55/5598863f7cdd7e220ecc24837194c26c
-    projectPath: Library/Artifacts/55/5598863f7cdd7e220ecc24837194c26c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/69/698fd313726c65b719bdfd4b3777bd63
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/69/698fd313726c65b719bdfd4b3777bd63
-    projectPath: Library/Artifacts/69/698fd313726c65b719bdfd4b3777bd63
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/69/69cf9fb291db4df093e53ecfd61502f4
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/69/69cf9fb291db4df093e53ecfd61502f4
-    projectPath: Library/Artifacts/69/69cf9fb291db4df093e53ecfd61502f4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/70/70295b6a80669e38184480f3d6aacc9c
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/70/70295b6a80669e38184480f3d6aacc9c
-    projectPath: Library/Artifacts/70/70295b6a80669e38184480f3d6aacc9c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/8d/8db511fd177147706bc74a4bf4cab1ba
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/8d/8db511fd177147706bc74a4bf4cab1ba
-    projectPath: Library/Artifacts/8d/8db511fd177147706bc74a4bf4cab1ba
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/97/979f4b715fa18e2a2695f250dd3cecad
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/97/979f4b715fa18e2a2695f250dd3cecad
-    projectPath: Library/Artifacts/97/979f4b715fa18e2a2695f250dd3cecad
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/98/9813b0ba6a92d826bcd20e98fd0ae1ff
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/98/9813b0ba6a92d826bcd20e98fd0ae1ff
-    projectPath: Library/Artifacts/98/9813b0ba6a92d826bcd20e98fd0ae1ff
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/9b/9b86eb52476c2d480ba8487d2c9c4a21
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/9b/9b86eb52476c2d480ba8487d2c9c4a21
-    projectPath: Library/Artifacts/9b/9b86eb52476c2d480ba8487d2c9c4a21
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9e/9e6e736fcedad5eda43ddda1018f64a0
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/9e/9e6e736fcedad5eda43ddda1018f64a0
-    projectPath: Library/Artifacts/9e/9e6e736fcedad5eda43ddda1018f64a0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/a9/a9341f8f1647112aedc8428206f59ef0
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/a9/a9341f8f1647112aedc8428206f59ef0
-    projectPath: Library/Artifacts/a9/a9341f8f1647112aedc8428206f59ef0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ab/ab37634f32e3ab880e55049da9573501
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/ab/ab37634f32e3ab880e55049da9573501
-    projectPath: Library/Artifacts/ab/ab37634f32e3ab880e55049da9573501
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ac/acae3f7d460a3b499908d6171245f9bc
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/ac/acae3f7d460a3b499908d6171245f9bc
-    projectPath: Library/Artifacts/ac/acae3f7d460a3b499908d6171245f9bc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/b1/b19a39d4f6d2a653fd5f23aa787930d8
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/b1/b19a39d4f6d2a653fd5f23aa787930d8
-    projectPath: Library/Artifacts/b1/b19a39d4f6d2a653fd5f23aa787930d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/c6/c63cce74d49c7a812e8219eb9e9d350b
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/c6/c63cce74d49c7a812e8219eb9e9d350b
-    projectPath: Library/Artifacts/c6/c63cce74d49c7a812e8219eb9e9d350b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/cb/cbfbe81d5c09d7d14eec00020c3d0367
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/cb/cbfbe81d5c09d7d14eec00020c3d0367
-    projectPath: Library/Artifacts/cb/cbfbe81d5c09d7d14eec00020c3d0367
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ce/ce82222ead4360be1f05b1b5f2d4cbf1
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/ce/ce82222ead4360be1f05b1b5f2d4cbf1
-    projectPath: Library/Artifacts/ce/ce82222ead4360be1f05b1b5f2d4cbf1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/d8/d8eddfbbe774bde4ed30ade21adc5b17
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/d8/d8eddfbbe774bde4ed30ade21adc5b17
-    projectPath: Library/Artifacts/d8/d8eddfbbe774bde4ed30ade21adc5b17
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/dc/dca061081404782281600c0a11acc057
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/dc/dca061081404782281600c0a11acc057
-    projectPath: Library/Artifacts/dc/dca061081404782281600c0a11acc057
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/e2/e261872d29734af42215fd2ad4b95ebf
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/e2/e261872d29734af42215fd2ad4b95ebf
-    projectPath: Library/Artifacts/e2/e261872d29734af42215fd2ad4b95ebf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/ef/efa6ad0d3e6e48ec3343ec8bc2f918d4
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/ef/efa6ad0d3e6e48ec3343ec8bc2f918d4
-    projectPath: Library/Artifacts/ef/efa6ad0d3e6e48ec3343ec8bc2f918d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ef/efbb716c9fdf38531837dce04d677ea8
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/ef/efbb716c9fdf38531837dce04d677ea8
-    projectPath: Library/Artifacts/ef/efbb716c9fdf38531837dce04d677ea8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ef/efc9ac8764f50fa3bf99f6fe97356b99
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/ef/efc9ac8764f50fa3bf99f6fe97356b99
-    projectPath: Library/Artifacts/ef/efc9ac8764f50fa3bf99f6fe97356b99
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/f0/f02e19c911d6b6d761b43cdd754eb4f6
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/f0/f02e19c911d6b6d761b43cdd754eb4f6
-    projectPath: Library/Artifacts/f0/f02e19c911d6b6d761b43cdd754eb4f6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/fa/fa328b232fa2ffadf3ef07959c122055
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/fa/fa328b232fa2ffadf3ef07959c122055
-    projectPath: Library/Artifacts/fa/fa328b232fa2ffadf3ef07959c122055
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/fe/fef17cf3cf4f3acc7c7d5bbd7587b6de
-    fullPath: /Users/magene/Desktop/GradProject/Library/Artifacts/fe/fef17cf3cf4f3acc7c7d5bbd7587b6de
-    projectPath: Library/Artifacts/fe/fef17cf3cf4f3acc7c7d5bbd7587b6de
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/CurrentLayout-default.dwlt
-    fullPath: /Users/magene/Desktop/GradProject/Library/CurrentLayout-default.dwlt
-    projectPath: Library/CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/EditorInstance.json
-    fullPath: /Users/magene/Desktop/GradProject/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/expandedItems
-    fullPath: /Users/magene/Desktop/GradProject/Library/expandedItems
-    projectPath: Library/expandedItems
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/magene/Desktop/GradProject/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/magene/Desktop/GradProject/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/magene/Desktop/GradProject/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -457,18 +121,6 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/magene/Desktop/GradProject/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/magene/Desktop/GradProject/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/magene/Desktop/GradProject/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -496,69 +148,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/magene/Desktop/GradProject/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/SourceAssetDB
     fullPath: /Users/magene/Desktop/GradProject/Library/SourceAssetDB
     projectPath: Library/SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/StateCache/Hierarchy/05b80f-mainStage.json
-    fullPath: /Users/magene/Desktop/GradProject/Library/StateCache/Hierarchy/05b80f-mainStage.json
-    projectPath: Library/StateCache/Hierarchy/05b80f-mainStage.json
+  - path: Library/StateCache/Hierarchy/05b80f-1eae113071172f14f9.json
+    fullPath: /Users/magene/Desktop/GradProject/Library/StateCache/Hierarchy/05b80f-1eae113071172f14f9.json
+    projectPath: Library/StateCache/Hierarchy/05b80f-1eae113071172f14f9.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/StateCache/SceneView/0aa68d-1eae113071172f14f9.json
+    fullPath: /Users/magene/Desktop/GradProject/Library/StateCache/SceneView/0aa68d-1eae113071172f14f9.json
+    projectPath: Library/StateCache/SceneView/0aa68d-1eae113071172f14f9.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library/StateCache/SceneView/0aa68d-mainStage.json
     fullPath: /Users/magene/Desktop/GradProject/Library/StateCache/SceneView/0aa68d-mainStage.json
     projectPath: Library/StateCache/SceneView/0aa68d-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/AstarPathfindingProject.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/AstarPathfindingProject.csprojAssemblyReference.cache
-    projectPath: obj/Debug/AstarPathfindingProject.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/AstarPathfindingProjectEditor.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/AstarPathfindingProjectEditor.csprojAssemblyReference.cache
-    projectPath: obj/Debug/AstarPathfindingProjectEditor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/Fungus.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/Fungus.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Fungus.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/Fungus.FungusLuaEditor.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/Fungus.FungusLuaEditor.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Fungus.FungusLuaEditor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/FungusExamples.csprojAssemblyReference.cache
-    fullPath: /Users/magene/Desktop/GradProject/obj/Debug/FungusExamples.csprojAssemblyReference.cache
-    projectPath: obj/Debug/FungusExamples.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -568,399 +178,135 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp/UnityTempFile-0871733ccead34b36a023dc1ccc6c610
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-0871733ccead34b36a023dc1ccc6c610
-    projectPath: Temp/UnityTempFile-0871733ccead34b36a023dc1ccc6c610
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-094f260c24b99409ebaee50c95c7a716
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-094f260c24b99409ebaee50c95c7a716
-    projectPath: Temp/UnityTempFile-094f260c24b99409ebaee50c95c7a716
+  - path: Temp/UnityTempFile-00d050bfdd6a74a4bb7bb62e69618d59
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-00d050bfdd6a74a4bb7bb62e69618d59
+    projectPath: Temp/UnityTempFile-00d050bfdd6a74a4bb7bb62e69618d59
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-09f2e7d19e0af471ebe0be65592e552a
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-09f2e7d19e0af471ebe0be65592e552a
-    projectPath: Temp/UnityTempFile-09f2e7d19e0af471ebe0be65592e552a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-0a9cc143e1e0444849d1fbfd8d4e1415
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-0a9cc143e1e0444849d1fbfd8d4e1415
-    projectPath: Temp/UnityTempFile-0a9cc143e1e0444849d1fbfd8d4e1415
+  - path: Temp/UnityTempFile-1a44b9733b3454023a1b95e0a5c7b644
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-1a44b9733b3454023a1b95e0a5c7b644
+    projectPath: Temp/UnityTempFile-1a44b9733b3454023a1b95e0a5c7b644
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-0e1aefdffb3424a8a826df4d3aab5954
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-0e1aefdffb3424a8a826df4d3aab5954
-    projectPath: Temp/UnityTempFile-0e1aefdffb3424a8a826df4d3aab5954
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-10da2a126f2d24b8a92fe03f7ab2562a
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-10da2a126f2d24b8a92fe03f7ab2562a
-    projectPath: Temp/UnityTempFile-10da2a126f2d24b8a92fe03f7ab2562a
+  - path: Temp/UnityTempFile-2a31b24da86574b70b86cb225b90f75d
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-2a31b24da86574b70b86cb225b90f75d
+    projectPath: Temp/UnityTempFile-2a31b24da86574b70b86cb225b90f75d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-189a487f0962f46d6b19e30b08a740df
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-189a487f0962f46d6b19e30b08a740df
-    projectPath: Temp/UnityTempFile-189a487f0962f46d6b19e30b08a740df
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-1ae17f34103154f0d889116630fda5b7
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-1ae17f34103154f0d889116630fda5b7
-    projectPath: Temp/UnityTempFile-1ae17f34103154f0d889116630fda5b7
+  - path: Temp/UnityTempFile-2f48d843a480646acbb0371b12de5ab0
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-2f48d843a480646acbb0371b12de5ab0
+    projectPath: Temp/UnityTempFile-2f48d843a480646acbb0371b12de5ab0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-23a8523c6fb9f4ee384bcd0641de4c07
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-23a8523c6fb9f4ee384bcd0641de4c07
-    projectPath: Temp/UnityTempFile-23a8523c6fb9f4ee384bcd0641de4c07
+  - path: Temp/UnityTempFile-3e76bcaf8692c4b77ad9ae436bb06cc6
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-3e76bcaf8692c4b77ad9ae436bb06cc6
+    projectPath: Temp/UnityTempFile-3e76bcaf8692c4b77ad9ae436bb06cc6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-2eb07e91e5c704b568cb925d56a85808
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-2eb07e91e5c704b568cb925d56a85808
-    projectPath: Temp/UnityTempFile-2eb07e91e5c704b568cb925d56a85808
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-35e9ef333699d4df6ab74da325ec46eb
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-35e9ef333699d4df6ab74da325ec46eb
-    projectPath: Temp/UnityTempFile-35e9ef333699d4df6ab74da325ec46eb
+  - path: Temp/UnityTempFile-4251f973b66a740d38f0a5796b5a65e1
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-4251f973b66a740d38f0a5796b5a65e1
+    projectPath: Temp/UnityTempFile-4251f973b66a740d38f0a5796b5a65e1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-43ce7e54536364b02a89e9add0e5a0ff
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-43ce7e54536364b02a89e9add0e5a0ff
-    projectPath: Temp/UnityTempFile-43ce7e54536364b02a89e9add0e5a0ff
+  - path: Temp/UnityTempFile-484e41d28e6074270a62d0646b635f56
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-484e41d28e6074270a62d0646b635f56
+    projectPath: Temp/UnityTempFile-484e41d28e6074270a62d0646b635f56
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-4c55bc61c12ca4e468ae23f71a8aa83d
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-4c55bc61c12ca4e468ae23f71a8aa83d
-    projectPath: Temp/UnityTempFile-4c55bc61c12ca4e468ae23f71a8aa83d
+  - path: Temp/UnityTempFile-4a2523650b2e44341a8cb570e2cf45dc
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-4a2523650b2e44341a8cb570e2cf45dc
+    projectPath: Temp/UnityTempFile-4a2523650b2e44341a8cb570e2cf45dc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-4f94b9d52afa549048fc0d155bda2e31
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-4f94b9d52afa549048fc0d155bda2e31
-    projectPath: Temp/UnityTempFile-4f94b9d52afa549048fc0d155bda2e31
+  - path: Temp/UnityTempFile-4f34534839e164d2f8a7166310df942f
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-4f34534839e164d2f8a7166310df942f
+    projectPath: Temp/UnityTempFile-4f34534839e164d2f8a7166310df942f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-5207c22292bb148c599f1804785d36b2
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-5207c22292bb148c599f1804785d36b2
-    projectPath: Temp/UnityTempFile-5207c22292bb148c599f1804785d36b2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-5470976e1915f41e8acdf9270e3fd1b9
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-5470976e1915f41e8acdf9270e3fd1b9
-    projectPath: Temp/UnityTempFile-5470976e1915f41e8acdf9270e3fd1b9
+  - path: Temp/UnityTempFile-5bac2562f8eae46fe8c50cff9dca6e79
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-5bac2562f8eae46fe8c50cff9dca6e79
+    projectPath: Temp/UnityTempFile-5bac2562f8eae46fe8c50cff9dca6e79
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-59e6eb6271fce4bcabb728efdc63ca34
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-59e6eb6271fce4bcabb728efdc63ca34
-    projectPath: Temp/UnityTempFile-59e6eb6271fce4bcabb728efdc63ca34
+  - path: Temp/UnityTempFile-96c97af88cdc9457cb36fd97099d66c4
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-96c97af88cdc9457cb36fd97099d66c4
+    projectPath: Temp/UnityTempFile-96c97af88cdc9457cb36fd97099d66c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-5bd6cee975e6d45788ac1b64fa7e0fb7
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-5bd6cee975e6d45788ac1b64fa7e0fb7
-    projectPath: Temp/UnityTempFile-5bd6cee975e6d45788ac1b64fa7e0fb7
+  - path: Temp/UnityTempFile-9eaacf2be93c74bb387d50c6c34945ed
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-9eaacf2be93c74bb387d50c6c34945ed
+    projectPath: Temp/UnityTempFile-9eaacf2be93c74bb387d50c6c34945ed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-5e1fb20d65b774e33a406c5d989f7c57
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-5e1fb20d65b774e33a406c5d989f7c57
-    projectPath: Temp/UnityTempFile-5e1fb20d65b774e33a406c5d989f7c57
+  - path: Temp/UnityTempFile-a43fc9dad921740eda67c77341942b88
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a43fc9dad921740eda67c77341942b88
+    projectPath: Temp/UnityTempFile-a43fc9dad921740eda67c77341942b88
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-5fc4222401ebe416f97b8455d737212a
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-5fc4222401ebe416f97b8455d737212a
-    projectPath: Temp/UnityTempFile-5fc4222401ebe416f97b8455d737212a
+  - path: Temp/UnityTempFile-b0b2c90bb6a77479baed34572c45718d
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-b0b2c90bb6a77479baed34572c45718d
+    projectPath: Temp/UnityTempFile-b0b2c90bb6a77479baed34572c45718d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-625d60300be9b45e8b22a8a532edc3e3
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-625d60300be9b45e8b22a8a532edc3e3
-    projectPath: Temp/UnityTempFile-625d60300be9b45e8b22a8a532edc3e3
+  - path: Temp/UnityTempFile-b10df6cfca002417d902a7bc2f93f20e
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-b10df6cfca002417d902a7bc2f93f20e
+    projectPath: Temp/UnityTempFile-b10df6cfca002417d902a7bc2f93f20e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-6714a521f412145caa5733a71f166a14
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-6714a521f412145caa5733a71f166a14
-    projectPath: Temp/UnityTempFile-6714a521f412145caa5733a71f166a14
+  - path: Temp/UnityTempFile-ba2b5758d365644de93b480c44926ec3
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-ba2b5758d365644de93b480c44926ec3
+    projectPath: Temp/UnityTempFile-ba2b5758d365644de93b480c44926ec3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-6e757ca901f404f858fcb6eb03ae8d81
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-6e757ca901f404f858fcb6eb03ae8d81
-    projectPath: Temp/UnityTempFile-6e757ca901f404f858fcb6eb03ae8d81
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-754e05484eae8438098ae963e9a40965
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-754e05484eae8438098ae963e9a40965
-    projectPath: Temp/UnityTempFile-754e05484eae8438098ae963e9a40965
+  - path: Temp/UnityTempFile-c462a2604b66c459486c19fe34d464b6
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-c462a2604b66c459486c19fe34d464b6
+    projectPath: Temp/UnityTempFile-c462a2604b66c459486c19fe34d464b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-79adf004ede0e4aa8996d389aefcf502
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-79adf004ede0e4aa8996d389aefcf502
-    projectPath: Temp/UnityTempFile-79adf004ede0e4aa8996d389aefcf502
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7a1e8948654514f3692c2d37640dcc7a
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-7a1e8948654514f3692c2d37640dcc7a
-    projectPath: Temp/UnityTempFile-7a1e8948654514f3692c2d37640dcc7a
+  - path: Temp/UnityTempFile-c9054cd68d7d7422fad0a122d5609ca0
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-c9054cd68d7d7422fad0a122d5609ca0
+    projectPath: Temp/UnityTempFile-c9054cd68d7d7422fad0a122d5609ca0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-7eebaabfcefa24a2db6c260e08998cfe
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-7eebaabfcefa24a2db6c260e08998cfe
-    projectPath: Temp/UnityTempFile-7eebaabfcefa24a2db6c260e08998cfe
+  - path: Temp/UnityTempFile-cc45caef4519a4cd8887bb131e0baea4
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-cc45caef4519a4cd8887bb131e0baea4
+    projectPath: Temp/UnityTempFile-cc45caef4519a4cd8887bb131e0baea4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-800b0c1f91d2949318a33c1b635305af
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-800b0c1f91d2949318a33c1b635305af
-    projectPath: Temp/UnityTempFile-800b0c1f91d2949318a33c1b635305af
+  - path: Temp/UnityTempFile-f0d875a04e3f64a1f93386796a4b0686
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-f0d875a04e3f64a1f93386796a4b0686
+    projectPath: Temp/UnityTempFile-f0d875a04e3f64a1f93386796a4b0686
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-81169fc9a718a43bc870d3e48e4f3464
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-81169fc9a718a43bc870d3e48e4f3464
-    projectPath: Temp/UnityTempFile-81169fc9a718a43bc870d3e48e4f3464
+  - path: Temp/UnityTempFile-f13d0e9658ef34b84a896c1afa505367
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-f13d0e9658ef34b84a896c1afa505367
+    projectPath: Temp/UnityTempFile-f13d0e9658ef34b84a896c1afa505367
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-811eb5f2c3b024caaa9be9e9a5234fb0
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-811eb5f2c3b024caaa9be9e9a5234fb0
-    projectPath: Temp/UnityTempFile-811eb5f2c3b024caaa9be9e9a5234fb0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-8803ed18c941b451fa00942e709ca5ae
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-8803ed18c941b451fa00942e709ca5ae
-    projectPath: Temp/UnityTempFile-8803ed18c941b451fa00942e709ca5ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-972658a8abe274aca8c27fc489e6d061
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-972658a8abe274aca8c27fc489e6d061
-    projectPath: Temp/UnityTempFile-972658a8abe274aca8c27fc489e6d061
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-9dbfe3b4685434069a4c716536d05758
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-9dbfe3b4685434069a4c716536d05758
-    projectPath: Temp/UnityTempFile-9dbfe3b4685434069a4c716536d05758
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-a1fb7e1991fe542aa8dd75d336e4d2c6
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a1fb7e1991fe542aa8dd75d336e4d2c6
-    projectPath: Temp/UnityTempFile-a1fb7e1991fe542aa8dd75d336e4d2c6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a3b11bf053103466e84f1caf7368df02
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a3b11bf053103466e84f1caf7368df02
-    projectPath: Temp/UnityTempFile-a3b11bf053103466e84f1caf7368df02
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a61155c390e864bad8c8472596931386
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a61155c390e864bad8c8472596931386
-    projectPath: Temp/UnityTempFile-a61155c390e864bad8c8472596931386
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a63f3ada015414a76a4d44f9b466f2df
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a63f3ada015414a76a4d44f9b466f2df
-    projectPath: Temp/UnityTempFile-a63f3ada015414a76a4d44f9b466f2df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a6634d21c6904429b9eaa4fb3568635f
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a6634d21c6904429b9eaa4fb3568635f
-    projectPath: Temp/UnityTempFile-a6634d21c6904429b9eaa4fb3568635f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a8aef4a55caa849c18af458bd8d9e767
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a8aef4a55caa849c18af458bd8d9e767
-    projectPath: Temp/UnityTempFile-a8aef4a55caa849c18af458bd8d9e767
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a950c9f024ff541b8a7208d644f60cdb
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-a950c9f024ff541b8a7208d644f60cdb
-    projectPath: Temp/UnityTempFile-a950c9f024ff541b8a7208d644f60cdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-add5b8bebcd9e4c1f8ccaf39a151a16a
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-add5b8bebcd9e4c1f8ccaf39a151a16a
-    projectPath: Temp/UnityTempFile-add5b8bebcd9e4c1f8ccaf39a151a16a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-adee48b8f9451416d8f46bc18e252ed2
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-adee48b8f9451416d8f46bc18e252ed2
-    projectPath: Temp/UnityTempFile-adee48b8f9451416d8f46bc18e252ed2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-b030da18d79b146ed8c7a999eb01520d
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-b030da18d79b146ed8c7a999eb01520d
-    projectPath: Temp/UnityTempFile-b030da18d79b146ed8c7a999eb01520d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-b5083c8fe40b1448bbd1aa0dc5e97fe5
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-b5083c8fe40b1448bbd1aa0dc5e97fe5
-    projectPath: Temp/UnityTempFile-b5083c8fe40b1448bbd1aa0dc5e97fe5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-bba175e0b93384ddaa8c693c3586f2ab
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-bba175e0b93384ddaa8c693c3586f2ab
-    projectPath: Temp/UnityTempFile-bba175e0b93384ddaa8c693c3586f2ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-bc6beae1d7cee4ac397776d38f275923
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-bc6beae1d7cee4ac397776d38f275923
-    projectPath: Temp/UnityTempFile-bc6beae1d7cee4ac397776d38f275923
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-c10daa594ce2a4dab93b59f5bbce1124
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-c10daa594ce2a4dab93b59f5bbce1124
-    projectPath: Temp/UnityTempFile-c10daa594ce2a4dab93b59f5bbce1124
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-c31c7ad054cd0464394dba8ddd29ba01
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-c31c7ad054cd0464394dba8ddd29ba01
-    projectPath: Temp/UnityTempFile-c31c7ad054cd0464394dba8ddd29ba01
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-c77351ead918f4c21b52230d0f114665
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-c77351ead918f4c21b52230d0f114665
-    projectPath: Temp/UnityTempFile-c77351ead918f4c21b52230d0f114665
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-cf597f2dfa3a54f1786fe4918c0271f9
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-cf597f2dfa3a54f1786fe4918c0271f9
-    projectPath: Temp/UnityTempFile-cf597f2dfa3a54f1786fe4918c0271f9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-cfd7550935142420f99668e354849cf8
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-cfd7550935142420f99668e354849cf8
-    projectPath: Temp/UnityTempFile-cfd7550935142420f99668e354849cf8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d452e2166df534e26b1a4e5bbbfe8982
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-d452e2166df534e26b1a4e5bbbfe8982
-    projectPath: Temp/UnityTempFile-d452e2166df534e26b1a4e5bbbfe8982
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d4ae7642e3eb443bf80ca564428ee0f4
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-d4ae7642e3eb443bf80ca564428ee0f4
-    projectPath: Temp/UnityTempFile-d4ae7642e3eb443bf80ca564428ee0f4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d6377839397cb464ab1f4f64495490ce
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-d6377839397cb464ab1f4f64495490ce
-    projectPath: Temp/UnityTempFile-d6377839397cb464ab1f4f64495490ce
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d6c7b9a544024405f9110f67846ba689
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-d6c7b9a544024405f9110f67846ba689
-    projectPath: Temp/UnityTempFile-d6c7b9a544024405f9110f67846ba689
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-d6e010c7dac0b48beb37b18af606e78b
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-d6e010c7dac0b48beb37b18af606e78b
-    projectPath: Temp/UnityTempFile-d6e010c7dac0b48beb37b18af606e78b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-e935db82da21b4cd1a882131fcbde3d5
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-e935db82da21b4cd1a882131fcbde3d5
-    projectPath: Temp/UnityTempFile-e935db82da21b4cd1a882131fcbde3d5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-e9a31373abbaa41099160f6e94dc617f
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-e9a31373abbaa41099160f6e94dc617f
-    projectPath: Temp/UnityTempFile-e9a31373abbaa41099160f6e94dc617f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-ec678c12662cf4900bdea06172864919
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-ec678c12662cf4900bdea06172864919
-    projectPath: Temp/UnityTempFile-ec678c12662cf4900bdea06172864919
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-eca2887fadaab43e29c303c1d9ae509a
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-eca2887fadaab43e29c303c1d9ae509a
-    projectPath: Temp/UnityTempFile-eca2887fadaab43e29c303c1d9ae509a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f295d2987865d455dbcedea2515c78c0
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-f295d2987865d455dbcedea2515c78c0
-    projectPath: Temp/UnityTempFile-f295d2987865d455dbcedea2515c78c0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f3805a76f76264b83a16e6a5a08f72cb
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-f3805a76f76264b83a16e6a5a08f72cb
-    projectPath: Temp/UnityTempFile-f3805a76f76264b83a16e6a5a08f72cb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f5e3d4f39fb044f95b89498197a6b6be
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-f5e3d4f39fb044f95b89498197a6b6be
-    projectPath: Temp/UnityTempFile-f5e3d4f39fb044f95b89498197a6b6be
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-fa46b184ad6444b558250fe62fcc4b48
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-fa46b184ad6444b558250fe62fcc4b48
-    projectPath: Temp/UnityTempFile-fa46b184ad6444b558250fe62fcc4b48
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-fd27b150c09a346a981f8347a4800210
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-fd27b150c09a346a981f8347a4800210
-    projectPath: Temp/UnityTempFile-fd27b150c09a346a981f8347a4800210
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-fd83b84bbc8ed464cadd0870d563f867
-    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-fd83b84bbc8ed464cadd0870d563f867
-    projectPath: Temp/UnityTempFile-fd83b84bbc8ed464cadd0870d563f867
+  - path: Temp/UnityTempFile-f147a19b279d64e2aac376ddf88be733
+    fullPath: /Users/magene/Desktop/GradProject/Temp/UnityTempFile-f147a19b279d64e2aac376ddf88be733
+    projectPath: Temp/UnityTempFile-f147a19b279d64e2aac376ddf88be733
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

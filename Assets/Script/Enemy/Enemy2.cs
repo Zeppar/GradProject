@@ -72,9 +72,14 @@ public class Enemy2 : Enemy {
         transform.position = new Vector2(transform.position.x + speed * Time.deltaTime * dir, transform.position.y);
     }
 
+    private int curDir = 0;
     public override void Chase() {
         anim.SetBool("Walk", true);
-        int curDir = GameManger.instance.player.transform.position.x > transform.position.x ? 1 : -1;
+        if(GameManger.instance.player.transform.position.x > transform.position.x + 0.5f) {
+            curDir = 1;
+        } else if(GameManger.instance.player.transform.position.x < transform.position.x - 0.5f) {
+            curDir = -1;
+        }
         transform.position = new Vector2(transform.position.x + speed * Time.deltaTime * curDir, transform.position.y);
         transform.localScale = new Vector2(curDir * 10, transform.localScale.y);
     }
