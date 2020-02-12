@@ -21,13 +21,12 @@ public class SkillStone : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {       
-            if (collision.CompareTag(Util.playerTag))
-            {                                
-                GameManger.instance.skillManager.AddSkill(skillInfo);
-                Destroy(gameObject);
-                
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        Debug.Log("OnTriggerEnter2D");
+        if (collision.CompareTag(Util.playerTag)) {
+            GameManger.instance.skillManager.AddSkill(skillInfo);
+            Destroy(gameObject);
         }
     }
 }

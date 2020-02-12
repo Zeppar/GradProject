@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{03B6F756-F249-77D9-B001-13225DA64767}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Player/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Mangers/SkillManager.cs">
     <Files>
       <File FileName="Assets/Script/Effects/Boom.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/Player/Player.cs" Line="57" Column="12" />
@@ -9,11 +9,13 @@
       <File FileName="Assets/Script/Enemy/Enemy2.cs" />
       <File FileName="Assets/Script/Player/PlayerController.cs" />
       <File FileName="Assets/Script/Util.cs" />
+      <File FileName="Assets/Script/Mangers/SkillManager.cs" Line="56" Column="37" />
+      <File FileName="Assets/Script/Item/SkillStone.cs" Line="28" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="934a7dc5-0bef-4068-bfb2-3676f5f765eb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="565580ff-1dd7-4c94-b00d-b70376ab6ac4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
