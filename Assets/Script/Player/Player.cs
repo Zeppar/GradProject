@@ -50,26 +50,36 @@ public class Player : MonoBehaviour
     }
 
     void Attack() {
-        //if (currentState.IsName("Idle") && currentState.normalizedTime > 1.0f) {
-        //    attackCount = 0;
-        //    anim.SetInteger("Attack", attackCount);
-        //    Debug.Log("111111");
-        //}
+        currentState = anim.GetCurrentAnimatorStateInfo(0);
+        if (!currentState.IsName("Idle") && currentState.normalizedTime > 1.6F)
+        {
+            anim.SetInteger("Attack", 0);
+            attackCount = 0;
+        }
+
         if (Input.GetKeyDown(KeyCode.J)) {
-            if (Time.time - lastAttackTime < attackInterval) {
-                return;
+            if (currentState.IsName("Idle") && attackCount == 0 && currentState.normalizedTime > 0.5F)
+            {
+                anim.SetInteger("Attack", 1);
+                attackCount = 1;
+            }
+            else if (currentState.IsName("Attack1") && attackCount == 1 && currentState.normalizedTime > 0.5F)
+            {
+                anim.SetInteger("Attack", 2);
+                attackCount = 2;
+            }
+            if (currentState.IsName("Attack2") && attackCount == 2 && currentState.normalizedTime > 0.5F)
+            {
+                anim.SetInteger("Attack", 3);
+                attackCount = 3;
             }
             Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);
-            Debug.Log(attackCount);
-            attackCount += 1;
-            anim.SetInteger("Attack", attackCount);
-            if (attackCount >= Util.MaxAttackCount)
-                attackCount = 1;
-
+           
+          
             if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead) {
                 coll.GetComponent<Enemy>().BeAttacked(attack);
             }
-            lastAttackTime = Time.time;
+            
         }
         if (Input.GetKeyDown(KeyCode.K)) {
             GameManger.instance.skillParticleCreator.CreateFireball(AttackPoint.position, new Vector2(transform.GetComponent<PlayerController>().dir, 0));

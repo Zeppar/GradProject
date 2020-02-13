@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-02-12T20:34:18.455+08:00
-  initializedAtString: 2020-02-12T20:34:18.455+08:00
+  lastUpdatedAtString: 2020-02-13T20:34:12.726+08:00
+  initializedAtString: 2020-02-13T20:34:12.726+08:00
   currentGitRemote:
     name: origin
-    url: https://github.com/Zeppar/GradProject.git
+    url: https://gitee.com/qianxinan/GradProject.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: version1.0
+    name: master
     tracking: 
   currentConfigBranch:
-    name: version1.0
+    name: master
     remote:
       name: 
       url: 
     trackingBranch: 
   currentConfigRemote:
     name: origin
-    url: https://github.com/Zeppar/GradProject.git
+    url: https://gitee.com/qianxinan/GradProject.git
   currentHead: 
