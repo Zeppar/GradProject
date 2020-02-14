@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52829102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.398598, y: 5.7, z: -10}
+  m_LocalPosition: {x: 12.493503, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5526,6 +5526,36 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &505619126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 505619127}
+  m_Layer: 10
+  m_Name: ClimbPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &505619127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505619126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 727888029}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &638005070
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,7 +6443,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865699600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.398598, y: 5.7, z: -10}
+  m_LocalPosition: {x: 12.493503, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 234895314}
@@ -101780,10 +101810,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 481658442, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 720483049, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 723810321, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 727888027, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
       propertyPath: anim
       value: 
       objectReference: {fileID: 727888035}
+    - target: {fileID: 727888027, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: ClimbPoint
+      value: 
+      objectReference: {fileID: 505619127}
+    - target: {fileID: 727888027, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: feetPos
+      value: 
+      objectReference: {fileID: 720483049}
+    - target: {fileID: 727888027, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
+      propertyPath: ClimbPos
+      value: 
+      objectReference: {fileID: 505619127}
     - target: {fileID: 727888028, guid: 1eae113071172f14f96eb6b38d2325e2, type: 3}
       propertyPath: attackInterval
       value: 0.75
