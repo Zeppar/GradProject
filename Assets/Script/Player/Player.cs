@@ -100,6 +100,7 @@ public class Player : MonoBehaviour
             anim.SetTrigger("Hurt");
     }
 
+
     void DestroySelf() {
         Destroy(gameObject);
     }
@@ -108,5 +109,7 @@ public class Player : MonoBehaviour
         attackCount = 0;
         anim.SetInteger("Attack", attackCount);
     }
+
+
 
 }

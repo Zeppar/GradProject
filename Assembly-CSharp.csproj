@@ -136,7 +136,6 @@
     <Compile Include="Assets\Script\Mangers\SkillStoneCreator.cs" />
     <Compile Include="Assets\Script\Mangers\UIManger.cs" />
     <Compile Include="Assets\Script\Money.cs" />
-    <Compile Include="Assets\Script\NPC\NPC.cs" />
     <Compile Include="Assets\Script\Other\Boundary.cs" />
     <Compile Include="Assets\Script\Other\Guide\Guide.cs" />
     <Compile Include="Assets\Script\Player\GunBase.cs" />
