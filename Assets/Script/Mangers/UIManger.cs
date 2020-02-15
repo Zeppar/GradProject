@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class UIManger : MonoBehaviour
 {
+    [Header("技能图标")]
     public Image SkillIcon1;
     public Image SkillIcon2;
-  
 
+    [Header("主角血条")]
+    public Slider playerHp;
     void Start()
     {
         
@@ -39,5 +41,10 @@ public class UIManger : MonoBehaviour
             }
                        
         }
+    }
+
+    public void UpdateHpBar(int hp)
+    {
+        playerHp.value = hp;
     }
 }

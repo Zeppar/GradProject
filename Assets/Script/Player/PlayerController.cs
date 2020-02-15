@@ -148,14 +148,22 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
+                    
                     isJump = false;
                 }
             }
         }
         if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
         {
+            
             isJump = false;
         }
+       
+    }
+
+    public void fall()
+    {
+        anim.SetTrigger("Fall");
     }
   
 

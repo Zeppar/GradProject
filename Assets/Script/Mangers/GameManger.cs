@@ -7,7 +7,7 @@ public class GameManger : MonoBehaviour
     // Start is called before the first frame update
     public static GameManger instance;
     public SkillManager skillManager = new SkillManager();
-    public PlayerBase playerBase;
+    public Player playerScript;
     public GameObject player;
     public SkillStoneCreator skillStoneCreator;
     public UIManger uiManger;
@@ -27,5 +27,6 @@ public class GameManger : MonoBehaviour
     void Update()
     {
         uiManger.UpdataSkillIcon(skillManager.currentSkillList);
+        uiManger.UpdateHpBar(playerScript.HP);
     }
 }
