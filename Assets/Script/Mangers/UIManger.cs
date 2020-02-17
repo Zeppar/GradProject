@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class UIManger : MonoBehaviour
 {
+    #region 属性
     [Header("技能图标")]
     public Image SkillIcon1;
     public Image SkillIcon2;
 
     [Header("主角血条")]
     public Slider playerHp;
-    void Start()
-    {
-        
-    }
 
-    void Update()
-    {
-        
-    }
+ 
+  
 
+    #endregion
+
+   
+    //技能图标更新
     public void UpdataSkillIcon(List<SkillInfo> currentSkillList)
     {
         for (int i = 0; i < currentSkillList.Count; i++)
@@ -42,9 +42,12 @@ public class UIManger : MonoBehaviour
                        
         }
     }
-
+   
+    //血条更新
     public void UpdateHpBar(int hp)
     {
         playerHp.value = hp;
     }
+
+  
 }

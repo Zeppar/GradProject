@@ -12,6 +12,11 @@ public class SkillInfo
 
     public string Icon { get; set; }
 
+    public SkillInfo()
+    {
+        this.ID = -1;
+    }
+
 
 }
 

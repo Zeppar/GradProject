@@ -124,6 +124,8 @@
     <Compile Include="Assets\Plus\Plugins\Hell Tap Entertainment\Common\Scripts\HTE_MiniJSON.cs" />
     <Compile Include="Assets\Script\Apple.cs" />
     <Compile Include="Assets\Script\Camera\cameraFollow.cs" />
+    <Compile Include="Assets\Script\Data\SkillBag\SkillData.cs" />
+    <Compile Include="Assets\Script\Data\SkillBag\SlotData.cs" />
     <Compile Include="Assets\Script\Effects\Boom.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy2.cs" />
@@ -131,6 +133,7 @@
     <Compile Include="Assets\Script\Enemy\EnemyGFX.cs" />
     <Compile Include="Assets\Script\Item\SkillStone.cs" />
     <Compile Include="Assets\Script\Mangers\GameManger.cs" />
+    <Compile Include="Assets\Script\Mangers\SkillBagManger.cs" />
     <Compile Include="Assets\Script\Mangers\SkillManager.cs" />
     <Compile Include="Assets\Script\Mangers\SkillParticleCreator.cs" />
     <Compile Include="Assets\Script\Mangers\SkillStoneCreator.cs" />

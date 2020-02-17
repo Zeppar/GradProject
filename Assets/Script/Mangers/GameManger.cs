@@ -12,6 +12,7 @@ public class GameManger : MonoBehaviour
     public SkillStoneCreator skillStoneCreator;
     public UIManger uiManger;
     public SkillParticleCreator skillParticleCreator;
+    public SkillBagManger skillBagManger;
     void Awake()
     {
         instance = this;
@@ -20,6 +21,8 @@ public class GameManger : MonoBehaviour
     {
         skillManager.InitSkill();
         print("已完成技能加载，共加载到了 "+skillManager.skill_Dic.Count+ " 个技能");
+
+        skillBagManger.InitSkillPanel();
         
     }
 
