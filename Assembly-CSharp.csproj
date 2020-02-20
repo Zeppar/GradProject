@@ -122,38 +122,43 @@
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Plus\Plugins\Hell Tap Entertainment\Common\Scripts\HTE_MiniJSON.cs" />
-    <Compile Include="Assets\Script\Apple.cs" />
-    <Compile Include="Assets\Script\Camera\cameraFollow.cs" />
-    <Compile Include="Assets\Script\Data\SkillBag\SkillData.cs" />
-    <Compile Include="Assets\Script\Data\SkillBag\SlotData.cs" />
     <Compile Include="Assets\Script\Effects\Boom.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy2.cs" />
     <Compile Include="Assets\Script\Enemy\EnemyBase.cs" />
     <Compile Include="Assets\Script\Enemy\EnemyGFX.cs" />
+    <Compile Include="Assets\Script\Info\GoodInfo.cs" />
+    <Compile Include="Assets\Script\Info\ItemInfo.cs" />
     <Compile Include="Assets\Script\Item\SkillStone.cs" />
     <Compile Include="Assets\Script\Mangers\GameManger.cs" />
-    <Compile Include="Assets\Script\Mangers\SkillBagManger.cs" />
+    <Compile Include="Assets\Script\Mangers\GoodManger.cs" />
     <Compile Include="Assets\Script\Mangers\SkillManager.cs" />
     <Compile Include="Assets\Script\Mangers\SkillParticleCreator.cs" />
     <Compile Include="Assets\Script\Mangers\SkillStoneCreator.cs" />
     <Compile Include="Assets\Script\Mangers\UIManger.cs" />
-    <Compile Include="Assets\Script\Money.cs" />
-    <Compile Include="Assets\Script\Other\Boundary.cs" />
-    <Compile Include="Assets\Script\Other\Guide\Guide.cs" />
     <Compile Include="Assets\Script\Player\GunBase.cs" />
     <Compile Include="Assets\Script\Player\Player.cs" />
     <Compile Include="Assets\Script\Player\PlayerBase.cs" />
     <Compile Include="Assets\Script\Player\PlayerController.cs" />
-    <Compile Include="Assets\Script\Terrain\LevelUP.cs" />
-    <Compile Include="Assets\Script\Terrain\Prize\Prize.cs" />
-    <Compile Include="Assets\Script\Terrain\Trap\Trap.cs" />
-    <Compile Include="Assets\Script\Terrain\Trap\Trap1.cs" />
-    <Compile Include="Assets\Script\Terrain\Trap\Trap2.cs" />
-    <Compile Include="Assets\Script\Terrain\Trap\TrapBase.cs" />
+    <Compile Include="Assets\Script\UI\BagItem.cs" />
+    <Compile Include="Assets\Script\UI\BagPanel.cs" />
+    <Compile Include="Assets\Script\UnUsed\Apple.cs" />
+    <Compile Include="Assets\Script\UnUsed\Money.cs" />
+    <Compile Include="Assets\Script\UnUsed\Other\Boundary.cs" />
+    <Compile Include="Assets\Script\UnUsed\Other\Guide\Guide.cs" />
+    <Compile Include="Assets\Script\UnUsed\SkillBagManger.cs" />
+    <Compile Include="Assets\Script\UnUsed\Terrain\LevelUP.cs" />
+    <Compile Include="Assets\Script\UnUsed\Terrain\Prize\Prize.cs" />
+    <Compile Include="Assets\Script\UnUsed\Terrain\Trap\Trap.cs" />
+    <Compile Include="Assets\Script\UnUsed\Terrain\Trap\Trap1.cs" />
+    <Compile Include="Assets\Script\UnUsed\Terrain\Trap\Trap2.cs" />
+    <Compile Include="Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs" />
+    <Compile Include="Assets\Script\UnUsed\Weapon\Fire.cs" />
+    <Compile Include="Assets\Script\UnUsed\Weapon\Fireball.cs" />
+    <Compile Include="Assets\Script\UnUsed\cameraFollow.cs" />
     <Compile Include="Assets\Script\Util.cs" />
-    <Compile Include="Assets\Script\Weapon\Fire.cs" />
-    <Compile Include="Assets\Script\Weapon\Fireball.cs" />
+    <Compile Include="Assets\Shader\SkillBag\SkillData.cs" />
+    <Compile Include="Assets\Shader\SkillBag\SlotData.cs" />
     <None Include="Assets\Sprite\Effects\wills_pixel_explosions_sample\round_explosion\spritesheet\spritesheet.txt" />
     <None Include="Assets\Plus\Cinemachine\ReleaseNotes.txt" />
     <None Include="Assets\Sprite\Effects\wills_pixel_explosions_sample\license.txt" />
@@ -165,37 +170,37 @@
     <None Include="Assets\Sprite\Effects\wills_pixel_explosions_sample\round_vortex\spritesheet\spritesheet.txt" />
     <None Include="Assets\Shader\MB.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -375,13 +380,13 @@
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

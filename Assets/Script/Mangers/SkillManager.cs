@@ -3,22 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using LitJson;
 using System.IO;
-public class SkillInfo
-{   public int ID { get; set; }
-    public string Title { get; set; }
-    public int Value { get; set; }
-    public int Range { get; set; }
-    public string Describe { get; set; }
 
-    public string Icon { get; set; }
-
-    public SkillInfo()
-    {
-        this.ID = -1;
-    }
-
-
-}
 
 public class SkillManager
 {

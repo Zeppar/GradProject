@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class UIManger : MonoBehaviour
 {
     #region 属性
@@ -14,12 +15,13 @@ public class UIManger : MonoBehaviour
     [Header("主角血条")]
     public Slider playerHp;
 
- 
-  
+    [Header("道具背包")]
+    public BagPanel bagPanel;
+
 
     #endregion
 
-   
+
     //技能图标更新
     public void UpdataSkillIcon(List<SkillInfo> currentSkillList)
     {

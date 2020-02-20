@@ -1,11 +1,11 @@
 ﻿[
 	{
 		"id": 0,
-		"title": "技能1",
+		"title": "火球术",
 		"value": 10,
 		"range": 5,
-		"describe": "这是第一个技能",
-		"icon": "Icon/Skill/Skill0"
+		"describe": "向前面发射一个火球",
+		"icon": "Icon/Skill/FireBall"
 	},
 	{
 		"id": 1,

@@ -12,7 +12,8 @@ public class GameManger : MonoBehaviour
     public SkillStoneCreator skillStoneCreator;
     public UIManger uiManger;
     public SkillParticleCreator skillParticleCreator;
-    public SkillBagManger skillBagManger;
+    public GoodManger goodManger;
+    
     void Awake()
     {
         instance = this;
@@ -22,8 +23,8 @@ public class GameManger : MonoBehaviour
         skillManager.InitSkill();
         print("已完成技能加载，共加载到了 "+skillManager.skill_Dic.Count+ " 个技能");
 
-        skillBagManger.InitSkillPanel();
-        
+        uiManger.bagPanel.InitSlot();
+        goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 0);        
     }
 
     // Update is called once per frame
@@ -31,5 +32,6 @@ public class GameManger : MonoBehaviour
     {
         uiManger.UpdataSkillIcon(skillManager.currentSkillList);
         uiManger.UpdateHpBar(playerScript.HP);
+        uiManger.bagPanel.UpdataItem();
     }
 }

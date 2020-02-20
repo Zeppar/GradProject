@@ -65,16 +65,16 @@
   <ItemGroup>
     <Compile Include="Assets\Plus\Plugins\Fungus\Thirdparty\LineEndings\Editor\LineEndingsEditMenu.cs" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,34 +266,34 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>G:/Unity File/GradProject/GradProject_2020.2.13/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

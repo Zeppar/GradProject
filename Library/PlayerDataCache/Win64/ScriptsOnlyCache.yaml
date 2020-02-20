@@ -11,9 +11,12 @@ ScriptsOnlyBuild:
     - GameManger
     - Player
     - PlayerController
+    - SkillBagManger
+    - SkillData
     - SkillParticleCreator
     - SkillStone
     - SkillStoneCreator
+    - SlotData
     - UIManger
     Fungus.dll:
     - Fungus.Block
@@ -67,10 +70,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -137,13 +138,15 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 644}
+      Script: {instanceID: 642}
     - Class: 114
-      Script: {instanceID: 648}
+      Script: {instanceID: 646}
     - Class: 114
-      Script: {instanceID: 11222}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11442}
+      Script: {instanceID: 11440}
+    - Class: 114
+      Script: {instanceID: 11532}
     - Class: 114
       Script: {instanceID: 11560}
     - Class: 114
@@ -231,49 +234,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13854}
     - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 13912}
     - Class: 114
-      Script: {instanceID: 14180}
+      Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 14284}
+      Script: {instanceID: 14182}
     - Class: 114
-      Script: {instanceID: 14300}
+      Script: {instanceID: 14286}
     - Class: 114
-      Script: {instanceID: 14316}
+      Script: {instanceID: 14302}
     - Class: 114
-      Script: {instanceID: 14382}
+      Script: {instanceID: 14318}
     - Class: 114
-      Script: {instanceID: 14432}
+      Script: {instanceID: 14370}
     - Class: 114
-      Script: {instanceID: 14574}
+      Script: {instanceID: 14386}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 14436}
     - Class: 114
-      Script: {instanceID: 14628}
+      Script: {instanceID: 14578}
     - Class: 114
-      Script: {instanceID: 14638}
+      Script: {instanceID: 14580}
     - Class: 114
-      Script: {instanceID: 14696}
+      Script: {instanceID: 14632}
     - Class: 114
-      Script: {instanceID: 14840}
+      Script: {instanceID: 14642}
     - Class: 114
-      Script: {instanceID: 14866}
+      Script: {instanceID: 14700}
     - Class: 114
-      Script: {instanceID: 14892}
+      Script: {instanceID: 14844}
     - Class: 114
-      Script: {instanceID: 14922}
+      Script: {instanceID: 14870}
     - Class: 114
-      Script: {instanceID: 14932}
+      Script: {instanceID: 14896}
     - Class: 114
-      Script: {instanceID: 14944}
+      Script: {instanceID: 14926}
     - Class: 114
-      Script: {instanceID: 14998}
+      Script: {instanceID: 14936}
     - Class: 114
-      Script: {instanceID: 15050}
+      Script: {instanceID: 14948}
     - Class: 114
-      Script: {instanceID: 15078}
+      Script: {instanceID: 15002}
     - Class: 114
-      Script: {instanceID: 15110}
+      Script: {instanceID: 15054}
+    - Class: 114
+      Script: {instanceID: 15082}
+    - Class: 114
+      Script: {instanceID: 15114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -515,6 +522,12 @@ ScriptsOnlyBuild:
     assemblyName: Fungus.dll
     namespaceName: Fungus
     className: ScaleFrom
+  - hash:
+      serializedVersion: 2
+      Hash: 7cb46d12140c1321c6186ce7599bd0d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SlotData
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -2017,6 +2030,12 @@ ScriptsOnlyBuild:
     className: ApplicationState
   - hash:
       serializedVersion: 2
+      Hash: 07a64c6d9e06e5be33bf3b8ecdfbcb73
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkillBagManger
+  - hash:
+      serializedVersion: 2
       Hash: 24b0889d4d83836c4c1a61b2af70f2bd
     assemblyName: Fungus.dll
     namespaceName: Fungus
@@ -2231,6 +2250,12 @@ ScriptsOnlyBuild:
     assemblyName: Fungus.dll
     namespaceName: Fungus
     className: PunchPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 3203ccab6932289b92f1ec1d949395b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkillData
   - hash:
       serializedVersion: 2
       Hash: 62dcaf4a225d124ecd8a1439991c935e
@@ -2503,7 +2528,7 @@ ScriptsOnlyBuild:
     className: ShakeCamera
   - hash:
       serializedVersion: 2
-      Hash: ae898091fcb5272a61172bc97d829dde
+      Hash: f25b7193cf8dc516618468ae43042e7f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManger
@@ -2732,4 +2757,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Level1 - New Edit.unity
-  playerPath: "G:/Unity File/GradProject/GradProject_2020.2.13/Bin/2020.2.16\u2014\u201420w6a/\u65E0\u540D\u7684\u6E38\u620F.exe"
+  playerPath: "G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Bin/2020.2.20\u2014\u201420w7a/\u65E0\u540D\u7684\u6E38\u620F.exe"
