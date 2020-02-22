@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoodInfo : MonoBehaviour
+public class GoodInfo
 {
     public GoodInfo()
     {
@@ -20,7 +20,10 @@ public class GoodInfo : MonoBehaviour
         Null
         }
     public SkillInfo skill;
+
+
     public ConsumablesInfo Consumables;
+   
     public int count = -1;
     public int id;
     public GoodType goodType;

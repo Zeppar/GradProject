@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BagPanel : MonoBehaviour
 {
@@ -21,41 +22,58 @@ public class BagPanel : MonoBehaviour
     }
     public void InitSlot()
     {
+        manger = GameManger.instance.goodManger;
+        skillPanel = GameObject.Find("Slot Panel");
         for (int i = 0; i < manger.bagCount; i++)
         {
             GameObject slotToAdd = Instantiate(slot);
             slotToAdd.transform.SetParent(skillPanel.transform);
             slotToAdd.transform.position = Vector2.zero;
-            slotToAdd.GetComponent<BagItem>().goodInfo = new GoodInfo(-1);
-           
-            manger.goodInfoList.Add(slotToAdd.GetComponent<BagItem>().goodInfo);
+            // slotToAdd.GetComponent<BagItem>().goodInfo = new GoodInfo(-1);
+           // slotToAdd.GetComponent<BagItem>().goodInfo .id= manger.goodInfoList[i].goodInfo.skill.ID;
+            slotToAdd.GetComponent<BagItem>().index = i;
+            slotToAdd.name = "Slot(" + i + ")";
+            slotToAdd.GetComponent<BagItem>().goodInfo.goodType = GoodInfo.GoodType.Null;
             
+             manger.goodInfoList.Add(slotToAdd.GetComponent<BagItem>());
+
+            print(manger.goodInfoList[i].goodInfo.goodType);
+
         }
     }
     public void UpdataItem()
     {
-        if (manger.isDirty)
-        {
-            print("a");
+        
+            print("[BagPanel] 收到数据更改，正在同步UI");
             for (int i = 0; i < manger.goodInfoList.Count; i++)
             {
-                print("b");
-                if (manger.goodInfoList[i].goodType != GoodInfo.GoodType.Null)
+              
+                if (manger.goodInfoList[i].goodInfo.goodType != GoodInfo.GoodType.Null)
                 {
-                    print("c");
+                    
                     for (int o = 0; o < manger.goodInfoList.Count; o++)
                     {
-                        print("d");
-                        if (manger.goodInfoList[o].id == -1)
+                        
+                        if (manger.goodInfoList[o].goodInfo.id == -1)
                         {
-                            print("e");
-                            Instantiate(item).transform.SetParent(manger.goodInfoList[o].transform);
+                            
+                            GameObject skillToAdd = Instantiate(item);
+                            skillToAdd.transform.SetParent(manger.goodInfoList[o].transform);
+                            skillToAdd.name = manger.goodInfoList[o].goodInfo.skill.Title;
+                            skillToAdd.transform.position = Vector2.zero;
+                           // print(skillToAdd.GetComponent<BagItem>());
+                           // skillToAdd.GetComponent<BagItem>().goodInfo.id = manger.goodInfoList[o].goodInfo.id;
+                           
+                            skillToAdd.GetComponent<GoodItem>().SlotInedx = o;
+                            item.GetComponent<Image>().sprite = Resources.Load<Sprite>(manger.goodInfoList[o].goodInfo.skill.Icon);
                             manger.isDirty = false;
+                            return;
                         }
                     }
+                    
                 }
             }
           
-        }
+        
     }
 }

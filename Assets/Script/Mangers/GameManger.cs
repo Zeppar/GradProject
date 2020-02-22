@@ -24,7 +24,9 @@ public class GameManger : MonoBehaviour
         print("已完成技能加载，共加载到了 "+skillManager.skill_Dic.Count+ " 个技能");
 
         uiManger.bagPanel.InitSlot();
-        goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 0);        
+        goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 1);
+        goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
+
     }
 
     // Update is called once per frame
@@ -32,6 +34,6 @@ public class GameManger : MonoBehaviour
     {
         uiManger.UpdataSkillIcon(skillManager.currentSkillList);
         uiManger.UpdateHpBar(playerScript.HP);
-        uiManger.bagPanel.UpdataItem();
+        //uiManger.bagPanel.UpdataItem();
     }
 }

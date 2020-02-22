@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-20T21:35:08.409+08:00
-  initializedAtString: 2020-02-20T19:55:07.030+08:00
+  lastUpdatedAtString: 2020-02-22T18:07:15.889+08:00
+  initializedAtString: 2020-02-22T17:10:33.803+08:00
   entries:
-  - path: .vs\GradProject\v16\.suo
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\.vs\GradProject\v16\.suo
-    projectPath: .vs\GradProject\v16\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: .vs\GradProject_2020.2.13\v16\.suo
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\.vs\GradProject_2020.2.13\v16\.suo
     projectPath: .vs\GradProject_2020.2.13\v16\.suo
@@ -46,39 +40,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: .vs\slnx.sqlite
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\.vs\slnx.sqlite
-    projectPath: .vs\slnx.sqlite
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs\VSWorkspaceState.json
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\.vs\VSWorkspaceState.json
-    projectPath: .vs\VSWorkspaceState.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assembly-CSharp.csproj
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Json\Skill.json
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Json\Skill.json
-    projectPath: Assets\Json\Skill.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -94,18 +58,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Resources\Icon\Skill\Fireball.png
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Resources\Icon\Skill\Fireball.png
-    projectPath: Assets\Resources\Icon\Skill\Fireball.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Resources\Icon\Skill\Fireball.png.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Resources\Icon\Skill\Fireball.png.meta
-    projectPath: Assets\Resources\Icon\Skill\Fireball.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Scenes\Level1 - New Edit.unity
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Scenes\Level1
       - New Edit.unity
@@ -113,102 +65,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Script\Apple.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Apple.cs
-    projectPath: Assets\Script\Apple.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Apple.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Apple.cs.meta
-    projectPath: Assets\Script\Apple.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Camera.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Camera.meta
-    projectPath: Assets\Script\Camera.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Camera\cameraFollow.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Camera\cameraFollow.cs
-    projectPath: Assets\Script\Camera\cameraFollow.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Camera\cameraFollow.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Camera\cameraFollow.cs.meta
-    projectPath: Assets\Script\Camera\cameraFollow.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Data.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Data.meta
-    projectPath: Assets\Script\Data.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Data\SkillBag.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Data\SkillBag.meta
-    projectPath: Assets\Script\Data\SkillBag.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Data\SkillBag\SkillData.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Data\SkillBag\SkillData.cs
-    projectPath: Assets\Script\Data\SkillBag\SkillData.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Data\SkillBag\SkillData.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Data\SkillBag\SkillData.cs.meta
-    projectPath: Assets\Script\Data\SkillBag\SkillData.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Data\SkillBag\SlotData.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Data\SkillBag\SlotData.cs
-    projectPath: Assets\Script\Data\SkillBag\SlotData.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Data\SkillBag\SlotData.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Data\SkillBag\SlotData.cs.meta
-    projectPath: Assets\Script\Data\SkillBag\SlotData.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Info.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Info.meta
-    projectPath: Assets\Script\Info.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Script\Info\GoodInfo.cs
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Info\GoodInfo.cs
     projectPath: Assets\Script\Info\GoodInfo.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\Info\GoodInfo.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Info\GoodInfo.cs.meta
-    projectPath: Assets\Script\Info\GoodInfo.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\Info\ItemInfo.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Info\ItemInfo.cs
-    projectPath: Assets\Script\Info\ItemInfo.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\Info\ItemInfo.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Info\ItemInfo.cs.meta
-    projectPath: Assets\Script\Info\ItemInfo.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Script\Mangers\GameManger.cs
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\GameManger.cs
     projectPath: Assets\Script\Mangers\GameManger.cs
@@ -219,1295 +81,32 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\GoodManger.cs
     projectPath: Assets\Script\Mangers\GoodManger.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\Mangers\GoodManger.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\GoodManger.cs.meta
-    projectPath: Assets\Script\Mangers\GoodManger.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\Mangers\SkillBagManger.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\SkillBagManger.cs
-    projectPath: Assets\Script\Mangers\SkillBagManger.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Mangers\SkillBagManger.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\SkillBagManger.cs.meta
-    projectPath: Assets\Script\Mangers\SkillBagManger.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Mangers\SkillManager.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\SkillManager.cs
-    projectPath: Assets\Script\Mangers\SkillManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Script\Mangers\UIManger.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Mangers\UIManger.cs
-    projectPath: Assets\Script\Mangers\UIManger.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Script\Money.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Money.cs
-    projectPath: Assets\Script\Money.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Money.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Money.cs.meta
-    projectPath: Assets\Script\Money.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Other.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Other.meta
-    projectPath: Assets\Script\Other.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Other\Boundary.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Other\Boundary.cs
-    projectPath: Assets\Script\Other\Boundary.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Other\Boundary.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Other\Boundary.cs.meta
-    projectPath: Assets\Script\Other\Boundary.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Other\Guide.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Other\Guide.meta
-    projectPath: Assets\Script\Other\Guide.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Other\Guide\Guide.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Other\Guide\Guide.cs
-    projectPath: Assets\Script\Other\Guide\Guide.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Other\Guide\Guide.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Other\Guide\Guide.cs.meta
-    projectPath: Assets\Script\Other\Guide\Guide.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain.meta
-    projectPath: Assets\Script\Terrain.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\LevelUP.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\LevelUP.cs
-    projectPath: Assets\Script\Terrain\LevelUP.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\LevelUP.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\LevelUP.cs.meta
-    projectPath: Assets\Script\Terrain\LevelUP.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Prize.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Prize.meta
-    projectPath: Assets\Script\Terrain\Prize.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Prize\Prize.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Prize\Prize.cs
-    projectPath: Assets\Script\Terrain\Prize\Prize.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Prize\Prize.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Prize\Prize.cs.meta
-    projectPath: Assets\Script\Terrain\Prize\Prize.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap.meta
-    projectPath: Assets\Script\Terrain\Trap.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\Trap.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\Trap.cs
-    projectPath: Assets\Script\Terrain\Trap\Trap.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\Trap.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\Trap.cs.meta
-    projectPath: Assets\Script\Terrain\Trap\Trap.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\Trap1.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\Trap1.cs
-    projectPath: Assets\Script\Terrain\Trap\Trap1.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\Trap1.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\Trap1.cs.meta
-    projectPath: Assets\Script\Terrain\Trap\Trap1.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\Trap2.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\Trap2.cs
-    projectPath: Assets\Script\Terrain\Trap\Trap2.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\Trap2.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\Trap2.cs.meta
-    projectPath: Assets\Script\Terrain\Trap\Trap2.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\TrapBase.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\TrapBase.cs
-    projectPath: Assets\Script\Terrain\Trap\TrapBase.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Terrain\Trap\TrapBase.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Terrain\Trap\TrapBase.cs.meta
-    projectPath: Assets\Script\Terrain\Trap\TrapBase.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\UI.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI.meta
-    projectPath: Assets\Script\UI.meta
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assets\Script\UI\BagItem.cs
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI\BagItem.cs
     projectPath: Assets\Script\UI\BagItem.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UI\BagItem.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI\BagItem.cs.meta
-    projectPath: Assets\Script\UI\BagItem.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Script\UI\BagPanel.cs
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI\BagPanel.cs
     projectPath: Assets\Script\UI\BagPanel.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UI\BagPanel.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI\BagPanel.cs.meta
-    projectPath: Assets\Script\UI\BagPanel.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed.meta
-    projectPath: Assets\Script\UnUsed.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Apple.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Apple.cs
-    projectPath: Assets\Script\UnUsed\Apple.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Apple.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Apple.cs.meta
-    projectPath: Assets\Script\UnUsed\Apple.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\cameraFollow.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\cameraFollow.cs
-    projectPath: Assets\Script\UnUsed\cameraFollow.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\cameraFollow.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\cameraFollow.cs.meta
-    projectPath: Assets\Script\UnUsed\cameraFollow.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Money.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Money.cs
-    projectPath: Assets\Script\UnUsed\Money.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Money.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Money.cs.meta
-    projectPath: Assets\Script\UnUsed\Money.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Other.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Other.meta
-    projectPath: Assets\Script\UnUsed\Other.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Other\Boundary.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Other\Boundary.cs
-    projectPath: Assets\Script\UnUsed\Other\Boundary.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Other\Boundary.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Other\Boundary.cs.meta
-    projectPath: Assets\Script\UnUsed\Other\Boundary.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Other\Guide.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Other\Guide.meta
-    projectPath: Assets\Script\UnUsed\Other\Guide.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Other\Guide\Guide.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Other\Guide\Guide.cs
-    projectPath: Assets\Script\UnUsed\Other\Guide\Guide.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Other\Guide\Guide.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Other\Guide\Guide.cs.meta
-    projectPath: Assets\Script\UnUsed\Other\Guide\Guide.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\SkillBagManger.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\SkillBagManger.cs
-    projectPath: Assets\Script\UnUsed\SkillBagManger.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\SkillBagManger.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\SkillBagManger.cs.meta
-    projectPath: Assets\Script\UnUsed\SkillBagManger.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain.meta
-    projectPath: Assets\Script\UnUsed\Terrain.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\LevelUP.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\LevelUP.cs
-    projectPath: Assets\Script\UnUsed\Terrain\LevelUP.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\LevelUP.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\LevelUP.cs.meta
-    projectPath: Assets\Script\UnUsed\Terrain\LevelUP.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Prize.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Prize.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Prize.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Prize\Prize.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Prize\Prize.cs
-    projectPath: Assets\Script\UnUsed\Terrain\Prize\Prize.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Prize\Prize.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Prize\Prize.cs.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Prize\Prize.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Trap.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\Trap.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\Trap.cs
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\Trap.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\Trap.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\Trap.cs.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\Trap.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\Trap1.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\Trap1.cs
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\Trap1.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\Trap1.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\Trap1.cs.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\Trap1.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\Trap2.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\Trap2.cs
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\Trap2.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\Trap2.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\Trap2.cs.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\Trap2.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs.meta
-    projectPath: Assets\Script\UnUsed\Terrain\Trap\TrapBase.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Weapon.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Weapon.meta
-    projectPath: Assets\Script\UnUsed\Weapon.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Weapon\Fire.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Weapon\Fire.cs
-    projectPath: Assets\Script\UnUsed\Weapon\Fire.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Weapon\Fire.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Weapon\Fire.cs.meta
-    projectPath: Assets\Script\UnUsed\Weapon\Fire.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Weapon\Fireball.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Weapon\Fireball.cs
-    projectPath: Assets\Script\UnUsed\Weapon\Fireball.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\UnUsed\Weapon\Fireball.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UnUsed\Weapon\Fireball.cs.meta
-    projectPath: Assets\Script\UnUsed\Weapon\Fireball.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Script\Weapon.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Weapon.meta
-    projectPath: Assets\Script\Weapon.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Weapon\Fire.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Weapon\Fire.cs
-    projectPath: Assets\Script\Weapon\Fire.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Weapon\Fire.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Weapon\Fire.cs.meta
-    projectPath: Assets\Script\Weapon\Fire.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Weapon\Fireball.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Weapon\Fireball.cs
-    projectPath: Assets\Script\Weapon\Fireball.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Script\Weapon\Fireball.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\Weapon\Fireball.cs.meta
-    projectPath: Assets\Script\Weapon\Fireball.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Shader\SkillBag.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Shader\SkillBag.meta
-    projectPath: Assets\Shader\SkillBag.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Shader\SkillBag\SkillData.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Shader\SkillBag\SkillData.cs
-    projectPath: Assets\Shader\SkillBag\SkillData.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Shader\SkillBag\SkillData.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Shader\SkillBag\SkillData.cs.meta
-    projectPath: Assets\Shader\SkillBag\SkillData.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Shader\SkillBag\SlotData.cs
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Shader\SkillBag\SlotData.cs
-    projectPath: Assets\Shader\SkillBag\SlotData.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Shader\SkillBag\SlotData.cs.meta
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Shader\SkillBag\SlotData.cs.meta
-    projectPath: Assets\Shader\SkillBag\SlotData.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AstarPathfindingProject.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\AstarPathfindingProject.csproj
-    projectPath: AstarPathfindingProject.csproj
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AstarPathfindingProjectEditor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\AstarPathfindingProjectEditor.csproj
-    projectPath: AstarPathfindingProjectEditor.csproj
+  - path: Assets\Script\UI\GoodItem.cs
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI\GoodItem.cs
+    projectPath: Assets\Script\UI\GoodItem.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Bin\\2020.2.20\u2014\u201420w7a.7z"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a.7z"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a.7z"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\browscap.ini"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\browscap.ini"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\browscap.ini"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\UnityCrashHandler64.exe"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\UnityCrashHandler64.exe"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\UnityCrashHandler64.exe"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\UnityPlayer.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\UnityPlayer.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\UnityPlayer.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F.exe"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F.exe"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F.exe"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\app.info"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\app.info"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\app.info"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\boot.config"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\boot.config"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\boot.config"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\globalgamemanagers"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\globalgamemanagers"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\globalgamemanagers"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\globalgamemanagers.assets"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\globalgamemanagers.assets"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\globalgamemanagers.assets"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\level0"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\level0"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\level0"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Assembly-CSharp.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Assembly-CSharp.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Assembly-CSharp.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\AstarPathfindingProject.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\AstarPathfindingProject.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\AstarPathfindingProject.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\DOTween.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\DOTween.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\DOTween.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Fungus.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Fungus.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Fungus.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\FungusExamples.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\FungusExamples.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\FungusExamples.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\LitJson.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\LitJson.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\LitJson.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Mono.Security.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Mono.Security.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Mono.Security.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\mscorlib.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\mscorlib.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\mscorlib.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\netstandard.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\netstandard.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\netstandard.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Pathfinding.Ionic.Zip.Reduced.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Pathfinding.Ionic.Zip.Reduced.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Pathfinding.Ionic.Zip.Reduced.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.ComponentModel.Composition.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.ComponentModel.Composition.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.ComponentModel.Composition.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Configuration.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Configuration.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Configuration.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Core.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Core.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Core.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Data.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Data.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Data.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Diagnostics.StackTrace.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Diagnostics.StackTrace.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Diagnostics.StackTrace.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Drawing.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Drawing.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Drawing.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.EnterpriseServices.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.EnterpriseServices.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.EnterpriseServices.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Globalization.Extensions.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Globalization.Extensions.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Globalization.Extensions.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.IO.Compression.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.IO.Compression.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.IO.Compression.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.IO.Compression.FileSystem.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.IO.Compression.FileSystem.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.IO.Compression.FileSystem.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Net.Http.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Net.Http.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Net.Http.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Numerics.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Numerics.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Numerics.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Runtime.Serialization.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Runtime.Serialization.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Runtime.Serialization.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Runtime.Serialization.Xml.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Runtime.Serialization.Xml.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Runtime.Serialization.Xml.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.ServiceModel.Internals.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.ServiceModel.Internals.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.ServiceModel.Internals.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Transactions.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Transactions.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Transactions.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.Linq.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.Linq.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.Linq.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.XPath.XDocument.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.XPath.XDocument.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\System.Xml.XPath.XDocument.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Unity.TextMeshPro.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Unity.TextMeshPro.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Unity.TextMeshPro.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Unity.Timeline.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Unity.Timeline.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\Unity.Timeline.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AccessibilityModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AccessibilityModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AccessibilityModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AIModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AIModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AIModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AndroidJNIModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AndroidJNIModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AndroidJNIModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AnimationModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AnimationModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AnimationModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ARModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ARModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ARModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AssetBundleModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AssetBundleModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AssetBundleModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AudioModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AudioModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.AudioModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClothModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClothModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClothModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClusterInputModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClusterInputModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClusterInputModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClusterRendererModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClusterRendererModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ClusterRendererModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.CoreModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.CoreModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.CoreModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.CrashReportingModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.CrashReportingModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.CrashReportingModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.DirectorModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.DirectorModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.DirectorModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.DSPGraphModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.DSPGraphModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.DSPGraphModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.GameCenterModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.GameCenterModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.GameCenterModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.GridModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.GridModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.GridModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.HotReloadModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.HotReloadModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.HotReloadModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ImageConversionModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ImageConversionModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ImageConversionModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.IMGUIModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.IMGUIModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.IMGUIModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.InputLegacyModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.InputLegacyModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.InputLegacyModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.InputModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.InputModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.InputModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.JSONSerializeModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.JSONSerializeModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.JSONSerializeModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.LocalizationModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.LocalizationModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.LocalizationModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ParticleSystemModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ParticleSystemModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ParticleSystemModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.Physics2DModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.Physics2DModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.Physics2DModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.PhysicsModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.PhysicsModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.PhysicsModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ProfilerModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ProfilerModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ProfilerModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SharedInternalsModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SharedInternalsModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SharedInternalsModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SpriteMaskModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SpriteMaskModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SpriteMaskModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SpriteShapeModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SpriteShapeModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SpriteShapeModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.StreamingModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.StreamingModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.StreamingModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SubstanceModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SubstanceModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SubstanceModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SubsystemsModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SubsystemsModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.SubsystemsModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TerrainModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TerrainModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TerrainModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TextCoreModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TextCoreModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TextCoreModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TextRenderingModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TextRenderingModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TextRenderingModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TilemapModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TilemapModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TilemapModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TLSModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TLSModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.TLSModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UI.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UI.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UI.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UIElementsModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UIElementsModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UIElementsModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UIModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UIModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UIModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UmbraModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UmbraModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UmbraModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UNETModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UNETModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UNETModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityConnectModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityConnectModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityConnectModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VehiclesModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VehiclesModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VehiclesModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VFXModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VFXModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VFXModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VideoModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VideoModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VideoModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VRModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VRModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.VRModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.WindModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.WindModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.WindModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.XRModule.dll"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.XRModule.dll"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Managed\\UnityEngine.XRModule.dll"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\resources.assets"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\resources.assets"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\resources.assets"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\resources.assets.resS"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\resources.assets.resS"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\resources.assets.resS"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Resources\\unity
-      default resources"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Resources\\unity
-      default resources"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Resources\\unity
-      default resources"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Resources\\unity_builtin_extra"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Resources\\unity_builtin_extra"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\Resources\\unity_builtin_extra"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\sharedassets0.assets"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\sharedassets0.assets"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\sharedassets0.assets"
-    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\sharedassets0.assets.resS"
-    fullPath: "G:\\Source Files\\Unity File\\GradProject\\GradProject_2020.2.13\\Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\sharedassets0.assets.resS"
-    projectPath: "Bin\\2020.2.20\u2014\u201420w7a\\\u65E0\u540D\u7684\u6E38\u620F_Data\\sharedassets0.assets.resS"
+  - path: Assets\Script\UI\GoodItem.cs.meta
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Assets\Script\UI\GoodItem.cs.meta
+    projectPath: Assets\Script\UI\GoodItem.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Fungus.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Fungus.csproj
-    projectPath: Fungus.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Fungus.FungusLuaEditor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Fungus.FungusLuaEditor.csproj
-    projectPath: Fungus.FungusLuaEditor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Fungus.LineEndingsEditor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Fungus.LineEndingsEditor.csproj
-    projectPath: Fungus.LineEndingsEditor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Fungus.UsfxrEditor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Fungus.UsfxrEditor.csproj
-    projectPath: Fungus.UsfxrEditor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: FungusEditor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\FungusEditor.csproj
-    projectPath: FungusEditor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: FungusExamples.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\FungusExamples.csproj
-    projectPath: FungusExamples.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ArtifactDB
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -1518,107 +117,83 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\02\0275695d64eac31ce757c9817166c14b
     projectPath: Library\Artifacts\02\0275695d64eac31ce757c9817166c14b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\03\031b1a4fd6aff370020a0a6ca9ec4483
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\03\031b1a4fd6aff370020a0a6ca9ec4483
-    projectPath: Library\Artifacts\03\031b1a4fd6aff370020a0a6ca9ec4483
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\05\05327e85b69b169fa9674789b442323e
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\05\05327e85b69b169fa9674789b442323e
-    projectPath: Library\Artifacts\05\05327e85b69b169fa9674789b442323e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\08\08e6a0b568297a953a1c7e1277f29272
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\08\08e6a0b568297a953a1c7e1277f29272
     projectPath: Library\Artifacts\08\08e6a0b568297a953a1c7e1277f29272
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\0a\0a02d06531d4e95b082012ebd9e449ae
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\0a\0a02d06531d4e95b082012ebd9e449ae
     projectPath: Library\Artifacts\0a\0a02d06531d4e95b082012ebd9e449ae
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\17\1777cc86bf18ea6b97e5b1ab7e788090
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\17\1777cc86bf18ea6b97e5b1ab7e788090
-    projectPath: Library\Artifacts\17\1777cc86bf18ea6b97e5b1ab7e788090
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\10\10da7410644c05bb3b0fc87c33f1ed52
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\10\10da7410644c05bb3b0fc87c33f1ed52
+    projectPath: Library\Artifacts\10\10da7410644c05bb3b0fc87c33f1ed52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\14\14859aef0d6b42d4857585548d6b61d5
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\14\14859aef0d6b42d4857585548d6b61d5
+    projectPath: Library\Artifacts\14\14859aef0d6b42d4857585548d6b61d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\18\1817f9298feac1b95337632f1bdc2752
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\18\1817f9298feac1b95337632f1bdc2752
     projectPath: Library\Artifacts\18\1817f9298feac1b95337632f1bdc2752
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\1c\1c1e2f7eb13a998e5604de5fe8240dff
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\1c\1c1e2f7eb13a998e5604de5fe8240dff
     projectPath: Library\Artifacts\1c\1c1e2f7eb13a998e5604de5fe8240dff
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\20\20e523ea359837ac5e559784c692941d
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\20\20e523ea359837ac5e559784c692941d
-    projectPath: Library\Artifacts\20\20e523ea359837ac5e559784c692941d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\21\21378f2e8490d9d0589997e21d36c4e7
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\21\21378f2e8490d9d0589997e21d36c4e7
-    projectPath: Library\Artifacts\21\21378f2e8490d9d0589997e21d36c4e7
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\26\264d6880e25401036ad7e489eee5a435
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\26\264d6880e25401036ad7e489eee5a435
-    projectPath: Library\Artifacts\26\264d6880e25401036ad7e489eee5a435
+  - path: Library\Artifacts\20\204fe854b2d1e8775fb7092b89ec597d
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\20\204fe854b2d1e8775fb7092b89ec597d
+    projectPath: Library\Artifacts\20\204fe854b2d1e8775fb7092b89ec597d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\25\257df1b0a14a696eceaa0a8e938f9885
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\25\257df1b0a14a696eceaa0a8e938f9885
+    projectPath: Library\Artifacts\25\257df1b0a14a696eceaa0a8e938f9885
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\27\27bae8a07926b0e3c7e9fa3874fbf92e
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\27\27bae8a07926b0e3c7e9fa3874fbf92e
     projectPath: Library\Artifacts\27\27bae8a07926b0e3c7e9fa3874fbf92e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2b\2b28b5a4ff051a4cfc86d6d496f7820f
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\2b\2b28b5a4ff051a4cfc86d6d496f7820f
-    projectPath: Library\Artifacts\2b\2b28b5a4ff051a4cfc86d6d496f7820f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2d\2d78d09c97a21849fe5b064dc61dc53a
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\2d\2d78d09c97a21849fe5b064dc61dc53a
-    projectPath: Library\Artifacts\2d\2d78d09c97a21849fe5b064dc61dc53a
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\38\38bdbc2d7d271a6d113aeab037f913c7
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\38\38bdbc2d7d271a6d113aeab037f913c7
-    projectPath: Library\Artifacts\38\38bdbc2d7d271a6d113aeab037f913c7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3d\3d53e9b69e8db64b7097ef3eed3a580d
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\3d\3d53e9b69e8db64b7097ef3eed3a580d
-    projectPath: Library\Artifacts\3d\3d53e9b69e8db64b7097ef3eed3a580d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\40\40076b732cf33cf6cbc69442e50a301c
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\40\40076b732cf33cf6cbc69442e50a301c
-    projectPath: Library\Artifacts\40\40076b732cf33cf6cbc69442e50a301c
+  - path: Library\Artifacts\30\303bbcdee957514e57528ad97719d3fa
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\30\303bbcdee957514e57528ad97719d3fa
+    projectPath: Library\Artifacts\30\303bbcdee957514e57528ad97719d3fa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\40\40b3b244c6d2a65a95dffc15cd1d04fe
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\40\40b3b244c6d2a65a95dffc15cd1d04fe
-    projectPath: Library\Artifacts\40\40b3b244c6d2a65a95dffc15cd1d04fe
+  - path: Library\Artifacts\39\39ca912580b242e10aa5f2e5bece2f6f
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\39\39ca912580b242e10aa5f2e5bece2f6f
+    projectPath: Library\Artifacts\39\39ca912580b242e10aa5f2e5bece2f6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3b\3b32e2565035c7dd4125efd28f4ad4b0
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\3b\3b32e2565035c7dd4125efd28f4ad4b0
+    projectPath: Library\Artifacts\3b\3b32e2565035c7dd4125efd28f4ad4b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3e\3e8d0cada6d99aea01b5c516eac60df1
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\3e\3e8d0cada6d99aea01b5c516eac60df1
+    projectPath: Library\Artifacts\3e\3e8d0cada6d99aea01b5c516eac60df1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1626,23 +201,17 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\46\46ad4524fedc0c6987fb9076178998e9
     projectPath: Library\Artifacts\46\46ad4524fedc0c6987fb9076178998e9
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\46\46e0d6ba12dadeb5b826d498d72a9a24
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\46\46e0d6ba12dadeb5b826d498d72a9a24
     projectPath: Library\Artifacts\46\46e0d6ba12dadeb5b826d498d72a9a24
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\4d\4d5b13a79e92053da649311546977bab
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\4d\4d5b13a79e92053da649311546977bab
     projectPath: Library\Artifacts\4d\4d5b13a79e92053da649311546977bab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\53\53e11500c14a643806303846f69b4257
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\53\53e11500c14a643806303846f69b4257
-    projectPath: Library\Artifacts\53\53e11500c14a643806303846f69b4257
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1650,47 +219,35 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\54\54506c9d5f7c4f702410b489f43e104f
     projectPath: Library\Artifacts\54\54506c9d5f7c4f702410b489f43e104f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\57\57aa4db93573d0c4466b236fc3c4a49a
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\57\57aa4db93573d0c4466b236fc3c4a49a
-    projectPath: Library\Artifacts\57\57aa4db93573d0c4466b236fc3c4a49a
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\5c\5c72bfdf741157706026dd70c7a3b8e8
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\5c\5c72bfdf741157706026dd70c7a3b8e8
-    projectPath: Library\Artifacts\5c\5c72bfdf741157706026dd70c7a3b8e8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5c\5ccd30d6c5dc0fdee8c12972488886a6
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\5c\5ccd30d6c5dc0fdee8c12972488886a6
-    projectPath: Library\Artifacts\5c\5ccd30d6c5dc0fdee8c12972488886a6
+  - path: Library\Artifacts\5d\5d7d3270cbf71ed62d569fe7e817b851
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\5d\5d7d3270cbf71ed62d569fe7e817b851
+    projectPath: Library\Artifacts\5d\5d7d3270cbf71ed62d569fe7e817b851
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\5e\5e69603a96a76bbad830103d9db02f78
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\5e\5e69603a96a76bbad830103d9db02f78
-    projectPath: Library\Artifacts\5e\5e69603a96a76bbad830103d9db02f78
+  - path: Library\Artifacts\61\6189c9d694b05d5ddc5a051ccc0f147a
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\61\6189c9d694b05d5ddc5a051ccc0f147a
+    projectPath: Library\Artifacts\61\6189c9d694b05d5ddc5a051ccc0f147a
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\62\625ef392964a00a2507b18314f5c09f7
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\62\625ef392964a00a2507b18314f5c09f7
+    projectPath: Library\Artifacts\62\625ef392964a00a2507b18314f5c09f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\64\64308484fdf6c4303fa6888114e6bf2c
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\64\64308484fdf6c4303fa6888114e6bf2c
     projectPath: Library\Artifacts\64\64308484fdf6c4303fa6888114e6bf2c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\65\6520aad5cca70f69927277803a81dce2
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\65\6520aad5cca70f69927277803a81dce2
     projectPath: Library\Artifacts\65\6520aad5cca70f69927277803a81dce2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\68\682e994dc3f0018076088e67a2e6f4c5
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\68\682e994dc3f0018076088e67a2e6f4c5
-    projectPath: Library\Artifacts\68\682e994dc3f0018076088e67a2e6f4c5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1698,59 +255,29 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\69\695ff55f9535ada0db273c70f9686df8
     projectPath: Library\Artifacts\69\695ff55f9535ada0db273c70f9686df8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\71\716eb46409db1cfc3284721dc51f7616
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\71\716eb46409db1cfc3284721dc51f7616
     projectPath: Library\Artifacts\71\716eb46409db1cfc3284721dc51f7616
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\76\765ac42b714d85d802336123874b3fff
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\76\765ac42b714d85d802336123874b3fff
+    projectPath: Library\Artifacts\76\765ac42b714d85d802336123874b3fff
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\74\74c7cf84e79c63eca760522fa12e277f
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\74\74c7cf84e79c63eca760522fa12e277f
-    projectPath: Library\Artifacts\74\74c7cf84e79c63eca760522fa12e277f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\75\7586888423ace0694a5885c03917e5fc
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\75\7586888423ace0694a5885c03917e5fc
-    projectPath: Library\Artifacts\75\7586888423ace0694a5885c03917e5fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\78\7810142cfb322a36235452e492936e16
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\78\7810142cfb322a36235452e492936e16
     projectPath: Library\Artifacts\78\7810142cfb322a36235452e492936e16
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\87\874b79d46fb435aed6b1fac6db94d58b
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\87\874b79d46fb435aed6b1fac6db94d58b
-    projectPath: Library\Artifacts\87\874b79d46fb435aed6b1fac6db94d58b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\90\90080ebbdfd197e9d5dc31ee50113251
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\90\90080ebbdfd197e9d5dc31ee50113251
-    projectPath: Library\Artifacts\90\90080ebbdfd197e9d5dc31ee50113251
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\94\94de1fbbd1613b19223ba92b18e05f00
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\94\94de1fbbd1613b19223ba92b18e05f00
-    projectPath: Library\Artifacts\94\94de1fbbd1613b19223ba92b18e05f00
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\95\951d67350e6c7944cf9594b68fc42189
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\95\951d67350e6c7944cf9594b68fc42189
-    projectPath: Library\Artifacts\95\951d67350e6c7944cf9594b68fc42189
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9f\9f4442f5db3c51f0db12e22b7ff53bbf
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\9f\9f4442f5db3c51f0db12e22b7ff53bbf
-    projectPath: Library\Artifacts\9f\9f4442f5db3c51f0db12e22b7ff53bbf
+  - path: Library\Artifacts\95\95acb9be213081aa4e46740867c41459
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\95\95acb9be213081aa4e46740867c41459
+    projectPath: Library\Artifacts\95\95acb9be213081aa4e46740867c41459
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1758,89 +285,101 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\a1\a1b8724ac24ca3056257d964e707a75d
     projectPath: Library\Artifacts\a1\a1b8724ac24ca3056257d964e707a75d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\a3\a3522293374ed686f33838758a53d05c
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\a3\a3522293374ed686f33838758a53d05c
     projectPath: Library\Artifacts\a3\a3522293374ed686f33838758a53d05c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\ac\ac956ef832e10698807a20353c41d8d4
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\ac\ac956ef832e10698807a20353c41d8d4
     projectPath: Library\Artifacts\ac\ac956ef832e10698807a20353c41d8d4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b5\b52a5d18af5f87045679a5a307578068
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\b5\b52a5d18af5f87045679a5a307578068
-    projectPath: Library\Artifacts\b5\b52a5d18af5f87045679a5a307578068
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b8\b832666051be9f837d16b226759b294a
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\b8\b832666051be9f837d16b226759b294a
-    projectPath: Library\Artifacts\b8\b832666051be9f837d16b226759b294a
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\be\be770f6dfe1c89ec32a2322cf3dced2f
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\be\be770f6dfe1c89ec32a2322cf3dced2f
-    projectPath: Library\Artifacts\be\be770f6dfe1c89ec32a2322cf3dced2f
+  - path: Library\Artifacts\b5\b5bdfcb68295c9f2216eebbcc84fa7cb
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\b5\b5bdfcb68295c9f2216eebbcc84fa7cb
+    projectPath: Library\Artifacts\b5\b5bdfcb68295c9f2216eebbcc84fa7cb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c3\c36390eae2fce08969dedbe0358833a1
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\c3\c36390eae2fce08969dedbe0358833a1
-    projectPath: Library\Artifacts\c3\c36390eae2fce08969dedbe0358833a1
+  - path: Library\Artifacts\bc\bcaba3c0441ed6606ae66da6fecad695
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\bc\bcaba3c0441ed6606ae66da6fecad695
+    projectPath: Library\Artifacts\bc\bcaba3c0441ed6606ae66da6fecad695
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cc\cc1b0fcc0eee4c61f441b6ef317c3c53
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\cc\cc1b0fcc0eee4c61f441b6ef317c3c53
-    projectPath: Library\Artifacts\cc\cc1b0fcc0eee4c61f441b6ef317c3c53
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bfdf9b648424d308d178661681c29ef7
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\bf\bfdf9b648424d308d178661681c29ef7
+    projectPath: Library\Artifacts\bf\bfdf9b648424d308d178661681c29ef7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cd\cdc59b4875d96eadfca10bbb54c77514
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\cd\cdc59b4875d96eadfca10bbb54c77514
-    projectPath: Library\Artifacts\cd\cdc59b4875d96eadfca10bbb54c77514
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c3\c30d0b2fb24f83649f94180d7c9d53fd
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\c3\c30d0b2fb24f83649f94180d7c9d53fd
+    projectPath: Library\Artifacts\c3\c30d0b2fb24f83649f94180d7c9d53fd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ca\ca94ea395a09253a4ebf901d385c48b4
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\ca\ca94ea395a09253a4ebf901d385c48b4
+    projectPath: Library\Artifacts\ca\ca94ea395a09253a4ebf901d385c48b4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cc\ccbccc8c8e34e83d800c01a27298cf61
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\cc\ccbccc8c8e34e83d800c01a27298cf61
+    projectPath: Library\Artifacts\cc\ccbccc8c8e34e83d800c01a27298cf61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cd\cd2fe3e33f941b97981a2a9898456987
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\cd\cd2fe3e33f941b97981a2a9898456987
+    projectPath: Library\Artifacts\cd\cd2fe3e33f941b97981a2a9898456987
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\d5\d538a03eae61d2aad45a9592adc467c0
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\d5\d538a03eae61d2aad45a9592adc467c0
     projectPath: Library\Artifacts\d5\d538a03eae61d2aad45a9592adc467c0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\d7\d78dd92e43b907a9a59377231c8d913f
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\d7\d78dd92e43b907a9a59377231c8d913f
     projectPath: Library\Artifacts\d7\d78dd92e43b907a9a59377231c8d913f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\d7\d7ecb6202b4cbef7c3c4bcd174b6625d
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\d7\d7ecb6202b4cbef7c3c4bcd174b6625d
     projectPath: Library\Artifacts\d7\d7ecb6202b4cbef7c3c4bcd174b6625d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\da\da9990afdeaf07898337aacb09cc9851
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\da\da9990afdeaf07898337aacb09cc9851
     projectPath: Library\Artifacts\da\da9990afdeaf07898337aacb09cc9851
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\de\de257d5e9cc8d00f8c8284ad0a3558bf
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\de\de257d5e9cc8d00f8c8284ad0a3558bf
-    projectPath: Library\Artifacts\de\de257d5e9cc8d00f8c8284ad0a3558bf
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\db\dba1c36c2b2a7710fdb7566e5a374210
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\db\dba1c36c2b2a7710fdb7566e5a374210
+    projectPath: Library\Artifacts\db\dba1c36c2b2a7710fdb7566e5a374210
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\de\debf8e88a367318bbe466cbcc86292ff
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\de\debf8e88a367318bbe466cbcc86292ff
     projectPath: Library\Artifacts\de\debf8e88a367318bbe466cbcc86292ff
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\df\df28551debff2b95ae2e6feca2f37a97
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\df\df28551debff2b95ae2e6feca2f37a97
+    projectPath: Library\Artifacts\df\df28551debff2b95ae2e6feca2f37a97
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1848,59 +387,29 @@ MonoBehaviour:
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\e8\e862dcea3f649308b788baed45289f8a
     projectPath: Library\Artifacts\e8\e862dcea3f649308b788baed45289f8a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\eb\ebd0ef795c8e802e2484e784f89b128b
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\eb\ebd0ef795c8e802e2484e784f89b128b
-    projectPath: Library\Artifacts\eb\ebd0ef795c8e802e2484e784f89b128b
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\ed\ed9e2a1a389255a595909d344941b725
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\ed\ed9e2a1a389255a595909d344941b725
     projectPath: Library\Artifacts\ed\ed9e2a1a389255a595909d344941b725
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fa\fa580e7629c3c5093cfc45b06b303c28
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\fa\fa580e7629c3c5093cfc45b06b303c28
+    projectPath: Library\Artifacts\fa\fa580e7629c3c5093cfc45b06b303c28
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ee\ee7b142ee11bbc235c2f4f8c2cd44c82
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\ee\ee7b142ee11bbc235c2f4f8c2cd44c82
-    projectPath: Library\Artifacts\ee\ee7b142ee11bbc235c2f4f8c2cd44c82
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f0\f066d9f3768a0ee3b97c323eec58a8e1
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\f0\f066d9f3768a0ee3b97c323eec58a8e1
-    projectPath: Library\Artifacts\f0\f066d9f3768a0ee3b97c323eec58a8e1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f6\f6ead7894f806e5e1e56612d0fbce8d0
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\f6\f6ead7894f806e5e1e56612d0fbce8d0
-    projectPath: Library\Artifacts\f6\f6ead7894f806e5e1e56612d0fbce8d0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\fc\fc8b01a828cadb3f5a4d1243e0f68380
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\fc\fc8b01a828cadb3f5a4d1243e0f68380
     projectPath: Library\Artifacts\fc\fc8b01a828cadb3f5a4d1243e0f68380
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ff\ffe0c8e34c0e02a5d046c44208bb50d6
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\ff\ffe0c8e34c0e02a5d046c44208bb50d6
-    projectPath: Library\Artifacts\ff\ffe0c8e34c0e02a5d046c44208bb50d6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentMaximizeLayout.dwlt
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
+    workTreeStatus: 5
+  - path: Library\Artifacts\fc\fcbedf6a01244212076f6273ffb80686
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\Artifacts\fc\fcbedf6a01244212076f6273ffb80686
+    projectPath: Library\Artifacts\fc\fcbedf6a01244212076f6273ffb80686
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1910,30 +419,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\EditorSnapSettings.asset
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\EditorSnapSettings.asset
-    projectPath: Library\EditorSnapSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\expandedItems
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -1949,108 +434,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastBuild.buildreport
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
-    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\level0
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\level0
-    projectPath: Library\PlayerDataCache\Win64\Data\level0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\AstarPathfindingProject.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\AstarPathfindingProject.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\AstarPathfindingProject.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Fungus.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\Fungus.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Fungus.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\FungusExamples.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\FungusExamples.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\FungusExamples.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\Unity.Timeline.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\Unity.Timeline.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\Managed\UnityEngine.UI.dll
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\Managed\UnityEngine.UI.dll
-    projectPath: Library\PlayerDataCache\Win64\Data\Managed\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\resources.assets
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\resources.assets
-    projectPath: Library\PlayerDataCache\Win64\Data\resources.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\resources.assets.resS
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\resources.assets.resS
-    projectPath: Library\PlayerDataCache\Win64\Data\resources.assets.resS
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
-    projectPath: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2072,21 +455,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2096,21 +467,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\AstarPathfindingProject.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\AstarPathfindingProject.pdb
-    projectPath: Library\ScriptAssemblies\AstarPathfindingProject.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\AstarPathfindingProjectEditor.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\AstarPathfindingProjectEditor.dll
     projectPath: Library\ScriptAssemblies\AstarPathfindingProjectEditor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\AstarPathfindingProjectEditor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\AstarPathfindingProjectEditor.pdb
-    projectPath: Library\ScriptAssemblies\AstarPathfindingProjectEditor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2126,27 +485,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Fungus.FungusLuaEditor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Fungus.FungusLuaEditor.pdb
-    projectPath: Library\ScriptAssemblies\Fungus.FungusLuaEditor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
     projectPath: Library\ScriptAssemblies\Fungus.LineEndingsEditor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Fungus.LineEndingsEditor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Fungus.LineEndingsEditor.pdb
-    projectPath: Library\ScriptAssemblies\Fungus.LineEndingsEditor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Fungus.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Fungus.pdb
-    projectPath: Library\ScriptAssemblies\Fungus.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2156,21 +497,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Fungus.UsfxrEditor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Fungus.UsfxrEditor.pdb
-    projectPath: Library\ScriptAssemblies\Fungus.UsfxrEditor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\FungusEditor.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\FungusEditor.dll
     projectPath: Library\ScriptAssemblies\FungusEditor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\FungusEditor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\FungusEditor.pdb
-    projectPath: Library\ScriptAssemblies\FungusEditor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2180,21 +509,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\FungusExamples.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\FungusExamples.pdb
-    projectPath: Library\ScriptAssemblies\FungusExamples.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\PackageToolsEditor.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\PackageToolsEditor.dll
     projectPath: Library\ScriptAssemblies\PackageToolsEditor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\PackageToolsEditor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\PackageToolsEditor.pdb
-    projectPath: Library\ScriptAssemblies\PackageToolsEditor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2216,21 +533,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.Rider.Editor.dll
     projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2246,18 +551,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Unity.Timeline.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.Timeline.dll
     projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
@@ -2270,39 +563,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.Timeline.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
     projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
     projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2318,33 +587,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\UnityEngine.UI.dll
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\ScriptAssemblies\UnityEngine.UI.dll
     projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2360,39 +611,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\0aa68d-mainStage.json
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Library\StateCache\SceneView\0aa68d-mainStage.json
-    projectPath: Library\StateCache\SceneView\0aa68d-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\AstarPathfindingProject.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\AstarPathfindingProject.csprojAssemblyReference.cache
-    projectPath: obj\Debug\AstarPathfindingProject.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\AstarPathfindingProjectEditor.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\AstarPathfindingProjectEditor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\AstarPathfindingProjectEditor.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2402,33 +623,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\FungusEditor.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\FungusEditor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\FungusEditor.csprojAssemblyReference.cache
+  - path: obj\Release\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Release\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\FungusExamples.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Debug\FungusExamples.csprojAssemblyReference.cache
-    projectPath: obj\Debug\FungusExamples.csprojAssemblyReference.cache
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Release\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Release\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Release\Fungus.UsfxrEditor.csprojAssemblyReference.cache
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\Fungus.UsfxrEditor.csprojAssemblyReference.cache
-    projectPath: obj\Release\Fungus.UsfxrEditor.csprojAssemblyReference.cache
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Release\AstarPathfindingProject.csprojAssemblyReference.cache
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\AstarPathfindingProject.csprojAssemblyReference.cache
+    projectPath: obj\Release\AstarPathfindingProject.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Release\AstarPathfindingProjectEditor.csprojAssemblyReference.cache
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\AstarPathfindingProjectEditor.csprojAssemblyReference.cache
+    projectPath: obj\Release\AstarPathfindingProjectEditor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Release\build.force
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\build.force
+    projectPath: obj\Release\build.force
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Release\Fungus.LineEndingsEditor.csprojAssemblyReference.cache
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\Fungus.LineEndingsEditor.csprojAssemblyReference.cache
+    projectPath: obj\Release\Fungus.LineEndingsEditor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Release\FungusEditor.csprojAssemblyReference.cache
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\FungusEditor.csprojAssemblyReference.cache
+    projectPath: obj\Release\FungusEditor.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: obj\Release\FungusExamples.csprojAssemblyReference.cache
     fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\obj\Release\FungusExamples.csprojAssemblyReference.cache
     projectPath: obj\Release\FungusExamples.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PackageToolsEditor.csproj
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\PackageToolsEditor.csproj
-    projectPath: PackageToolsEditor.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2444,195 +683,207 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0fcd4ae8db1bfe544b58998bcd6b5389
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-0fcd4ae8db1bfe544b58998bcd6b5389
-    projectPath: Temp\UnityTempFile-0fcd4ae8db1bfe544b58998bcd6b5389
+  - path: Temp\UnityTempFile-03f1c442ee2074945be2bc029c507190
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-03f1c442ee2074945be2bc029c507190
+    projectPath: Temp\UnityTempFile-03f1c442ee2074945be2bc029c507190
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-132227c3495e93245b1fdf91dea2c560
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-132227c3495e93245b1fdf91dea2c560
-    projectPath: Temp\UnityTempFile-132227c3495e93245b1fdf91dea2c560
+  - path: Temp\UnityTempFile-0d83bea87ab5b454f9df4c13d4dbe1cf
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-0d83bea87ab5b454f9df4c13d4dbe1cf
+    projectPath: Temp\UnityTempFile-0d83bea87ab5b454f9df4c13d4dbe1cf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-257ce5bdf411e4147b8d7301c6f014f8
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-257ce5bdf411e4147b8d7301c6f014f8
-    projectPath: Temp\UnityTempFile-257ce5bdf411e4147b8d7301c6f014f8
+  - path: Temp\UnityTempFile-187b12a2b14c52549bcce29a4c42ad62
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-187b12a2b14c52549bcce29a4c42ad62
+    projectPath: Temp\UnityTempFile-187b12a2b14c52549bcce29a4c42ad62
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-28b47fd23eba5054692c613613d6944e
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-28b47fd23eba5054692c613613d6944e
-    projectPath: Temp\UnityTempFile-28b47fd23eba5054692c613613d6944e
+  - path: Temp\UnityTempFile-1a8cf9bc8b57585409bb67b27c1be864
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-1a8cf9bc8b57585409bb67b27c1be864
+    projectPath: Temp\UnityTempFile-1a8cf9bc8b57585409bb67b27c1be864
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2ac1dcfe4fd39034eb0f35f6a1d98f5a
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-2ac1dcfe4fd39034eb0f35f6a1d98f5a
-    projectPath: Temp\UnityTempFile-2ac1dcfe4fd39034eb0f35f6a1d98f5a
+  - path: Temp\UnityTempFile-1e0eb4d530c280f4b9ceba1b4b751553
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-1e0eb4d530c280f4b9ceba1b4b751553
+    projectPath: Temp\UnityTempFile-1e0eb4d530c280f4b9ceba1b4b751553
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2c111542b5accb24391c3820b787c747
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-2c111542b5accb24391c3820b787c747
-    projectPath: Temp\UnityTempFile-2c111542b5accb24391c3820b787c747
+  - path: Temp\UnityTempFile-2a35e1240ba31a14db27f488c45d36d3
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-2a35e1240ba31a14db27f488c45d36d3
+    projectPath: Temp\UnityTempFile-2a35e1240ba31a14db27f488c45d36d3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-34bdeef8142805b4e9c08d06e416c99f
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-34bdeef8142805b4e9c08d06e416c99f
-    projectPath: Temp\UnityTempFile-34bdeef8142805b4e9c08d06e416c99f
+  - path: Temp\UnityTempFile-2a8bb37e0c57cdb4fa9546a16664e3c7
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-2a8bb37e0c57cdb4fa9546a16664e3c7
+    projectPath: Temp\UnityTempFile-2a8bb37e0c57cdb4fa9546a16664e3c7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-35c855b900461f14fb1f8a2b9825c2d1
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-35c855b900461f14fb1f8a2b9825c2d1
-    projectPath: Temp\UnityTempFile-35c855b900461f14fb1f8a2b9825c2d1
+  - path: Temp\UnityTempFile-300805db1af23654d97a03f3cc337a82
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-300805db1af23654d97a03f3cc337a82
+    projectPath: Temp\UnityTempFile-300805db1af23654d97a03f3cc337a82
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-435de0a6390804b45a7004cf57bb8ff2
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-435de0a6390804b45a7004cf57bb8ff2
-    projectPath: Temp\UnityTempFile-435de0a6390804b45a7004cf57bb8ff2
+  - path: Temp\UnityTempFile-304d4c587375dd241ac87d36cb073d42
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-304d4c587375dd241ac87d36cb073d42
+    projectPath: Temp\UnityTempFile-304d4c587375dd241ac87d36cb073d42
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-496dbe6b706e4574b9a135eea0c2e919
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-496dbe6b706e4574b9a135eea0c2e919
-    projectPath: Temp\UnityTempFile-496dbe6b706e4574b9a135eea0c2e919
+  - path: Temp\UnityTempFile-344703ee7360981419726e10ab39e3f8
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-344703ee7360981419726e10ab39e3f8
+    projectPath: Temp\UnityTempFile-344703ee7360981419726e10ab39e3f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4e8a4ed6c8550db4daf84937f480acff
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-4e8a4ed6c8550db4daf84937f480acff
-    projectPath: Temp\UnityTempFile-4e8a4ed6c8550db4daf84937f480acff
+  - path: Temp\UnityTempFile-3d45dc515d7e9854db48f45e27a1e60b
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-3d45dc515d7e9854db48f45e27a1e60b
+    projectPath: Temp\UnityTempFile-3d45dc515d7e9854db48f45e27a1e60b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5112d1d21c273ab4ea1133bf1e7d1efa
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-5112d1d21c273ab4ea1133bf1e7d1efa
-    projectPath: Temp\UnityTempFile-5112d1d21c273ab4ea1133bf1e7d1efa
+  - path: Temp\UnityTempFile-41714bbd07c8b2945b4a9416d878af00
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-41714bbd07c8b2945b4a9416d878af00
+    projectPath: Temp\UnityTempFile-41714bbd07c8b2945b4a9416d878af00
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-54c6410cefa50ad4c8ab90d5273efae8
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-54c6410cefa50ad4c8ab90d5273efae8
-    projectPath: Temp\UnityTempFile-54c6410cefa50ad4c8ab90d5273efae8
+  - path: Temp\UnityTempFile-42220d5130bf0b54cb4cb910fd818a4a
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-42220d5130bf0b54cb4cb910fd818a4a
+    projectPath: Temp\UnityTempFile-42220d5130bf0b54cb4cb910fd818a4a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5bfb21946e77f914b98b71f01b3a7e27
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-5bfb21946e77f914b98b71f01b3a7e27
-    projectPath: Temp\UnityTempFile-5bfb21946e77f914b98b71f01b3a7e27
+  - path: Temp\UnityTempFile-45a9d2bbb6d09ff4aaf38095190fe050
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-45a9d2bbb6d09ff4aaf38095190fe050
+    projectPath: Temp\UnityTempFile-45a9d2bbb6d09ff4aaf38095190fe050
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-70ad6f6a9d7855948961b54784b89e6c
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-70ad6f6a9d7855948961b54784b89e6c
-    projectPath: Temp\UnityTempFile-70ad6f6a9d7855948961b54784b89e6c
+  - path: Temp\UnityTempFile-6114181222de5b24e996b949bdc02034
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-6114181222de5b24e996b949bdc02034
+    projectPath: Temp\UnityTempFile-6114181222de5b24e996b949bdc02034
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7c0688343f5ab6e4cae2c31c5f2ccc11
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-7c0688343f5ab6e4cae2c31c5f2ccc11
-    projectPath: Temp\UnityTempFile-7c0688343f5ab6e4cae2c31c5f2ccc11
+  - path: Temp\UnityTempFile-61bc6e1728a6fbe45aa348e18e37f317
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-61bc6e1728a6fbe45aa348e18e37f317
+    projectPath: Temp\UnityTempFile-61bc6e1728a6fbe45aa348e18e37f317
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7d52cfc0e2ca51e48878eb4a62659374
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-7d52cfc0e2ca51e48878eb4a62659374
-    projectPath: Temp\UnityTempFile-7d52cfc0e2ca51e48878eb4a62659374
+  - path: Temp\UnityTempFile-6a61745a6b84b294386f88bba7d85200
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-6a61745a6b84b294386f88bba7d85200
+    projectPath: Temp\UnityTempFile-6a61745a6b84b294386f88bba7d85200
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-822a66b10ce3ef04593b883246849bb8
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-822a66b10ce3ef04593b883246849bb8
-    projectPath: Temp\UnityTempFile-822a66b10ce3ef04593b883246849bb8
+  - path: Temp\UnityTempFile-6d81529e4f3fd3941a0f393ce3f0c5f1
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-6d81529e4f3fd3941a0f393ce3f0c5f1
+    projectPath: Temp\UnityTempFile-6d81529e4f3fd3941a0f393ce3f0c5f1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-84d148e488cf09a40b38f1d12060696e
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-84d148e488cf09a40b38f1d12060696e
-    projectPath: Temp\UnityTempFile-84d148e488cf09a40b38f1d12060696e
+  - path: Temp\UnityTempFile-7379cb9276304e44285529f5b2c2dcd3
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-7379cb9276304e44285529f5b2c2dcd3
+    projectPath: Temp\UnityTempFile-7379cb9276304e44285529f5b2c2dcd3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-8714e7962329ba742b5aa3e2a0cad0d6
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-8714e7962329ba742b5aa3e2a0cad0d6
-    projectPath: Temp\UnityTempFile-8714e7962329ba742b5aa3e2a0cad0d6
+  - path: Temp\UnityTempFile-84279361c7617d94b91f9e668f810a3f
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-84279361c7617d94b91f9e668f810a3f
+    projectPath: Temp\UnityTempFile-84279361c7617d94b91f9e668f810a3f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-99bcfd253884ff648afe556a06a80181
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-99bcfd253884ff648afe556a06a80181
-    projectPath: Temp\UnityTempFile-99bcfd253884ff648afe556a06a80181
+  - path: Temp\UnityTempFile-9e8d08c46fd09c14f87a6ed95bc0144f
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-9e8d08c46fd09c14f87a6ed95bc0144f
+    projectPath: Temp\UnityTempFile-9e8d08c46fd09c14f87a6ed95bc0144f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-abd6aff76991c2445ba63e4a22bbe066
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-abd6aff76991c2445ba63e4a22bbe066
-    projectPath: Temp\UnityTempFile-abd6aff76991c2445ba63e4a22bbe066
+  - path: Temp\UnityTempFile-a2696f9ce5474bb4ca74e6346e40765b
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-a2696f9ce5474bb4ca74e6346e40765b
+    projectPath: Temp\UnityTempFile-a2696f9ce5474bb4ca74e6346e40765b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-af2c0884ab538fd4d8b511cbc46f66d4
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-af2c0884ab538fd4d8b511cbc46f66d4
-    projectPath: Temp\UnityTempFile-af2c0884ab538fd4d8b511cbc46f66d4
+  - path: Temp\UnityTempFile-aa8d25a964753224da21f3a3ff81759b
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-aa8d25a964753224da21f3a3ff81759b
+    projectPath: Temp\UnityTempFile-aa8d25a964753224da21f3a3ff81759b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-b3960bd037063b64d815328627178031
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-b3960bd037063b64d815328627178031
-    projectPath: Temp\UnityTempFile-b3960bd037063b64d815328627178031
+  - path: Temp\UnityTempFile-b15cc0e3d97e2904a85167b2ea66bced
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-b15cc0e3d97e2904a85167b2ea66bced
+    projectPath: Temp\UnityTempFile-b15cc0e3d97e2904a85167b2ea66bced
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-b6cfeff6734120d48950e85afaa833cf
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-b6cfeff6734120d48950e85afaa833cf
-    projectPath: Temp\UnityTempFile-b6cfeff6734120d48950e85afaa833cf
+  - path: Temp\UnityTempFile-b7b07a2982ccfac46a0c0fb9f5185862
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-b7b07a2982ccfac46a0c0fb9f5185862
+    projectPath: Temp\UnityTempFile-b7b07a2982ccfac46a0c0fb9f5185862
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-bf2db57e441ba9a478684a438f5737b2
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-bf2db57e441ba9a478684a438f5737b2
-    projectPath: Temp\UnityTempFile-bf2db57e441ba9a478684a438f5737b2
+  - path: Temp\UnityTempFile-ccc052274196dd942b2f141139a2fbf4
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-ccc052274196dd942b2f141139a2fbf4
+    projectPath: Temp\UnityTempFile-ccc052274196dd942b2f141139a2fbf4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-c8079a7e6c6ace54199617efcbfcfd81
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-c8079a7e6c6ace54199617efcbfcfd81
-    projectPath: Temp\UnityTempFile-c8079a7e6c6ace54199617efcbfcfd81
+  - path: Temp\UnityTempFile-ce3d8672a0e08d248b273aafeeb8a8d2
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-ce3d8672a0e08d248b273aafeeb8a8d2
+    projectPath: Temp\UnityTempFile-ce3d8672a0e08d248b273aafeeb8a8d2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-dae897590b79c0a44a2cbd6a49acbade
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-dae897590b79c0a44a2cbd6a49acbade
-    projectPath: Temp\UnityTempFile-dae897590b79c0a44a2cbd6a49acbade
+  - path: Temp\UnityTempFile-d5de48d00a1b8144598234925383cb91
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-d5de48d00a1b8144598234925383cb91
+    projectPath: Temp\UnityTempFile-d5de48d00a1b8144598234925383cb91
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e450b63761d5d9548b79e2d2b2eacb83
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-e450b63761d5d9548b79e2d2b2eacb83
-    projectPath: Temp\UnityTempFile-e450b63761d5d9548b79e2d2b2eacb83
+  - path: Temp\UnityTempFile-d663441b4a600824f858f6fbbdfad52f
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-d663441b4a600824f858f6fbbdfad52f
+    projectPath: Temp\UnityTempFile-d663441b4a600824f858f6fbbdfad52f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fda6890a08b3d87458adad4e630492cb
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-fda6890a08b3d87458adad4e630492cb
-    projectPath: Temp\UnityTempFile-fda6890a08b3d87458adad4e630492cb
+  - path: Temp\UnityTempFile-e78c5c82cb4cdd949874290fe3820d28
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-e78c5c82cb4cdd949874290fe3820d28
+    projectPath: Temp\UnityTempFile-e78c5c82cb4cdd949874290fe3820d28
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fe0fcb9749104e146910271eb050b945
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-fe0fcb9749104e146910271eb050b945
-    projectPath: Temp\UnityTempFile-fe0fcb9749104e146910271eb050b945
+  - path: Temp\UnityTempFile-eb825436c74901945b5f3c4ff210613e
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-eb825436c74901945b5f3c4ff210613e
+    projectPath: Temp\UnityTempFile-eb825436c74901945b5f3c4ff210613e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ff06757729b0a7d44aaa8019c2072a6b
-    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-ff06757729b0a7d44aaa8019c2072a6b
-    projectPath: Temp\UnityTempFile-ff06757729b0a7d44aaa8019c2072a6b
+  - path: Temp\UnityTempFile-f92aef3459702af43b95567a2268a7ce
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-f92aef3459702af43b95567a2268a7ce
+    projectPath: Temp\UnityTempFile-f92aef3459702af43b95567a2268a7ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fb8e7bc824ec02c458156f890d6c8160
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-fb8e7bc824ec02c458156f890d6c8160
+    projectPath: Temp\UnityTempFile-fb8e7bc824ec02c458156f890d6c8160
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fd61b09ed953a744aa42f0ed586cebd0
+    fullPath: G:\Source Files\Unity File\GradProject\GradProject_2020.2.13\Temp\UnityTempFile-fd61b09ed953a744aa42f0ed586cebd0
+    projectPath: Temp\UnityTempFile-fd61b09ed953a744aa42f0ed586cebd0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
