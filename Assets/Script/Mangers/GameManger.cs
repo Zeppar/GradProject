@@ -5,35 +5,29 @@ using UnityEngine;
 public class GameManger : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static GameManger instance;
-    public SkillManager skillManager = new SkillManager();
-    public Player playerScript;
-    public GameObject player;
-    public SkillStoneCreator skillStoneCreator;
-    public UIManger uiManger;
-    public SkillParticleCreator skillParticleCreator;
-    public GoodManger goodManger;
+    public static GameManger instance;//实例
+
+    public SkillManager skillManager = new SkillManager();//技能管理器实例
+    public GoodManger goodManger = new GoodManger();//物品管理器实例
+
+    public Player playerScript;//玩家脚本
+    public GameObject player;//玩家物体
+
+    public SkillStoneCreator skillStoneCreator;//技能石创建器
+    public SkillParticleCreator skillParticleCreator;//技能特效创建器
+   
     
     void Awake()
     {
-        instance = this;
+        instance = this;//实例化自己
     }
     void Start()
     {
-        skillManager.InitSkill();
-        print("已完成技能加载，共加载到了 "+skillManager.skill_Dic.Count+ " 个技能");
-
-        uiManger.bagPanel.InitSlot();
-        goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 1);
-        goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
-
+        skillManager.InitSkill();//初始化技能
+             
+      goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 0);//测试！！！  创建两个物品用于测试
+      goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        uiManger.UpdataSkillIcon(skillManager.currentSkillList);
-        uiManger.UpdateHpBar(playerScript.HP);
-        //uiManger.bagPanel.UpdataItem();
-    }
+    
 }

@@ -290,9 +290,6 @@
     <Reference Include="sfw.net">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>

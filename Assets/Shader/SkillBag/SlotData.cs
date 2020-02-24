@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class SlotData : MonoBehaviour,IDropHandler
 {
     public int SlotID;
-    SkillBagManger bag;
+    private SkillBagManger bag;
     public void OnDrop(PointerEventData eventData)
     {
         SkillData dropedSkill = eventData.pointerDrag.GetComponent<SkillData>();

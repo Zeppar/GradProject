@@ -5,26 +5,24 @@ using UnityEngine.EventSystems;
 
 public class BagItem : MonoBehaviour, IDropHandler
 {
-    public GoodInfo goodInfo;
+    public GoodInfo goodInfo;//每个BagItem，都有一个GoodInfo
     public int index;
-    private void Awake()
+   
+    public void OnDrop(PointerEventData eventData)//但作为目标
     {
-        goodInfo = new GoodInfo();
-    }
-    public void OnDrop(PointerEventData eventData)
-    {
-        print("被拖拽+"+goodInfo.goodType+","+transform.name+","+goodInfo.id);
+        
         GoodItem dropedItem = eventData.pointerDrag.GetComponent<GoodItem>();
-        if (goodInfo.goodType == GoodInfo.GoodType.Null || goodInfo.id == -1)
+        if (goodInfo == null) //需要修改修改修改修改
         {
-            print("成立拉");
-            goodInfo.goodType = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.goodType;
-            goodInfo.id = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.id;
-            GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo = new GoodInfo();
-            dropedItem.SlotInedx = index;
-           // bag.skills[dropedSkill.SlotInedx] = new SkillInfo();
-           // dropedSkill.SlotInedx = SlotID;
-           // bag.skills[SlotID] = dropedSkill.skill;
+            goodInfo = new GoodInfo();//先将自己的GoodInfo赋值
+            GoodInfo dropinfo = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo;
+            goodInfo.goodType = dropinfo.goodType;//同步物品类型          
+            GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo = null;//设置原各自的goodinfo为空
+
+
+            dropedItem.SlotInedx = index;//设置物品的格子索引为自己
+            
+       
         }
     }
 }

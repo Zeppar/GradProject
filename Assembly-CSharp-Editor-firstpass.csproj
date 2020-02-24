@@ -310,9 +310,6 @@
     <Reference Include="sfw.net">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
@@ -679,44 +676,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{F63022F7-8321-1403-3D0B-666216C79439}</Project>
-      <Name>Fungus.FungusLuaEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{1F4F8D62-76CD-3986-5C76-ABDD6D06C2C7}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusEditor.csproj">
-      <Project>{1571835E-A727-CA5B-D06C-1D0AA3B4C833}</Project>
-      <Name>FungusEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{05C884A3-A467-EBA1-AC73-EF480CA0411E}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{A075E6F3-06BF-B1A6-4984-BC4B6DAB73B4}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusExamples.csproj">
-      <Project>{D3AFF9EA-427E-D76B-D397-49AF7251A7D0}</Project>
-      <Name>FungusExamples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{AD68E864-3868-6153-9391-7FBC54255B20}</Project>
-      <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{3DBCC06B-0CCA-E02B-7EC5-094A5DB8334F}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{3ADFCC29-4821-4493-00A7-20A6F2FA4DE5}</Project>
-      <Name>Fungus.UsfxrEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

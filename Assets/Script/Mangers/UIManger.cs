@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class UIManger : MonoBehaviour
 {
-    #region 属性
+   
     [Header("技能图标")]
     public Image SkillIcon1;
     public Image SkillIcon2;
@@ -19,8 +19,22 @@ public class UIManger : MonoBehaviour
     public BagPanel bagPanel;
 
 
-    #endregion
+    public static UIManger instance;
 
+    private void Awake()
+    {
+        instance = this;
+        bagPanel.InitSlot();
+    }
+    private void Start()
+    {
+       
+    }
+    private void Update()
+    {
+       UpdataSkillIcon(GameManger.instance.skillManager.currentSkillList);
+       UpdateHpBar(GameManger.instance.playerScript.HP);
+    }
 
     //技能图标更新
     public void UpdataSkillIcon(List<SkillInfo> currentSkillList)

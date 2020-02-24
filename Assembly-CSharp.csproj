@@ -121,12 +121,9 @@
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\Plus\Plugins\Hell Tap Entertainment\Common\Scripts\HTE_MiniJSON.cs" />
     <Compile Include="Assets\Script\Effects\Boom.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy2.cs" />
-    <Compile Include="Assets\Script\Enemy\EnemyBase.cs" />
-    <Compile Include="Assets\Script\Enemy\EnemyGFX.cs" />
     <Compile Include="Assets\Script\Info\GoodInfo.cs" />
     <Compile Include="Assets\Script\Info\ItemInfo.cs" />
     <Compile Include="Assets\Script\Item\SkillStone.cs" />
@@ -144,11 +141,9 @@
     <Compile Include="Assets\Script\UI\BagPanel.cs" />
     <Compile Include="Assets\Script\UI\GoodItem.cs" />
     <Compile Include="Assets\Script\UnUsed\Apple.cs" />
-    <Compile Include="Assets\Script\UnUsed\Money.cs" />
     <Compile Include="Assets\Script\UnUsed\Other\Boundary.cs" />
     <Compile Include="Assets\Script\UnUsed\Other\Guide\Guide.cs" />
     <Compile Include="Assets\Script\UnUsed\SkillBagManger.cs" />
-    <Compile Include="Assets\Script\UnUsed\Terrain\LevelUP.cs" />
     <Compile Include="Assets\Script\UnUsed\Terrain\Prize\Prize.cs" />
     <Compile Include="Assets\Script\UnUsed\Terrain\Trap\Trap.cs" />
     <Compile Include="Assets\Script\UnUsed\Terrain\Trap\Trap1.cs" />
@@ -158,6 +153,9 @@
     <Compile Include="Assets\Script\UnUsed\Weapon\Fireball.cs" />
     <Compile Include="Assets\Script\UnUsed\cameraFollow.cs" />
     <Compile Include="Assets\Script\Util.cs" />
+    <Compile Include="Assets\Scripts\Framework\EventCoreSupport\AEventCore.cs" />
+    <Compile Include="Assets\Scripts\Framework\LoadFramework\EventCore.cs" />
+    <Compile Include="Assets\Scripts\Framework\LoadFramework\LoadProject.cs" />
     <Compile Include="Assets\Shader\SkillBag\SkillData.cs" />
     <Compile Include="Assets\Shader\SkillBag\SlotData.cs" />
     <None Include="Assets\Sprite\Effects\wills_pixel_explosions_sample\round_explosion\spritesheet\spritesheet.txt" />
@@ -379,9 +377,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
@@ -743,44 +738,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>I:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{F63022F7-8321-1403-3D0B-666216C79439}</Project>
-      <Name>Fungus.FungusLuaEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{1F4F8D62-76CD-3986-5C76-ABDD6D06C2C7}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusEditor.csproj">
-      <Project>{1571835E-A727-CA5B-D06C-1D0AA3B4C833}</Project>
-      <Name>FungusEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{05C884A3-A467-EBA1-AC73-EF480CA0411E}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{A075E6F3-06BF-B1A6-4984-BC4B6DAB73B4}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusExamples.csproj">
-      <Project>{D3AFF9EA-427E-D76B-D397-49AF7251A7D0}</Project>
-      <Name>FungusExamples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{AD68E864-3868-6153-9391-7FBC54255B20}</Project>
-      <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{3DBCC06B-0CCA-E02B-7EC5-094A5DB8334F}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{3ADFCC29-4821-4493-00A7-20A6F2FA4DE5}</Project>
-      <Name>Fungus.UsfxrEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

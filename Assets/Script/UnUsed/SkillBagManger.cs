@@ -45,7 +45,7 @@ public class SkillBagManger : MonoBehaviour
                 skillObj.transform.SetParent(slots[i].transform);
                 skillObj.transform.position = Vector2.zero;
                 skillObj.name = skillToAdd.Title;
-                skillObj.GetComponent<Image>().sprite = Resources.Load<Sprite>(skills[i].Icon);
+               // skillObj.GetComponent<Image>().sprite = Resources.Load<Sprite>(skills[i].Icon);
                 skillObj.GetComponent<SkillData>().skill = skillToAdd;
                 skillObj.GetComponent<SkillData>().SlotInedx = i;
                 break;

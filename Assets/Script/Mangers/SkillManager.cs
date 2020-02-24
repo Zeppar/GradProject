@@ -22,9 +22,9 @@ public class SkillManager
             info.Range = (int)skilldata[i]["range"];
             info.Describe = skilldata[i]["describe"].ToString();
             info.Icon = skilldata[i]["icon"].ToString();
-            skill_Dic.Add((int)skilldata[i]["id"],info);
-            
+            skill_Dic.Add((int)skilldata[i]["id"],info);            
         }
+        Debug.Log("已完成技能加载，共加载到了 " + skill_Dic.Count + " 个技能");
     }
 
     public SkillInfo FindSkillWithID(int _id)

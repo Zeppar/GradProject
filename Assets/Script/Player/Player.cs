@@ -34,7 +34,6 @@ public class Player : MonoBehaviour
     public Transform AttackPoint;
 
     private int attackCount = 0;
-    private Coroutine resetAttackCor = null;
     private AnimatorStateInfo currentState;
 
     void Start()

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoodManger : MonoBehaviour
+public class GoodManger
 {
     public int bagCount = 16;
 
-    public List<BagItem> goodInfoList;
+    public List<BagItem> goodInfoList = new List<BagItem>();
 
     public bool isDirty = false;
    
@@ -15,16 +15,17 @@ public class GoodManger : MonoBehaviour
 
     public void AddItemToPanel(GoodInfo.GoodType _goodType,int id)
     {
-        for (int i = 0; i < goodInfoList.Count; i++)
+        for (int i = 0; i < goodInfoList.Count; i++) //还未检查检查检查检查检查
         {
-            if (goodInfoList[i].goodInfo.goodType == GoodInfo.GoodType.Null)
+            if (goodInfoList[i].goodInfo == null)
             {
+                goodInfoList[i].goodInfo = new GoodInfo();
                 goodInfoList[i].goodInfo.goodType = _goodType;
                 if(_goodType == GoodInfo.GoodType.Skill)
                 {
                     goodInfoList[i].goodInfo.skill = GameManger.instance.skillManager.FindSkillWithID(id);
-                    print("[GoodManger] 数据更新，增加物品到背包");
-                    GameManger.instance.uiManger.bagPanel.UpdataItem();
+                  
+                   UIManger.instance.bagPanel.UpdataItem();
                     return;
                    
                 }
@@ -45,10 +46,6 @@ public class GoodManger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        for (int i = 0; i < goodInfoList.Count; i++)
-        {
-            print(goodInfoList[i].goodInfo.goodType + "Name:" + goodInfoList[i].name);
-        }
+      
     }
 }
