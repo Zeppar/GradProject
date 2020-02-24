@@ -121,6 +121,7 @@
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Plus\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Script\Cheat\CheatPanel.cs" />
     <Compile Include="Assets\Script\Effects\Boom.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy2.cs" />
@@ -153,9 +154,6 @@
     <Compile Include="Assets\Script\UnUsed\Weapon\Fireball.cs" />
     <Compile Include="Assets\Script\UnUsed\cameraFollow.cs" />
     <Compile Include="Assets\Script\Util.cs" />
-    <Compile Include="Assets\Scripts\Framework\EventCoreSupport\AEventCore.cs" />
-    <Compile Include="Assets\Scripts\Framework\LoadFramework\EventCore.cs" />
-    <Compile Include="Assets\Scripts\Framework\LoadFramework\LoadProject.cs" />
     <Compile Include="Assets\Shader\SkillBag\SkillData.cs" />
     <Compile Include="Assets\Shader\SkillBag\SlotData.cs" />
     <None Include="Assets\Sprite\Effects\wills_pixel_explosions_sample\round_explosion\spritesheet\spritesheet.txt" />

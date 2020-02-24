@@ -14,7 +14,7 @@ public class GoodInfo//GoodInfo 数据类，必须无执行方法
 
     public ConsumablesInfo Consumables;//消耗品实例
    
-    public int count = -1;//数量
+    public int count = 1;//数量
     public GoodType goodType;//物品类型实例
     
 }

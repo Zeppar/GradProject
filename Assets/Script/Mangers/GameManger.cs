@@ -27,6 +27,7 @@ public class GameManger : MonoBehaviour
              
       goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 0);//测试！！！  创建两个物品用于测试
       goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
+      goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
     }
 
     

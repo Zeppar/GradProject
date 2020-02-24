@@ -17,7 +17,16 @@ public class GoodManger
     {
         for (int i = 0; i < goodInfoList.Count; i++) //还未检查检查检查检查检查
         {
-            if (goodInfoList[i].goodInfo == null)
+            if(goodInfoList[i].goodInfo!= null &&
+                goodInfoList[i].goodInfo.goodType == GoodInfo.GoodType.Skill &&
+                GameManger.instance.skillManager.FindSkillWithID(id) == goodInfoList[i].goodInfo.skill)
+            {               
+                goodInfoList[i].goodInfo.count++;
+                Debug.Log("叠加成立:"+ goodInfoList[i].goodInfo.count);
+                UIManger.instance.bagPanel.UpdataItem();
+                return;
+            }
+            else if (goodInfoList[i].goodInfo == null)
             {
                 goodInfoList[i].goodInfo = new GoodInfo();
                 goodInfoList[i].goodInfo.goodType = _goodType;
@@ -37,6 +46,7 @@ public class GoodManger
             }
         }
         isDirty = true;
+        UIManger.instance.bagPanel.UpdataItem();
     }
     void Start()
     {
