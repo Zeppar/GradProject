@@ -10,7 +10,7 @@ public class GoodItem : MonoBehaviour,IBeginDragHandler, IDragHandler, IEndDragH
     public void OnBeginDrag(PointerEventData eventData)
     {
         
-            this.transform.SetParent(transform.parent.parent);
+            this.transform.SetParent(transform.parent.parent.parent.parent);
             this.transform.position = eventData.position;
             GetComponent<CanvasGroup>().blocksRaycasts = false;
         

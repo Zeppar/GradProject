@@ -13,15 +13,24 @@ public class BagPanel : MonoBehaviour
     GoodManger manger;//物品管理器
     GameObject goodPanel;//背包
    
-
     public List<GameObject> GoodWasAdded = new List<GameObject>();//记录了在场景中的所有物品的GameObject
+    public List<GoodItem> goodItem_List = new List<GoodItem>();
 
+    
     private void Awake()
     {
         manger = GameManger.instance.goodManger;//初始化物品管理器内容
         goodPanel = GameObject.Find("Slot Panel");//初始化背包面板内容
     }
-    
+    void InitQuitBag()//初始化快捷背包
+    {
+        BagItem skill1 = UIManger.instance.SkillIcon1.GetComponent<BagItem>();
+        BagItem skill2 = UIManger.instance.SkillIcon2.GetComponent<BagItem>();
+        skill1.index = manger.goodInfoList.Count;
+        manger.goodInfoList.Add(skill1);
+        skill2.index = manger.goodInfoList.Count;
+        manger.goodInfoList.Add(skill2);
+    }
     public void InitSlot()//初始化背包格子
     {
         manger = GameManger.instance.goodManger;//初始化物品管理器内容
@@ -37,6 +46,8 @@ public class BagPanel : MonoBehaviour
             manger.goodInfoList.Add(slotToAdd.GetComponent<BagItem>());
            
         }
+        //InitQuitBag();
+
     }
     public void UpdataItem()
     {     
@@ -46,24 +57,27 @@ public class BagPanel : MonoBehaviour
             Destroy(GoodWasAdded[i]);//在场景中清楚物体
         }
         GoodWasAdded.Clear();
+        goodItem_List.Clear();
         for (int i = 0; i < manger.goodInfoList.Count; i++)//生成装备
         {          
             if (manger.goodInfoList[i].goodInfo != null)
             {
                 GameObject skillToAdd = Instantiate(item);//生成物体
-                GoodWasAdded.Add(skillToAdd);           
+                GoodWasAdded.Add(skillToAdd);
+                goodItem_List.Add(skillToAdd.GetComponent<GoodItem>());
                 skillToAdd.GetComponent<Image>().sprite = Resources.Load<Sprite>(manger.goodInfoList[i].goodInfo.skill.Icon);//加载图标
                 skillToAdd.transform.SetParent(manger.goodInfoList[i].transform);//设置层级                                
                 skillToAdd.name = manger.goodInfoList[i].goodInfo.skill.Title;//设置Unity内物品标题             
                 skillToAdd.GetComponent<GoodItem>().SlotInedx = i;//设置他对应的格子
-                skillToAdd.transform.position = Vector3.zero;//设置位置居中             
+                skillToAdd.transform.localPosition = Vector3.zero;//设置位置居中             
 
                 if (manger.goodInfoList[i].goodInfo.count > 1)
                 {
                     print("发现叠加");
                     GameObject CountToAdd = Instantiate(count_Slot);
                     CountToAdd.transform.SetParent(skillToAdd.transform);
-                    //CountToAdd.transform.position = new Vector2(40, -35);
+                    CountToAdd.GetComponent<Text>().text = manger.goodInfoList[i].goodInfo.count.ToString();
+                    CountToAdd.transform.localPosition = new Vector2(10, -35);
                 }
 
             }
