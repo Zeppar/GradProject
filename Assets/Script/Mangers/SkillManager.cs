@@ -10,6 +10,7 @@ public class SkillManager
   
     public Dictionary<int, SkillInfo> skill_Dic = new Dictionary<int, SkillInfo>();
     public List<SkillInfo> currentSkillList = new List<SkillInfo>();
+    public List<Sprite> Icon_List = new List<Sprite>();
 
     public void InitSkill(){
 
@@ -22,7 +23,9 @@ public class SkillManager
             info.Range = (int)skilldata[i]["range"];
             info.Describe = skilldata[i]["describe"].ToString();
             info.Icon = skilldata[i]["icon"].ToString();
-            skill_Dic.Add((int)skilldata[i]["id"],info);            
+            skill_Dic.Add((int)skilldata[i]["id"],info);
+            Icon_List.Add(Resources.Load<Sprite>(info.Icon));
+            //加载图标
         }
         Debug.Log("已完成技能加载，共加载到了 " + skill_Dic.Count + " 个技能");
     }

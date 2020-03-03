@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class GoodItem : MonoBehaviour,IBeginDragHandler, IDragHandler, IEndDragHandler
+public class GoodItem : MonoBehaviour,IBeginDragHandler, IDragHandler, IEndDragHandler,IPointerEnterHandler,IPointerExitHandler
 {
    
     public int SlotInedx;
+    public GameObject describePanel;
+
+    private void Awake()
+    {
+        describePanel = UIManger.instance.describePanel;
+    }
     public void OnBeginDrag(PointerEventData eventData)
     {
         
@@ -29,5 +36,18 @@ public class GoodItem : MonoBehaviour,IBeginDragHandler, IDragHandler, IEndDragH
         transform.SetParent(GameManger.instance.goodManger.goodInfoList[SlotInedx].transform);
         transform.position = transform.parent.position;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+
+       // describePanel.transform.position = Input.mousePosition;
+       // describePanel.SetActive(true);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+       
+        describePanel.SetActive(false);
     }
 }

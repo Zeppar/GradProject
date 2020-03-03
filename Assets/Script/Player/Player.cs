@@ -36,6 +36,12 @@ public class Player : MonoBehaviour
     private int attackCount = 0;
     private AnimatorStateInfo currentState;
 
+
+    [Header("音乐")]
+    public AudioSource audioSource;
+    public AudioClip Audio_Attack;
+    public AudioClip Audio_Walk;
+
     void Start()
     {
         HP = maxHP;
@@ -44,12 +50,23 @@ public class Player : MonoBehaviour
     } 
     void Update()
     {
+        currentState = anim.GetCurrentAnimatorStateInfo(0);
         Attack();
-       
+        if (currentState.IsName("Walk"))
+        {
+            audioSource.Stop();
+        }
+        else
+        {
+            
+            audioSource.clip = Audio_Walk;
+            audioSource.Play();
+        }
+    
     }
 
     void Attack() {
-        currentState = anim.GetCurrentAnimatorStateInfo(0);
+
         if (!currentState.IsName("Idle") && currentState.normalizedTime > 1.6F)
         {
             anim.SetInteger("Attack", 0);
@@ -57,27 +74,44 @@ public class Player : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.J)) {
+            if (GameManger.instance.player.GetComponent<PlayerController>().isMove) { return; }
             if (currentState.IsName("Idle") && attackCount == 0 && currentState.normalizedTime > 0.5F)
             {
                 anim.SetInteger("Attack", 1);
                 attackCount = 1;
+                Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);
+                if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
+                {
+                    coll.GetComponent<Enemy>().BeAttacked(attack);
+                }
+                audioSource.PlayOneShot(Audio_Attack);
             }
             else if (currentState.IsName("Attack1") && attackCount == 1 && currentState.normalizedTime > 0.5F)
             {
                 anim.SetInteger("Attack", 2);
                 attackCount = 2;
+                Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);
+                if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
+                {
+                    coll.GetComponent<Enemy>().BeAttacked(attack);
+                }
+                audioSource.PlayOneShot(Audio_Attack);
             }
             if (currentState.IsName("Attack2") && attackCount == 2 && currentState.normalizedTime > 0.5F)
             {
                 anim.SetInteger("Attack", 3);
                 attackCount = 3;
+                Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);
+                if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
+                {
+                    coll.GetComponent<Enemy>().BeAttacked(attack);
+                }
+                audioSource.PlayOneShot(Audio_Attack);
             }
-            Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);
+           
            
           
-            if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead) {
-                coll.GetComponent<Enemy>().BeAttacked(attack);
-            }
+           
             
         }
         if (Input.GetKeyDown(KeyCode.K)) {

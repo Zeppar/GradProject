@@ -16,22 +16,27 @@ public class BagItem : MonoBehaviour, IDropHandler
         if (goodInfo == null) //需要修改修改修改修改
         {
             goodInfo = new GoodInfo();//先将自己的GoodInfo赋值           
-            goodInfo.goodType = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.goodType;//同步物品类型          
-            GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo = null;//设置原各自的goodinfo为空
+            goodInfo.goodType = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.goodType;//同步物品类型        
+            goodInfo.skill = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.skill;
+            goodInfo.Consumables = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.Consumables;
+            GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo = null;//设置原格子的goodinfo为空
             dropedItem.SlotInedx = index;//设置物品的格子索引为自己
             
        
         }
-        else if(goodInfo == GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo)
-        {
-
+        else if(goodInfo.skill.ID == GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.skill.ID) { //相同物品可叠加
+            
+            goodInfo.count++;
+            GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo = null;
+            UIManger.instance.bagPanel.UpdataItem();
         }
         else if(goodInfo != null)//如果自己有物体，这交换物体数据
         {
-            /*/
-             * ***************************************
-             *********目前有bug，暂停使用********* 
-             * ***************************************
+            print("不同类型物品交换");
+            
+             //* ***************************************
+            // *********目前有bug，暂停使用********* 
+           //  * ***************************************
             GoodInfo Todrop = goodInfo;
             GoodInfo Tome = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo;
             goodInfo = Tome;
@@ -43,7 +48,7 @@ public class BagItem : MonoBehaviour, IDropHandler
 
 
             dropedItem.OnEndDrag(eventData);
-            /*/
+            UIManger.instance.bagPanel.UpdataItem();
         }
     }
 }

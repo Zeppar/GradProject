@@ -17,9 +17,15 @@ public class UIManger : MonoBehaviour
 
     [Header("道具背包")]
     public BagPanel bagPanel;
+    public GameObject describePanel;
+
+
+    [Header("测试(用完请删除)")]
+    public SkillNodeGraph function;//**TEST**//
 
 
     public static UIManger instance;
+
 
     private void Awake()
     {
@@ -28,7 +34,7 @@ public class UIManger : MonoBehaviour
     }
     private void Start()
     {
-       
+      
     }
     private void Update()
     {
@@ -63,6 +69,11 @@ public class UIManger : MonoBehaviour
     public void UpdateHpBar(int hp)
     {
         playerHp.value = hp;
+    }
+
+    public void LoadLevel(int index)
+    {
+        
     }
 
   

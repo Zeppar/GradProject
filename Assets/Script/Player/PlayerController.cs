@@ -10,9 +10,9 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
 
     private bool isGrounded;
-    private bool isJump = false;
-    private bool isClimb = false;
-    private bool isMove = false;
+    public bool isJump = false;
+    public  bool isClimb = false;
+    public bool isMove = false;
 
     public Transform ClimbPos;
     public Transform feetPos;
@@ -25,7 +25,10 @@ public class PlayerController : MonoBehaviour
     private float jumpTimeCounter;//实时更新的值
     public float jumpTime;//设置一个计时值      
     public Animator anim;
-   
+
+    private AnimatorStateInfo currentState;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,29 +39,52 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        currentState = anim.GetCurrentAnimatorStateInfo(0);
         Move();
     }
     private void Update()
     {
         Climb();
         Jump();
+       
+       
     }
     private void Move()
-    {
-        if (isClimb) { return; }      
+    {       
+        if (isClimb) { return; }
+        if (!currentState.IsName("Idle") && !currentState.IsName("Walk") &&  !currentState.IsName("Jump")) { isMove = false;  return; }
         moveInput = Input.GetAxisRaw("Horizontal");
         dust_ps.gameObject.SetActive(isGrounded);
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-        if (moveInput != 0)
+        if(Mathf.Abs(moveInput) > 0.1)
         {
             anim.SetBool("Walk", true);
             isMove = true;
+            //transform.localScale =  transform.localScale * new Vector2(moveInput, 0);
         }
+            
+        if (moveInput > 0)
+         {
+                
+                transform.rotation = new Quaternion(0, 0, 0, 0);
+                dir = 1;
+         }
+        else if (moveInput < 0)
+         {
+               
+                transform.rotation = new Quaternion(0, 180, 0, 0);
+                dir = -1;
+         }
+        
         else if (isJump == false)
         {
             anim.SetBool("Walk", false);
             isMove = false;
+         
+   
+            // audioSource.Stop();
         }
+       
         if (transform.position.y <= -40)//玩家过低销毁玩家
         {
             Destroy(gameObject);
@@ -110,18 +136,7 @@ public class PlayerController : MonoBehaviour
         if (isClimb) { return; }
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
 
-        if (moveInput > 0)
-        {
-            //transform.eulerAngles = new Vector2(0, 0);
-            transform.rotation = new Quaternion(0, 0, 0, 0);
-            dir = 1;
-        }
-        else if (moveInput < 0)
-        {
-            //transform.eulerAngles = new Vector2(0, 180);
-            transform.rotation = new Quaternion(0, 180, 0, 0);
-            dir = -1;
-        }
+    
 
         if (isGrounded == true)
         {

@@ -20,6 +20,8 @@ public class Enemy2 : Enemy {
     public int attack = 10;
 
 
+
+
     public override void Begin() {
 
         contactFilter.useTriggers = false;

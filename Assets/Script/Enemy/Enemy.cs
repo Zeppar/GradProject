@@ -77,6 +77,8 @@ public class Enemy : MonoBehaviour {
     }
     public virtual void BeAttacked(int IntCount) {
         HP -= IntCount;
+        rd.AddForce(new Vector2(100000, 1000));
+        print(1);
         ResetAttackState();
     }
 

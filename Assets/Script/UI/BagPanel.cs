@@ -55,6 +55,7 @@ public class BagPanel : MonoBehaviour
         for (int i = 0; i <  GoodWasAdded.Count; i++)//清空装备
         {
             Destroy(GoodWasAdded[i]);//在场景中清楚物体
+            
         }
         GoodWasAdded.Clear();
         goodItem_List.Clear();
@@ -65,7 +66,21 @@ public class BagPanel : MonoBehaviour
                 GameObject skillToAdd = Instantiate(item);//生成物体
                 GoodWasAdded.Add(skillToAdd);
                 goodItem_List.Add(skillToAdd.GetComponent<GoodItem>());
-                skillToAdd.GetComponent<Image>().sprite = Resources.Load<Sprite>(manger.goodInfoList[i].goodInfo.skill.Icon);//加载图标
+                try
+                {
+                    skillToAdd.GetComponent<Image>().sprite = GameManger.instance.skillManager.Icon_List[manger.goodInfoList[i].goodInfo.skill.ID];
+                }
+                catch (System.Exception)
+                {
+                    Debug.LogError("Sprite:"+skillToAdd.GetComponent<Image>().sprite);
+                    Debug.LogError("Index:"+ manger.goodInfoList[i].goodInfo.skill.ID);
+                    Debug.LogError("List:" + GameManger.instance.skillManager.Icon_List);
+
+                    Debug.LogError("ToAdd:"+ GameManger.instance.skillManager.Icon_List[manger.goodInfoList[i].goodInfo.skill.ID]);
+                   
+                }
+                
+                 //   Resources.Load<Sprite>(manger.goodInfoList[i].goodInfo.skill.Icon);//加载图标
                 skillToAdd.transform.SetParent(manger.goodInfoList[i].transform);//设置层级                                
                 skillToAdd.name = manger.goodInfoList[i].goodInfo.skill.Title;//设置Unity内物品标题             
                 skillToAdd.GetComponent<GoodItem>().SlotInedx = i;//设置他对应的格子
