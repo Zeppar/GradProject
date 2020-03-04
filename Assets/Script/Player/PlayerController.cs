@@ -46,6 +46,10 @@ public class PlayerController : MonoBehaviour
     {
         Climb();
         Jump();
+        if (Input.GetKey(KeyCode.JoystickButton0))
+        {
+            print("0");
+        }
        
        
     }
@@ -141,7 +145,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded == true)
         {
 
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.JoystickButton0))
             {
                 isJump = true;
                 jumpTimeCounter = jumpTime;
@@ -154,7 +158,7 @@ public class PlayerController : MonoBehaviour
         if (isJump == true)
         {
             anim.SetTrigger("Jump");
-            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)||Input.GetKey(KeyCode.JoystickButton0))
             {
                 if (jumpTimeCounter > 0)
                 {
@@ -168,7 +172,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.JoystickButton0))
         {
             
             isJump = false;

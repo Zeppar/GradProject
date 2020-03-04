@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
     } 
     void Update()
     {
+       
         currentState = anim.GetCurrentAnimatorStateInfo(0);
         Attack();
         if (currentState.IsName("Walk"))
@@ -73,16 +74,19 @@ public class Player : MonoBehaviour
             attackCount = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.J)) {
+        if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.JoystickButton2)) {
             if (GameManger.instance.player.GetComponent<PlayerController>().isMove) { return; }
+            GameObject target = null;
             if (currentState.IsName("Idle") && attackCount == 0 && currentState.normalizedTime > 0.5F)
             {
                 anim.SetInteger("Attack", 1);
                 attackCount = 1;
-                Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);
+                Collider2D coll = Physics2D.OverlapCircle(AttackPoint.position, range);               
+
                 if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
                 {
                     coll.GetComponent<Enemy>().BeAttacked(attack);
+                    target = coll.gameObject;
                 }
                 audioSource.PlayOneShot(Audio_Attack);
             }
@@ -94,10 +98,11 @@ public class Player : MonoBehaviour
                 if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
                 {
                     coll.GetComponent<Enemy>().BeAttacked(attack);
+                    target = coll.gameObject;
                 }
                 audioSource.PlayOneShot(Audio_Attack);
             }
-            if (currentState.IsName("Attack2") && attackCount == 2 && currentState.normalizedTime > 0.5F)
+            else if (currentState.IsName("Attack2") && attackCount == 2 && currentState.normalizedTime > 0.5F)
             {
                 anim.SetInteger("Attack", 3);
                 attackCount = 3;
@@ -105,16 +110,19 @@ public class Player : MonoBehaviour
                 if (coll != null && coll.CompareTag("Enemy") && !coll.GetComponent<Enemy>().dead)
                 {
                     coll.GetComponent<Enemy>().BeAttacked(attack);
+                    target = coll.gameObject;
                 }
                 audioSource.PlayOneShot(Audio_Attack);
             }
-           
-           
-          
-           
-            
+            else { return; }
+            iTween.MoveBy(target, iTween.Hash("x", GameManger.instance.player.GetComponent<PlayerController>().dir * 4, "y", 1, "looktime", 0.5f));
+
+
+
+
+
         }
-        if (Input.GetKeyDown(KeyCode.K)) {
+        if (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.JoystickButton3)) {
             GameManger.instance.skillParticleCreator.CreateFireball(AttackPoint.position, new Vector2(transform.GetComponent<PlayerController>().dir, 0));
         }
     }
@@ -130,7 +138,8 @@ public class Player : MonoBehaviour
         HP -= _attack;
         //print("玩家受伤，目前血量:" + HP+",敌人伤害："+_attack);
         if(HP > 0)
-            anim.SetTrigger("Hurt");
+           
+           anim.SetTrigger("Hurt");
     }
 
 

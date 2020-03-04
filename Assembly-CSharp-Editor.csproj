@@ -63,6 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Inspectors\BlackboardInspector.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Inspectors\GlobalBlackboardInspector.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Inspectors\GraphInspector.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Inspectors\GraphOwnerInspector.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\ExternalInspectorWindow.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\GraphConsole.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\GraphEditor.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\GraphEditor_Events.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\GraphEditor_Panels.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\GraphEditor_Toolbar.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\GraphFinder.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\QuickPopup.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\TaskWizardWindow.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Framework\Design\Editor\Windows\WelcomeWindow.cs" />
+    <Compile Include="Assets\ParadoxNotion\FlowCanvas\Module\Design\Editor\Commands.cs" />
     <Compile Include="Assets\Plus\Cinemachine\Base\Editor\Editors\CinemachineBasicMultiChannelPerlinEditor.cs" />
     <Compile Include="Assets\Plus\Cinemachine\Base\Editor\Editors\CinemachineBlendListCameraEditor.cs" />
     <Compile Include="Assets\Plus\Cinemachine\Base\Editor\Editors\CinemachineBlenderSettingsEditor.cs" />
@@ -742,6 +757,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{023E5907-B1B3-B1AC-E118-10D43A5F1222}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{33C676A9-D2DC-8BE7-6137-98FAAEDDE20E}</Project>
       <Name>Assembly-CSharp</Name>

@@ -27,8 +27,10 @@ public class BagPanel : MonoBehaviour
         BagItem skill1 = UIManger.instance.SkillIcon1.GetComponent<BagItem>();
         BagItem skill2 = UIManger.instance.SkillIcon2.GetComponent<BagItem>();
         skill1.index = manger.goodInfoList.Count;
+      //  skill1.goodInfo.count = 0;
         manger.goodInfoList.Add(skill1);
         skill2.index = manger.goodInfoList.Count;
+      //  skill2.goodInfo.count = 0;
         manger.goodInfoList.Add(skill2);
     }
     public void InitSlot()//初始化背包格子
@@ -42,11 +44,12 @@ public class BagPanel : MonoBehaviour
             slotToAdd.transform.position = Vector2.zero;//物品居中
             slotToAdd.GetComponent<BagItem>().index = i;//设置格子的索引
             slotToAdd.name = "Slot(" + i + ")";//改个名字
-           
+            
             manger.goodInfoList.Add(slotToAdd.GetComponent<BagItem>());
            
         }
-        //InitQuitBag();
+        InitQuitBag();
+        UIManger.instance.BagPanel_Obj.SetActive(false);
 
     }
     public void UpdataItem()
@@ -96,6 +99,28 @@ public class BagPanel : MonoBehaviour
                 }
 
             }
+        }
+        for (int i = 0; i < manger.goodInfoList.Count; i++)
+        {
+            if(manger.goodInfoList[i].itemType == BagItem.ItemType.Quikly && manger.goodInfoList[i].goodInfo!= null)
+            {
+                if (manger.goodInfoList[i].skillAction != null) { return; }
+                GameObject action = Resources.Load<GameObject>(manger.goodInfoList[i].goodInfo.skill.Action);
+                print(manger.goodInfoList[i].goodInfo.skill.Action);
+                GameObject a = Instantiate(action);
+                a.transform.SetParent(manger.goodInfoList[i].transform);
+                manger.goodInfoList[i].skillAction = a;
+            }
+            //if(manger.goodInfoList[i].itemType == BagItem.ItemType.Slot && manger.goodInfoList[i].skillAction != null)
+            // {
+            //    Destroy(manger.goodInfoList[i].skillAction);
+            // }
+            if (manger.goodInfoList[i].skillAction != null && manger.goodInfoList[i].goodInfo == null)
+            {
+                Destroy(manger.goodInfoList[i].skillAction);
+                manger.goodInfoList[i].skillAction = null;
+            }
+
         }
     }
 }

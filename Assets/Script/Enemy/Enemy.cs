@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
     //玩家属性
+    [Header("基础属性")]
+    [Header("父类属性")]
+    
     public int MaxHP;
     public int _HP;
     public int speed;
@@ -25,7 +28,7 @@ public class Enemy : MonoBehaviour {
     public Animator anim;
     public Rigidbody2D rd;
 
-
+    [Header("巡逻属性")]
     //巡逻属性
     public float chaseDis = 2;
     public int attackRange = 1;

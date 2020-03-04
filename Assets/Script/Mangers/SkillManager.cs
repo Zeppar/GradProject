@@ -23,6 +23,7 @@ public class SkillManager
             info.Range = (int)skilldata[i]["range"];
             info.Describe = skilldata[i]["describe"].ToString();
             info.Icon = skilldata[i]["icon"].ToString();
+            info.Action = skilldata[i]["action"].ToString();
             skill_Dic.Add((int)skilldata[i]["id"],info);
             Icon_List.Add(Resources.Load<Sprite>(info.Icon));
             //加载图标

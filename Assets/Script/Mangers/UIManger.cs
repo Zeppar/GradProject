@@ -20,8 +20,9 @@ public class UIManger : MonoBehaviour
     public GameObject describePanel;
 
 
-    [Header("测试(用完请删除)")]
-    public SkillNodeGraph function;//**TEST**//
+    [Header("面板物体")]
+    public GameObject BagPanel_Obj;
+    public GameObject Cheat_Obj;
 
 
     public static UIManger instance;

@@ -5,7 +5,8 @@
 		"value": 10,
 		"range": 5,
 		"describe": "向前面发射一个火球",
-		"icon": "Icon/Skill/HuoQiu"
+		"icon": "Icon/Skill/HuoQiu",
+		"action": "SkillAction/HuoQiu"
 	},
 	{
 		"id": 1,
@@ -13,7 +14,8 @@
 		"value": 100,
 		"range": 5,
 		"describe": "提升攻击属性",
-		"icon": "Icon/Skill/JinHua"
+		"icon": "Icon/Skill/JinHua",
+		"action": "SkillAction/JinHua"
 	},
 	{
 		"id": 2,
@@ -21,6 +23,7 @@
 		"value": 100,
 		"range": 5,
 		"describe": "射出前方射出20只箭",
-		"icon": "Icon/Skill/WanJianQiFa"
+		"icon": "Icon/Skill/WanJianQiFa",
+		"action": "SkillAction/WanJianQiFa"
 	}
 ]

@@ -10,10 +10,10 @@ using UnityEngine;
         public int Value { get; set; }
         public int Range { get; set; }
         public string Describe { get; set; }
-
         public string Icon { get; set; }
 
-        public SkillInfo()
+        public string Action{ get; set; }
+    public SkillInfo()
         {
             this.ID = -1;
         }
