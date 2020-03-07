@@ -63,9 +63,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b5c3ebb24c97464da319951cafe5a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundGraphSerialization: '{"version":2.85,"type":"FlowCanvas.FlowScript","comments":"Hello\uff1f\n","translation":{"x":-4047.0,"y":-3573.0},"zoomFactor":0.7927879,"nodes":[{"_position":{"x":5625.0,"y":4592.0},"$type":"FlowCanvas.Nodes.StartEvent","$id":"2"},{"_simplexNode":{},"_inputPortValues":{"text":{"$content":"\u8fdb\u5316\u5df2\u542f\u7528","$type":"System.String"}},"_position":{"x":5912.0,"y":4650.0},"$type":"FlowCanvas.Nodes.SimplexNodeWrapper`1[[FlowCanvas.Nodes.LogText,
+  boundGraphSerialization: '{"version":2.85,"type":"FlowCanvas.FlowScript","comments":"Hello\uff1f\n","translation":{"x":-1171.0,"y":-1247.0},"zoomFactor":0.2928102,"nodes":[{"_position":{"x":5625.0,"y":4592.0},"$type":"FlowCanvas.Nodes.StartEvent","$id":"2"},{"_simplexNode":{},"_inputPortValues":{"text":{"$content":"\u8fdb\u5316\u5df2\u542f\u7528","$type":"System.String"}},"_position":{"x":5912.0,"y":4650.0},"$type":"FlowCanvas.Nodes.SimplexNodeWrapper`1[[FlowCanvas.Nodes.LogText,
     Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]","$id":"3"},{"keyCode":{"_value":"L"},"_position":{"x":5621.0,"y":4681.0},"$type":"FlowCanvas.Nodes.KeyboardEvents","$id":"6"},{"_simplexNode":{},"_inputPortValues":{"text":{"$content":"\u8fdb\u5316\u88ab\u8c03\u7528\uff01","$type":"System.String"}},"_position":{"x":5915.0,"y":4751.0},"$type":"FlowCanvas.Nodes.SimplexNodeWrapper`1[[FlowCanvas.Nodes.LogText,
-    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]","$id":"8"}],"connections":[{"_sourcePortName":"Once","_targetPortName":"
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]","$id":"8"},{"eventName":{"_value":"Action"},"target":{},"targets":{},"_position":{"x":5691.0,"y":4523.0},"$type":"FlowCanvas.Nodes.CustomEvent"}],"connections":[{"_sourcePortName":"Once","_targetPortName":"
     ","_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Down","_targetPortName":"
     ","_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"8"},"$type":"FlowCanvas.BinderConnection"}],"localBlackboard":{"_name":"Local
     Blackboard","_variables":{}}}'

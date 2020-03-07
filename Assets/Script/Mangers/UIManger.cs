@@ -8,17 +8,23 @@ using UnityEngine.UI;
 public class UIManger : MonoBehaviour
 {
    
-    [Header("技能图标")]
-    public Image SkillIcon1;
-    public Image SkillIcon2;
+    [Header("快捷技能")]
+    public Image quickSkill1;
+    public Image quickSkill2;
 
     [Header("主角血条")]
     public Slider playerHp;
+    public List<Image> heart_list;
+
+    public Sprite heartFull;
+    public Sprite heartHelf;
+    public Sprite heartNull;
 
     [Header("道具背包")]
     public BagPanel bagPanel;
     public GameObject describePanel;
 
+    
 
     [Header("面板物体")]
     public GameObject BagPanel_Obj;
@@ -39,23 +45,26 @@ public class UIManger : MonoBehaviour
     }
     private void Update()
     {
-       UpdataSkillIcon(GameManger.instance.skillManager.currentSkillList);
+       //UpdataSkillIcon(GameManger.instance.skillManager.currentSkillList);
        UpdateHpBar(GameManger.instance.playerScript.HP);
     }
 
     //技能图标更新
     public void UpdataSkillIcon(List<SkillInfo> currentSkillList)
     {
+        /////////////
+        ///暂停使用
+        ////////////
         for (int i = 0; i < currentSkillList.Count; i++)
         {
             if(i == 0)
             {
 
-                SkillIcon1.sprite = Resources.Load<Sprite>(currentSkillList[i].Icon);
+               // SkillIcon1.sprite = Resources.Load<Sprite>(currentSkillList[i].Icon);
             }
             else if(i == 1)
             {              
-                SkillIcon2.sprite = Resources.Load<Sprite>(currentSkillList[i].Icon);
+             //   SkillIcon2.sprite = Resources.Load<Sprite>(currentSkillList[i].Icon);
                 print("1");
             }
             else
@@ -70,6 +79,48 @@ public class UIManger : MonoBehaviour
     public void UpdateHpBar(int hp)
     {
         playerHp.value = hp;
+        if(hp % 2 == 0)
+        {
+
+            for (int i = 0; i < heart_list.Count; i++)
+            {
+                if(i+1 <= hp / 2)
+                {
+                    heart_list[i].sprite = heartFull;
+                }
+                else
+                {
+                    heart_list[i].sprite = heartNull;
+                }
+            }
+        }
+        else
+        {
+        
+            for (int i = 0; i < heart_list.Count; i++)
+            {
+                
+                if (i+1 <= hp / 2 )
+                {
+                   
+                    heart_list[i].sprite = heartFull;                   
+                }               
+                else if(i+1 == (hp / 2) + 1)
+                {
+                 
+                    
+                    heart_list[i].sprite = heartHelf;
+                }
+                else 
+                {
+                   
+                    heart_list[i].sprite = heartNull;
+
+                }
+
+            }
+        }
+  
     }
 
     public void LoadLevel(int index)

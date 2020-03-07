@@ -38,8 +38,7 @@ public class BagItem : MonoBehaviour, IDropHandler
         }
         else if(goodInfo != null)//如果自己有物体，这交换物体数据
         {
-         
-        
+                
             GoodInfo Todrop = goodInfo;//预替换组件
             GoodInfo Tome = GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo;//预替换组件
 
@@ -66,6 +65,12 @@ public class BagItem : MonoBehaviour, IDropHandler
             print("ToDrop Count1:" + Todrop.count);
             print("Tome Count1:" + Tome.count);
 
+            GameObject action = Resources.Load<GameObject>(goodInfo.skill.Action);
+            print(goodInfo.skill.Action);
+            GameObject a = Instantiate(action);
+            a.transform.SetParent(transform);
+            skillAction = a;
+            
         }
         else
         {

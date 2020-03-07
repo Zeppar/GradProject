@@ -119,17 +119,6 @@
     <Compile Include="Assets\Plus\Cinemachine\Base\Editor\Windows\CinemachineColliderPrefs.cs" />
     <Compile Include="Assets\Plus\Cinemachine\Base\Editor\Windows\CinemachineSettings.cs" />
     <Compile Include="Assets\Plus\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\Base\Editor\AIGraphEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\BehaviorTree\Base\Editor\BTBranchNodeEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\BehaviorTree\Base\Editor\BTCompositeNodeEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\BehaviorTree\Base\Editor\BTDecoratorNodeEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\BehaviorTree\Base\Editor\BTEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\BehaviorTree\Base\Editor\BTNodeEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\BehaviorTree\Base\Editor\BTTaskNodeEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\FiniteStateMachine\Base\Editor\FSMEditor.cs" />
-    <Compile Include="Assets\Plus\Planilo\FiniteStateMachine\Base\Editor\FSMStateNodeEditor.cs" />
-    <Compile Include="Assets\Plus\SerializableDictionary\Assets\Editor\DebugUtilsEditor.cs" />
-    <Compile Include="Assets\Plus\SerializableDictionary\Assets\SerializableDictionary\Editor\SerializableDictionaryPropertyDrawer.cs" />
     <Compile Include="Assets\Plus\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
     <Compile Include="Assets\Plus\unity-ui-extensions\Editor\BezierLineRendererEditor.cs" />
     <Compile Include="Assets\Plus\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
@@ -143,21 +132,6 @@
     <Compile Include="Assets\Plus\unity-ui-extensions\Editor\TextPicEditor.cs" />
     <Compile Include="Assets\Plus\unity-ui-extensions\Editor\UIExtensionsMenuOptions.cs" />
     <Compile Include="Assets\Plus\unity-ui-extensions\Editor\uGUITools.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\Drawers\NodeEnumDrawer.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditor.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorAction.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorBase.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorGUI.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorGUILayout.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorPreferences.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorReflection.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorResources.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorUtilities.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeEditorWindow.cs" />
-    <Compile Include="Assets\Plus\xNode\Scripts\Editor\NodeGraphEditor.cs" />
-    <None Include="Assets\Plus\xNode\Scripts\Editor\Resources\ScriptTemplates\xNode_NodeGraphTemplate.cs.txt" />
-    <None Include="Assets\Plus\xNode\Scripts\Editor\Resources\ScriptTemplates\xNode_NodeTemplate.cs.txt" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -392,11 +366,8 @@
     <Reference Include="DOTweenEditor">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
-    <Reference Include="NSubstitute">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plugins/NSubstitute.dll</HintPath>
-    </Reference>
     <Reference Include="LitJson">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
+      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/LitJson/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -757,10 +728,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{023E5907-B1B3-B1AC-E118-10D43A5F1222}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{33C676A9-D2DC-8BE7-6137-98FAAEDDE20E}</Project>
       <Name>Assembly-CSharp</Name>

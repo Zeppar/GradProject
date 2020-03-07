@@ -24,8 +24,8 @@ public class BagPanel : MonoBehaviour
     }
     void InitQuitBag()//初始化快捷背包
     {
-        BagItem skill1 = UIManger.instance.SkillIcon1.GetComponent<BagItem>();
-        BagItem skill2 = UIManger.instance.SkillIcon2.GetComponent<BagItem>();
+        BagItem skill1 = UIManger.instance.quickSkill1.GetComponent<BagItem>();
+        BagItem skill2 = UIManger.instance.quickSkill2.GetComponent<BagItem>();
         skill1.index = manger.goodInfoList.Count;
       //  skill1.goodInfo.count = 0;
         manger.goodInfoList.Add(skill1);

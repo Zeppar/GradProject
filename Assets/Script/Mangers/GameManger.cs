@@ -29,6 +29,15 @@ public class GameManger : MonoBehaviour
       goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
       goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
     }
+    public void WaitTime(float time)
+    {
+        StartCoroutine("Wait", time);
 
-    
+    }
+    IEnumerator Wait(float time)
+    {
+        yield return new WaitForSeconds(time);
+    }
+
+
 }

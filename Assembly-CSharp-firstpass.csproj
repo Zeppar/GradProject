@@ -281,12 +281,6 @@
     <Reference Include="DOTween">
       <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="NSubstitute">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plugins/NSubstitute.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Assets/Plus/Plus-ins/LitJson.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib">
       <HintPath>K:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>

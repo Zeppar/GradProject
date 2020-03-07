@@ -8,5 +8,5 @@ public static class Util
     public static string Ground = "Ground";
     public static string Enemy = "Enemy";
     public static int MaxAttackCount = 2;
-
+    
 }

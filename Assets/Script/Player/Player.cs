@@ -118,13 +118,8 @@ public class Player : MonoBehaviour
             iTween.MoveBy(target, iTween.Hash("x", GameManger.instance.player.GetComponent<PlayerController>().dir * 4, "y", 1, "looktime", 0.5f));
 
 
-
-
-
         }
-        if (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.JoystickButton3)) {
-            GameManger.instance.skillParticleCreator.CreateFireball(AttackPoint.position, new Vector2(transform.GetComponent<PlayerController>().dir, 0));
-        }
+      
     }
 
     void Die()
