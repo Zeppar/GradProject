@@ -91,7 +91,7 @@ public class BagPanel : MonoBehaviour
 
                 if (manger.goodInfoList[i].goodInfo.count > 1)
                 {
-                    print("发现叠加");
+                   // print("发现叠加");
                     GameObject CountToAdd = Instantiate(count_Slot);
                     CountToAdd.transform.SetParent(skillToAdd.transform);
                     CountToAdd.GetComponent<Text>().text = manger.goodInfoList[i].goodInfo.count.ToString();
@@ -100,28 +100,7 @@ public class BagPanel : MonoBehaviour
 
             }
         }
-        for (int i = 0; i < manger.goodInfoList.Count; i++)
-        {
-            if(manger.goodInfoList[i].itemType == BagItem.ItemType.Quikly && manger.goodInfoList[i].goodInfo!= null)
-            {
-                if (manger.goodInfoList[i].skillAction != null) { return; }
-                GameObject action = Resources.Load<GameObject>(manger.goodInfoList[i].goodInfo.skill.Action);
-                print(manger.goodInfoList[i].goodInfo.skill.Action);
-                GameObject a = Instantiate(action);
-                a.transform.SetParent(manger.goodInfoList[i].transform);
-                manger.goodInfoList[i].skillAction = a;
-            }
-            //if(manger.goodInfoList[i].itemType == BagItem.ItemType.Slot && manger.goodInfoList[i].skillAction != null)
-            // {
-            //    Destroy(manger.goodInfoList[i].skillAction);
-            // }
-            if (manger.goodInfoList[i].skillAction != null && manger.goodInfoList[i].goodInfo == null)
-            {
-                Destroy(manger.goodInfoList[i].skillAction);
-                manger.goodInfoList[i].skillAction = null;
-            }
-
-        }
+      
     }
 }
 

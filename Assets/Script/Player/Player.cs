@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using DG.Tweening;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -42,15 +43,23 @@ public class Player : MonoBehaviour
     public AudioClip Audio_Attack;
     public AudioClip Audio_Walk;
 
+
+    private Cinemachine.CinemachineCollisionImpulseSource MyInpulse;//相机震动
+
     void Start()
     {
         HP = maxHP;
         anim = GetComponent<Animator>();
         currentState = anim.GetCurrentAnimatorStateInfo(0);
+        MyInpulse = GetComponent<Cinemachine.CinemachineCollisionImpulseSource>();//相机震动
     } 
     void Update()
     {
-       
+        if (Input.GetMouseButtonDown(1))
+        {
+            print("AAAAAAAAAAAAAAAAAA");
+            MyInpulse.GenerateImpulse();
+        }
         currentState = anim.GetCurrentAnimatorStateInfo(0);
         Attack();
         if (currentState.IsName("Walk"))
@@ -111,11 +120,19 @@ public class Player : MonoBehaviour
                 {
                     coll.GetComponent<Enemy>().BeAttacked(attack);
                     target = coll.gameObject;
+                  
+                    print("相机抖动");
                 }
                 audioSource.PlayOneShot(Audio_Attack);
             }
             else { return; }
-            iTween.MoveBy(target, iTween.Hash("x", GameManger.instance.player.GetComponent<PlayerController>().dir * 4, "y", 1, "looktime", 0.5f));
+            if (target)
+            {
+                iTween.MoveBy(target, iTween.Hash("x", GameManger.instance.player.GetComponent<PlayerController>().dir * 2, "y", 1, "looktime", 0.5f));
+                Camera.main.DOShakePosition(2, new Vector3(50, 60, 70));
+                Camera.main.DOShakeRotation(2, new Vector3(10, 7, 15));
+            }
+            
 
 
         }

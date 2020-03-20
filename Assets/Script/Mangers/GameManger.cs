@@ -15,6 +15,7 @@ public class GameManger : MonoBehaviour
 
     public SkillStoneCreator skillStoneCreator;//技能石创建器
     public SkillParticleCreator skillParticleCreator;//技能特效创建器
+    public SkillActionManger skillActionManger;
    
     
     void Awake()
@@ -27,7 +28,7 @@ public class GameManger : MonoBehaviour
              
       goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 0);//测试！！！  创建两个物品用于测试
       goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
-      goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 2);
+      goodManger.AddItemToPanel(GoodInfo.GoodType.Skill, 1);
     }
     public void WaitTime(float time)
     {

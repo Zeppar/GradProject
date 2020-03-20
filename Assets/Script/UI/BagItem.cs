@@ -8,7 +8,7 @@ public class BagItem : MonoBehaviour, IDropHandler
     public GoodInfo goodInfo;//每个BagItem，都有一个GoodInfo
     public int index;
     public ItemType itemType = ItemType.Slot;
-    public GameObject skillAction = null;
+    //public GameObject skillAction = null;
     public void OnDrop(PointerEventData eventData)//但作为目标
     {
         
@@ -26,7 +26,7 @@ public class BagItem : MonoBehaviour, IDropHandler
             UIManger.instance.bagPanel.UpdataItem();
         }
         else if(goodInfo == GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo) {
-            Debug.LogError("...");
+           // Debug.LogError("...");
                
         }        
         else if(goodInfo.skill.ID == GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo.skill.ID && goodInfo != GameManger.instance.goodManger.goodInfoList[dropedItem.SlotInedx].goodInfo) { //相同物品可叠加
@@ -45,7 +45,7 @@ public class BagItem : MonoBehaviour, IDropHandler
             print("ToDrop Count:" + Todrop.count);
             print("Tome Count:" + Tome.count);
 
-            Destroy(skillAction);
+            
 
             goodInfo = Tome;//更改
             goodInfo.count = Tome.count;
@@ -65,11 +65,8 @@ public class BagItem : MonoBehaviour, IDropHandler
             print("ToDrop Count1:" + Todrop.count);
             print("Tome Count1:" + Tome.count);
 
-            GameObject action = Resources.Load<GameObject>(goodInfo.skill.Action);
-            print(goodInfo.skill.Action);
-            GameObject a = Instantiate(action);
-            a.transform.SetParent(transform);
-            skillAction = a;
+           
+          
             
         }
         else

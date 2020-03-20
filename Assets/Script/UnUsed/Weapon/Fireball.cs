@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
-    public int speed = 3500;
+    public float speed = 0.5f;
     public int attack = 35;
     public GameObject Boom;
     // Start is called before the first frame update

@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
-    public ParticleSystem dust_ps;
+   
     public int dir = 1;
     //计时器
     private float jumpTimeCounter;//实时更新的值
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         if (isClimb) { return; }
         if (!currentState.IsName("Idle") && !currentState.IsName("Walk") &&  !currentState.IsName("Jump")) { isMove = false;  return; }
         moveInput = Input.GetAxisRaw("Horizontal");
-        dust_ps.gameObject.SetActive(isGrounded);
+       // dust_ps.gameObject.SetActive(isGrounded);
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
         if(Mathf.Abs(moveInput) > 0.1)
         {
@@ -182,7 +182,7 @@ public class PlayerController : MonoBehaviour
 
     public void fall()
     {
-        anim.SetTrigger("Fall");
+        //anim.SetTrigger("Fall");
     }
   
 

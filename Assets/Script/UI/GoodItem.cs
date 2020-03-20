@@ -48,6 +48,6 @@ public class GoodItem : MonoBehaviour,IBeginDragHandler, IDragHandler, IEndDragH
     public void OnPointerExit(PointerEventData eventData)
     {
        
-        describePanel.SetActive(false);
+        ///describePanel.SetActive(false);
     }
 }

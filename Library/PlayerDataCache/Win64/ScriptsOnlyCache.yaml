@@ -1,11 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-Editor.dll:
-    - XNodeEditor.NodeEditorWindow
+    - NodeCanvas.Editor.GraphEditor
     Assembly-CSharp.dll:
     - BagItem
     - BagPanel
-    - BlackboardString
     - Boom
     - CheatPanel
     - Cinemachine.CinemachineBrain
@@ -14,17 +13,17 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     - Enemy2
     - Fireball
+    - FlowCanvas.FlowScriptController
     - GameManger
     - GoodItem
-    - Planilo.AIGraphRunner
-    - Planilo.BT.BTGraph
-    - Planilo.BT.Sequencer
+    - NodeCanvas.Framework.Blackboard
     - Player
     - PlayerController
+    - SkillActionManger
     - SkillParticleCreator
-    - SkillRoot
     - SkillStone
     - SkillStoneCreator
+    - Stab
     - UIKeyManger
     - UIManger
     Unity.2D.Tilemap.Editor.dll:
@@ -33,6 +32,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineWindow
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -54,7 +56,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Outline
-    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Level1 - New Edit.unity:
@@ -93,81 +94,77 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 616}
+      Script: {instanceID: 780}
     - Class: 114
-      Script: {instanceID: 11200}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11510}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11524}
     - Class: 114
-      Script: {instanceID: 11576}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11726}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11824}
     - Class: 114
-      Script: {instanceID: 11812}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 11972}
-    - Class: 114
-      Script: {instanceID: 12062}
-    - Class: 114
-      Script: {instanceID: 12086}
-    - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 12034}
     - Class: 114
       Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 12304}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12392}
     - Class: 114
-      Script: {instanceID: 12458}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 12494}
+      Script: {instanceID: 12462}
     - Class: 114
-      Script: {instanceID: 12538}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 12546}
+      Script: {instanceID: 12916}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 13116}
     - Class: 114
-      Script: {instanceID: 12760}
+      Script: {instanceID: 13180}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13098}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 13168}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 13322}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 13848}
     - Class: 114
-      Script: {instanceID: 13392}
+      Script: {instanceID: 13930}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13936}
     - Class: 114
-      Script: {instanceID: 13776}
+      Script: {instanceID: 14046}
     - Class: 114
-      Script: {instanceID: 13814}
+      Script: {instanceID: 14270}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 14394}
     - Class: 114
-      Script: {instanceID: 13878}
+      Script: {instanceID: 14442}
     - Class: 114
-      Script: {instanceID: 13914}
+      Script: {instanceID: 14448}
     - Class: 114
-      Script: {instanceID: 13962}
+      Script: {instanceID: 14514}
     - Class: 114
-      Script: {instanceID: 16178}
+      Script: {instanceID: 14554}
+    - Class: 114
+      Script: {instanceID: 16886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -281,10 +278,16 @@ ScriptsOnlyBuild:
     className: UpdateRadialValue
   - hash:
       serializedVersion: 2
-      Hash: 2a39b504ae9ba5686d390473ddd3e525
+      Hash: c19e2ab6ceb1f94d39221ae9b319d025
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT.Custom.BT
-    className: IsTruthy
+    namespaceName: NodeCanvas.Framework
+    className: Blackboard
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkillActionManger
   - hash:
       serializedVersion: 2
       Hash: a2113831d3323f931007e1b3812dc814
@@ -312,7 +315,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
+    assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleInfo
   - hash:
@@ -323,14 +326,14 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 68b278d71c413cf83c2cdb8f6f9b7dda
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlackboardVector3
+    namespaceName: ParadoxNotion.Services
+    className: MessageRouter
   - hash:
       serializedVersion: 2
       Hash: 02493766ba0d073bd9e5d602a5878d4f
-    assemblyName: Assembly-CSharp-firstpass.dll
+    assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: iTween
   - hash:
@@ -509,12 +512,6 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 31e176a502949422c7fb8c8781b1b7d4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.FSM
-    className: FSMSubmachineNode
-  - hash:
-      serializedVersion: 2
       Hash: fee92ac5e79fa94ada164271ea29279f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -545,12 +542,6 @@ ScriptsOnlyBuild:
     className: ReturnKeyTriggersButton
   - hash:
       serializedVersion: 2
-      Hash: adec611f9368d463230cab9017acb67c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: Debugger
-  - hash:
-      serializedVersion: 2
       Hash: 2d473844edf01f72eff534fe8e48ed4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions.Examples
@@ -579,6 +570,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ParadoxNotion.Services
+    className: MonoManager
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -635,12 +632,6 @@ ScriptsOnlyBuild:
     className: UIKeyManger
   - hash:
       serializedVersion: 2
-      Hash: adec611f9368d463230cab9017acb67c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: Succeeder
-  - hash:
-      serializedVersion: 2
       Hash: 7da108d8223c1bf1dc5a12d568df68e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -669,12 +660,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Cinemachine
     className: CinemachineFreeLook
-  - hash:
-      serializedVersion: 2
-      Hash: adec611f9368d463230cab9017acb67c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: Inverter
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -707,12 +692,6 @@ ScriptsOnlyBuild:
     className: Fireball
   - hash:
       serializedVersion: 2
-      Hash: 407fb6a56c500303a0ce0ac048d59698
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo
-    className: AIBlackboard
-  - hash:
-      serializedVersion: 2
       Hash: d3052383e8fd0011ccc6a276e304de90
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -720,7 +699,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
+    assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoveSample
   - hash:
@@ -743,22 +722,10 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: ccc5d2f4f3eda6d30e3f9f4303882a18
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkillRoot
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Assembly-CSharp.dll
     namespaceName: Cinemachine.Timeline
     className: CinemachineTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ab6b7280d0bac79cb46bb3f6215b9954
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: Selector
   - hash:
       serializedVersion: 2
       Hash: 87438c529dfe3cfec41f9840529e3a0e
@@ -839,22 +806,10 @@ ScriptsOnlyBuild:
     className: UIVerticalScroller
   - hash:
       serializedVersion: 2
-      Hash: 5ea52d43df3230c31d4ea72e14aa9842
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: BTGraph
-  - hash:
-      serializedVersion: 2
       Hash: 4c483cff21f58a4e84c60d78fde11173
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
     className: CooldownButton
-  - hash:
-      serializedVersion: 2
-      Hash: 79540f638e56b1eb47551ea6b4babe04
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlackboardMonoBehaviour
   - hash:
       serializedVersion: 2
       Hash: a93b2012e0dadb91ac8ccb87e0ef3875
@@ -881,12 +836,6 @@ ScriptsOnlyBuild:
     className: HexColorField
   - hash:
       serializedVersion: 2
-      Hash: ecb4f53b330199a0d4d2dbb03c379e69
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TestNode
-  - hash:
-      serializedVersion: 2
       Hash: 2260ca748078376d13b72ba4a2d758ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -897,12 +846,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: cameraFollow
-  - hash:
-      serializedVersion: 2
-      Hash: 2fb83269ee1866e7c63da26dfb90cd4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.FSM
-    className: FSMGraph
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -965,12 +908,6 @@ ScriptsOnlyBuild:
     className: UIPolygon
   - hash:
       serializedVersion: 2
-      Hash: ab6b7280d0bac79cb46bb3f6215b9954
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: Sequencer
-  - hash:
-      serializedVersion: 2
       Hash: f291bf89662e8aa3e94dd0c3e4cc5997
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1013,18 +950,6 @@ ScriptsOnlyBuild:
     className: TextPic
   - hash:
       serializedVersion: 2
-      Hash: 2805356a12a4a6aa2d1c8d6f3fadfacd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlackboardGameObject
-  - hash:
-      serializedVersion: 2
-      Hash: bc897a420fd18f2e269b3b85ff2f22e1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlackboardString
-  - hash:
-      serializedVersion: 2
       Hash: e5e20a0bc104884cbd89975176dd9c72
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -1061,22 +986,10 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: b29bbe1a2752634d311a5085ee77911a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SerializableDictionaryExample
-  - hash:
-      serializedVersion: 2
       Hash: 1671843cb592dca0298cfe1ce7655d3e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BagPanel
-  - hash:
-      serializedVersion: 2
-      Hash: c0f3b1ceffe0209783ca96083a66cbce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PrintValueNode
   - hash:
       serializedVersion: 2
       Hash: b8e953f3ce9159257cbdaf9f866bdeae
@@ -1143,6 +1056,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Prize
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ParadoxNotion.Design
+    className: PreferedTypesEditorWindow
   - hash:
       serializedVersion: 2
       Hash: 88a886bc03d974fd5a17daa19cf4fb58
@@ -1229,18 +1148,6 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 9f9f1d223cc49c525805f35f055833f7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo
-    className: AIGraphRunner
-  - hash:
-      serializedVersion: 2
-      Hash: 0531617f37e2fc0ddd0f332942678a94
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkillNodeGraph
-  - hash:
-      serializedVersion: 2
       Hash: 59527166f60be76e5f83f2c45788300b
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -1265,13 +1172,13 @@ ScriptsOnlyBuild:
     className: DropDownList
   - hash:
       serializedVersion: 2
-      Hash: ade8efc4acdad7b50f4f8d6d9279cc36
+      Hash: 4a1c8299877447387db18368c3701cea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy2
   - hash:
       serializedVersion: 2
-      Hash: f450bd92c660880e07a6cb4e4f93cd6d
+      Hash: b523e30748a9b5245c69f8882a40a3b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BagItem
@@ -1307,22 +1214,10 @@ ScriptsOnlyBuild:
     className: CinemachineTransposer
   - hash:
       serializedVersion: 2
-      Hash: bdcf560859c4ceb27f8473959c901e55
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlackboardBool
-  - hash:
-      serializedVersion: 2
       Hash: 7bb02911a4e04d0ebc77cfe0d5bdb3d2
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
     className: MonoSpacing
-  - hash:
-      serializedVersion: 2
-      Hash: b0cf207f039475deb2f9119a8c3c0d0b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlackboardFloat
   - hash:
       serializedVersion: 2
       Hash: 38dd3aae2704e9cf57176183070a3a2b
@@ -1365,6 +1260,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Cinemachine
     className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ParadoxNotion.Design
+    className: GenericInspectorWindow
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -1461,12 +1362,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
     className: CUIImage
-  - hash:
-      serializedVersion: 2
-      Hash: f9cd33a01f8c72fe79a792f718fcaf6a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: BTBuilder
   - hash:
       serializedVersion: 2
       Hash: 876e5c1183c918ff01905454695856a0
@@ -1601,6 +1496,12 @@ ScriptsOnlyBuild:
     className: TrapBase
   - hash:
       serializedVersion: 2
+      Hash: 54117412743d5f95fd133ae59e488275
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: FlowCanvas
+    className: FlowScriptController
+  - hash:
+      serializedVersion: 2
       Hash: 9a3a84d0d0e074b55bdbe6bb9b15ad21
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -1620,7 +1521,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
+    assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RotateSample
   - hash:
@@ -1649,7 +1550,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 9fea3305e1fe752467513d38f2190d76
+      Hash: 0d096d6f37cf753062ec38ba54a902f6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManger
@@ -1667,12 +1568,6 @@ ScriptsOnlyBuild:
     className: CinemachineSmoothPath
   - hash:
       serializedVersion: 2
-      Hash: e99283dc9b244ab87ff19c09627736ec
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT.Custom
-    className: DebugVariable
-  - hash:
-      serializedVersion: 2
       Hash: 3203ccab6932289b92f1ec1d949395b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1683,12 +1578,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Cinemachine
     className: CinemachineHardLookAt
-  - hash:
-      serializedVersion: 2
-      Hash: f71b081d41240721040c94a9f2f22749
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.FSM.Custom
-    className: IsNullCheck
   - hash:
       serializedVersion: 2
       Hash: 7111abb309d479fd7d33101385a80e8a
@@ -1709,6 +1598,12 @@ ScriptsOnlyBuild:
     className: Gradient2
   - hash:
       serializedVersion: 2
+      Hash: 8fcb19d7af16c0dd6d4d0c57826f899b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Stab
+  - hash:
+      serializedVersion: 2
       Hash: 2f35d784c2901f31b454babc35832c78
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -1719,12 +1614,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions.ColorPicker
     className: ColorImage
-  - hash:
-      serializedVersion: 2
-      Hash: 9786b0e194ff609123d00b4152220d97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.FSM.Custom
-    className: DebugState
   - hash:
       serializedVersion: 2
       Hash: 0edce28ae49ada447a6366418f39f87a
@@ -1781,6 +1670,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 4ecef251bf02dbad6626c4a683859d59
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NodeCanvas.Framework
+    className: GlobalBlackboard
+  - hash:
+      serializedVersion: 2
       Hash: e4b7f5ce7f9628fc7f14612465bbc980
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI
@@ -1805,6 +1700,12 @@ ScriptsOnlyBuild:
     className: SkillParticleCreator
   - hash:
       serializedVersion: 2
+      Hash: 1b65f6c37b3efd50a4b52845f1930bab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: FlowCanvas
+    className: FlowScript
+  - hash:
+      serializedVersion: 2
       Hash: 56c90168bc19fe9aee4ba7e6b19350e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: PixelArsenal
@@ -1821,12 +1722,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshPro
-  - hash:
-      serializedVersion: 2
-      Hash: 3433234d818672505e118279064e09d5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT.Custom
-    className: IsNullCheck
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -1901,12 +1796,6 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: be6beee3ba337384c1000e56627877a6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.BT
-    className: BTSubtreeNode
-  - hash:
-      serializedVersion: 2
       Hash: 60ee5392811e84cc096e48fd15b051a0
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
@@ -1977,12 +1866,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 078f0313f38874571f06fc8bd3c82475
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.FSM
-    className: FSMBehaviorTreeNode
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2057,16 +1940,16 @@ ScriptsOnlyBuild:
     className: DiamondGraph
   - hash:
       serializedVersion: 2
-      Hash: f71b081d41240721040c94a9f2f22749
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Planilo.FSM.Custom
-    className: IsTrueCheck
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.UI.Extensions
     className: UIMultiplyEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 70cb5e8b14b3bc55f6423b3586a6be31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: FlowCanvas.Macros
+    className: Macro
   - hash:
       serializedVersion: 2
       Hash: 8ec0e792978bd03f071b8a441f3cbb19
@@ -2082,5 +1965,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Level1 - New Edit.unity
-  playerPath: "G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Bin/2020.3.3
-    \u2014\u201420W10C/\u65E0\u540D\u7684\u6E38\u620F.exe"
+  playerPath: "G:/Source Files/Unity File/GradProject/GradProject_2020.2.13/Bin/2020.3.13\u2014\u201420W13A/\u65E0\u540D\u7684\u6E38\u620F.exe"

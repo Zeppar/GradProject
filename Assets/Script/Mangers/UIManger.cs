@@ -13,7 +13,7 @@ public class UIManger : MonoBehaviour
     public Image quickSkill2;
 
     [Header("主角血条")]
-    public Slider playerHp;
+
     public List<Image> heart_list;
 
     public Sprite heartFull;
@@ -78,7 +78,7 @@ public class UIManger : MonoBehaviour
     //血条更新
     public void UpdateHpBar(int hp)
     {
-        playerHp.value = hp;
+
         if(hp % 2 == 0)
         {
 

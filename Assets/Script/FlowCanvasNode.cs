@@ -17,11 +17,30 @@ public class FireBall : CallableActionNode
 }
 
 [Category("Skill")]
-public class Wait : CallableActionNode<float>
+public class Wait : CallableFunctionNode<float,float,float>
 {
-    public override void Invoke(float time)
+    public override float Invoke(float CD,float Firsttime)
     {
-        GameManger.instance.WaitTime(time);
+        Debug.Log("Start");
+        if (Time.time - Firsttime >= CD)
+        {
+            Debug.Log("True");
+
+            return Time.time;
+        }
+        else { return Firsttime; }
+        
     }
   
 }
+
+[Category("Skill")]
+public class GetTime : CallableFunctionNode<float>
+{
+
+    public override float Invoke()
+    {
+        return Time.time;
+    }
+}
+
